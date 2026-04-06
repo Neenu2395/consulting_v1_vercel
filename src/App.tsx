@@ -7,6 +7,7 @@ import { Evaluate } from './pages/Evaluate';
 import { Services } from './pages/Services';
 import { SuccessStories } from './pages/SuccessStories';
 import { Mail, Linkedin, Instagram, ArrowUpRight } from 'lucide-react';
+import { useForm, ValidationError } from '@formspree/react';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -17,6 +18,8 @@ function ScrollToTop() {
 }
 
 function Footer() {
+  const [state, handleSubmit] = useForm('xykblryv');
+
   return (
     <footer className="bg-brand-navy text-white py-20 px-6 md:px-12 lg:px-24 border-t border-white/10">
       <div className="max-w-7xl mx-auto">
@@ -62,12 +65,31 @@ function Footer() {
           <div>
             <h4 className="text-brand-gold text-xs font-bold uppercase tracking-widest mb-8">Newsletter</h4>
             <p className="text-gray-400 text-xs mb-4">Get the latest AdCom insights directly in your inbox.</p>
-            <div className="flex">
-              <input type="email" placeholder="Email Address" className="bg-white/5 border border-white/10 px-4 py-2 text-sm outline-none focus:border-brand-gold w-full" />
-              <button className="bg-brand-gold p-2 hover:bg-white transition-colors">
-                <ArrowUpRight size={20} className="text-brand-navy" />
-              </button>
-            </div>
+            {state.succeeded ? (
+              <p className="text-[10px] text-brand-gold">Subscribed successfully!</p>
+            ) : (
+              <form onSubmit={handleSubmit} className="flex flex-col gap-2">
+                <div className="flex">
+                  <input 
+                    type="email" 
+                    name="email"
+                    placeholder="Email Address" 
+                    className="bg-white/5 border border-white/10 px-4 py-2 text-sm outline-none focus:border-brand-gold w-full" 
+                    required
+                  />
+                  <input type="hidden" name="type" value="newsletter" />
+                  <button 
+                    type="submit"
+                    disabled={state.submitting}
+                    className="bg-brand-gold p-2 hover:bg-white transition-colors disabled:opacity-50"
+                  >
+                    <ArrowUpRight size={20} className="text-brand-navy" />
+                  </button>
+                </div>
+                <ValidationError prefix="Email" field="email" errors={state.errors} className="text-[10px] text-red-400" />
+                {state.errors && <p className="text-[10px] text-red-400">Something went wrong. Try again.</p>}
+              </form>
+            )}
           </div>
         </div>
         

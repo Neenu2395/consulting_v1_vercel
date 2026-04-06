@@ -9,21 +9,21 @@ export function SuccessStories() {
       program: 'MS IN Computational engineering',
       result: 'Admitted',
       quote: "The strategic depth provided by the Elite Admissions team was unparalleled. They helped me articulate my technical background in a way that resonated perfectly with the German admissions committee's expectations.",
-      candidate: "Applied materials engineer, Beck Engineering, Berlin"
+      candidate: "Applied mechanics engineer, Beck Engineering, Berlin"
     },
     {
       school: 'RWTH Aachen',
       program: 'MS in Materials Engineering',
       result: 'Admitted',
       quote: "I was struggling to differentiate my profile among thousands of applicants. The founders' dual-review process identified exactly which parts of my research experience to highlight for RWTH's rigorous standards.",
-      candidate: "Student at RWTH"
+      candidate: "Student at RWTH Aachen"
     },
     {
       school: 'SDA Bocconi',
       program: 'MBA',
       result: 'Admitted',
       quote: "Working with HEC and Bocconi alumni gave me an 'insider' perspective that no other consultant could offer. They didn't just edit my essays; they architected a narrative that showcased my true leadership potential.",
-      candidate: "Product manager at ABB, 2025 MBA Grad"
+      candidate: "Product manager, ABB, Amazon Launch intern, 2025 MBA Grad"
     }
   ];
 
