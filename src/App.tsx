@@ -27,7 +27,7 @@ function Footer() {
           <div className="space-y-6">
             <div className="flex flex-col">
               <span className="font-serif text-2xl font-bold tracking-tighter">
-                ELITE <span className="text-brand-gold">ADMISSIONS</span>
+                ELITE <span className="text-brand-gold">CONSULTING</span>
               </span>
               <span className="text-[10px] uppercase tracking-[0.3em] font-medium text-gray-400">
                 Global MBA & MS Strategy
@@ -57,7 +57,7 @@ function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Linkedin size={16} className="text-brand-gold" />
-                <a href="https://www.linkedin.com/in/elite-mba-consulting-9a91a4401/" target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold transition-colors">LinkedIn Profile</a>
+                <a href="https://www.linkedin.com/company/elite-masters-consulting" target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold transition-colors">LinkedIn Profile</a>
               </li>
             </ul>
           </div>

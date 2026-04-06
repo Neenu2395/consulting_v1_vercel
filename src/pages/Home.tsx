@@ -17,7 +17,7 @@ export function Home() {
               transition={{ duration: 0.6 }}
               className="inline-block px-4 py-1 border border-brand-gold text-brand-gold text-[10px] font-bold uppercase tracking-[0.3em] mb-6"
             >
-              Elite Admissions Consulting
+              Elite Consulting
             </motion.div>
             <h1 className="text-5xl md:text-7xl mb-8 leading-[1.1]">
               Stop Guessing. <br />

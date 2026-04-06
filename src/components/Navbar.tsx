@@ -25,7 +25,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
         <Link to="/" className="flex flex-col">
           <span className="font-serif text-xl md:text-2xl font-bold tracking-tighter text-brand-navy">
-            ELITE <span className="text-brand-gold">ADMISSIONS</span>
+            ELITE <span className="text-brand-gold">CONSULTING</span>
           </span>
           <span className="text-[10px] uppercase tracking-[0.3em] font-medium text-brand-slate">
             Global MBA & MS Strategy
@@ -47,7 +47,7 @@ export function Navbar() {
             Free Evaluation
           </Link>
           <a 
-            href="https://www.linkedin.com/in/elite-mba-consulting-9a91a4401/" 
+            href="https://www.linkedin.com/company/elite-masters-consulting" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-brand-navy hover:text-brand-gold transition-colors"
@@ -91,7 +91,7 @@ export function Navbar() {
               </Link>
               <div className="flex justify-center pt-4">
                 <a 
-                  href="https://www.linkedin.com/in/elite-mba-consulting-9a91a4401/" 
+                  href="https://www.linkedin.com/company/elite-masters-consulting" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-brand-navy hover:text-brand-gold transition-colors flex items-center space-x-2"

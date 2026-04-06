@@ -93,7 +93,7 @@ export function Founders() {
             <div>
               <h2 className="text-4xl mb-6 font-serif italic text-brand-navy">Our Mission</h2>
               <p className="text-brand-slate leading-relaxed mb-6">
-                We started Elite Admissions because we saw too many brilliant candidates failing not due to a lack of merit, but due to a lack of strategy. 
+              We started Elite Consulting because we saw too many brilliant candidates failing not due to a lack of merit, but due to a lack of strategy. 
               </p>
               <p className="text-brand-slate leading-relaxed">
                 Our goal is to democratize the 'insider' knowledge of the HEC and Bocconi networks. We are doing this to share our success stories and help aspirants reach their goals by providing the same elite-level strategy that cleared the gates for us.

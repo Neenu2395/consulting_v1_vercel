@@ -8,7 +8,7 @@ export function SuccessStories() {
       school: 'RUHR Bochum',
       program: 'MS IN Computational engineering',
       result: 'Admitted',
-      quote: "The strategic depth provided by the Elite Admissions team was unparalleled. They helped me articulate my technical background in a way that resonated perfectly with the German admissions committee's expectations.",
+      quote: "The strategic depth provided by the Elite Consulting team was unparalleled. They helped me articulate my technical background in a way that resonated perfectly with the German admissions committee's expectations.",
       candidate: "Applied mechanics engineer, Beck Engineering, Berlin"
     },
     {
@@ -122,7 +122,7 @@ export function SuccessStories() {
           <a href="/evaluate" className="btn-primary bg-brand-gold hover:bg-white hover:text-brand-navy">
             Book Free Evaluation
           </a>
-          <a href="https://www.linkedin.com/in/elite-mba-consulting-9a91a4401/" target="_blank" rel="noopener noreferrer" className="btn-outline border-white text-white hover:bg-white hover:text-brand-navy">
+          <a href="https://www.linkedin.com/company/elite-masters-consulting" target="_blank" rel="noopener noreferrer" className="btn-outline border-white text-white hover:bg-white hover:text-brand-navy">
             Connect on LinkedIn
           </a>
         </div>
