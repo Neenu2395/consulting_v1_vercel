@@ -26,9 +26,12 @@ function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
           <div className="space-y-6">
             <div className="flex flex-col">
-              <span className="font-serif text-2xl font-bold tracking-tighter">
-                ELITE <span className="text-brand-gold">CONSULTING</span>
-              </span>
+              <img 
+                src="https://raw.githubusercontent.com/Neenu2395/consulting_v1_vercel/main/public/Screenshot%202026-04-06%20at%2023.18.33.png" 
+                alt="Elite Consulting Logo" 
+                className="h-12 w-auto object-contain mb-4"
+                referrerPolicy="no-referrer"
+              />
               <span className="text-[10px] uppercase tracking-[0.3em] font-medium text-gray-400">
                 Global MBA & MS Strategy
               </span>

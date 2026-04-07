@@ -23,13 +23,21 @@ export function Navbar() {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-500 ${scrolled ? 'py-4 premium-blur shadow-sm' : 'py-8 bg-transparent'}`}>
       <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
-        <Link to="/" className="flex flex-col">
-          <span className="font-serif text-xl md:text-2xl font-bold tracking-tighter text-brand-navy">
-            ELITE <span className="text-brand-gold">CONSULTING</span>
-          </span>
-          <span className="text-[10px] uppercase tracking-[0.3em] font-medium text-brand-slate">
-            Global MBA & MS Strategy
-          </span>
+        <Link to="/" className="flex items-center space-x-3">
+          <img 
+            src="https://raw.githubusercontent.com/Neenu2395/consulting_v1_vercel/main/public/Screenshot%202026-04-06%20at%2023.18.33.png" 
+            alt="Elite Consulting Logo" 
+            className="h-10 md:h-12 w-auto object-contain"
+            referrerPolicy="no-referrer"
+          />
+          <div className="flex flex-col">
+            <span className="font-serif text-lg md:text-xl font-bold tracking-tighter text-brand-navy leading-none">
+              ELITE <span className="text-brand-gold">CONSULTING</span>
+            </span>
+            <span className="text-[8px] uppercase tracking-[0.2em] font-medium text-brand-slate">
+              Global MBA & MS Strategy
+            </span>
+          </div>
         </Link>
 
         {/* Desktop Nav */}

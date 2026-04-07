@@ -1,9 +1,41 @@
 import { Section } from '../components/Layout';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
-import { Award, BookOpen, Globe, CheckCircle2, Quote } from 'lucide-react';
+import { Award, BookOpen, Globe, CheckCircle2, Quote, Linkedin } from 'lucide-react';
 
 export function Founders() {
+  const founders = [
+    {
+      name: "Athul Gopinath",
+      title: "Co-Founder & Lead Strategist",
+      credentials: "HEC Paris MBA",
+      image: "https://raw.githubusercontent.com/Neenu2395/consulting_v1_vercel/main/public/Athul.png",
+      linkedin: "https://www.linkedin.com/in/athulgopinath/",
+      achievements: [
+        "HEC Paris MBA Alumnus",
+        "Expert in Essay Architecture & Impact Visualization",
+        "Expert in European Elite Master's Strategy",
+        "Specialist in Technical & Engineering Transitions",
+        "Extensive network in US, EU and Asia"
+      ],
+      bio: "Athul brings the rigorous, structured logic of the French elite (HEC) to every application. He specializes in helping candidates from technical backgrounds translate their complex achievements into leadership narratives that resonate with admissions committees."
+    },
+    {
+      name: "Neenu Thankachan",
+      title: "Co-Founder & Lead Strategist",
+      credentials: "SDA Bocconi MBA",
+      image: "https://raw.githubusercontent.com/Neenu2395/consulting_v1_vercel/main/public/Neenu.png",
+      linkedin: "https://www.linkedin.com/in/neenuthankachan/",
+      achievements: [
+        "SDA Bocconi MBA Alumna",
+        "Expert in Global MBA Strategy",
+        "Specialist in Entrepreneurial & Design-Thinking Narratives",
+        "Extensive Network in EU"
+      ],
+      bio: "Neenu brings the entrepreneurial flair and design-thinking mindset of the Italian masters (Bocconi). She focuses on the 'human' element of the application, ensuring that your authentic voice and leadership potential are undeniable."
+    }
+  ];
+
   return (
     <div className="pt-20">
       <Section className="bg-white">
@@ -20,92 +52,80 @@ export function Founders() {
             <span className="italic text-brand-gold">One Goal.</span>
           </h1>
           <p className="text-xl text-brand-slate leading-relaxed mb-12">
-            Most consultants provide a second pair of eyes. We provide a dual-committee review. Our 'Power Couple' approach means your application is stress-tested against the benchmarks of both the US M7 and the European Elite Master's standards. We are doing this to share our success stories and help aspirants reach their goals by providing the same elite-level strategy that cleared the gates for us.
+            Most consultants provide a second pair of eyes. We provide a dual-committee review. Our 'Power Couple' approach means your application is stress-tested against the benchmarks of both the US M7 and the European Elite Master's standards.
           </p>
-          <div className="flex flex-wrap gap-4 mb-12">
-            <a href="https://www.linkedin.com/in/athulgopinath/" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-brand-cream border border-brand-gold/20 flex items-center space-x-3 hover:border-brand-gold transition-colors">
-              <span className="text-[10px] font-bold uppercase tracking-widest">HEC Paris Alum</span>
-            </a>
-            <a href="https://www.linkedin.com/in/neenuthankachan/" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-brand-cream border border-brand-gold/20 flex items-center space-x-3 hover:border-brand-gold transition-colors">
-              <span className="text-[10px] font-bold uppercase tracking-widest">SDA Bocconi Alum</span>
-            </a>
-          </div>
-          <Link to="/evaluate" className="btn-primary">
-            Meet Your Strategists
-          </Link>
+        </div>
+      </Section>
+
+      <Section className="bg-brand-cream border-y border-gray-100">
+        <div className="grid lg:grid-cols-2 gap-12">
+          {founders.map((founder, i) => (
+            <motion.div 
+              key={i}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.2 }}
+              className="bg-white border border-gray-100 shadow-xl overflow-hidden flex flex-col"
+            >
+              <div className="aspect-[4/3] relative overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
+                <img 
+                  src={founder.image} 
+                  alt={founder.name} 
+                  className="w-full h-full object-cover"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute top-6 left-6">
+                  <span className="px-3 py-1 bg-brand-navy text-white text-[10px] font-bold uppercase tracking-widest">
+                    {founder.credentials}
+                  </span>
+                </div>
+              </div>
+              
+              <div className="p-10 flex-grow">
+                <h3 className="text-3xl mb-2 font-serif">{founder.name}</h3>
+                <p className="text-brand-gold text-xs font-bold uppercase tracking-widest mb-6">{founder.title}</p>
+                
+                <p className="text-brand-slate text-sm leading-relaxed mb-8">
+                  {founder.bio}
+                </p>
+
+                <div className="space-y-4 mb-8">
+                  <h4 className="text-[10px] font-bold uppercase tracking-widest text-brand-navy border-b border-brand-gold/20 pb-2">Key Achievements</h4>
+                  <ul className="space-y-3">
+                    {founder.achievements.map((achievement, j) => (
+                      <li key={j} className="flex items-start space-x-3 text-xs text-brand-slate">
+                        <CheckCircle2 size={14} className="text-brand-gold mt-0.5 shrink-0" />
+                        <span>{achievement}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <a 
+                  href={founder.linkedin} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="inline-flex items-center space-x-2 text-brand-navy hover:text-brand-gold transition-colors text-xs font-bold uppercase tracking-widest"
+                >
+                  <Linkedin size={16} />
+                  <span>Connect on LinkedIn</span>
+                </a>
+              </div>
+            </motion.div>
+          ))}
         </div>
       </Section>
 
       <Section className="bg-brand-navy text-white">
-        <div className="grid lg:grid-cols-2 gap-24">
-          <div className="space-y-12">
-            <div>
-              <h2 className="text-4xl mb-6">Dual-Vetted Strategies</h2>
-              <p className="text-gray-400 leading-relaxed">
-                Your narrative is reviewed by both founders. One applies the rigorous, structured logic of the French elite (HEC), while the other brings the entrepreneurial, design-thinking flair of the Italian masters (Bocconi). Together, we stress-test your profile against the M7 benchmarks.
-              </p>
-            </div>
-            
-            <div className="grid gap-8">
-              {[
-                {
-                  icon: <Globe className="text-brand-gold" />,
-                  title: "Global Network",
-                  desc: "Direct access to alumni networks across London, Paris, Milan, New York, and Dubai."
-                },
-                {
-                  icon: <BookOpen className="text-brand-gold" />,
-                  title: "AdCom Insights",
-                  desc: "We know exactly what the committees at Harvard, Stanford, INSEAD, and LBS are looking for this cycle."
-                }
-              ].map((item, i) => (
-                <div key={i} className="flex space-x-6">
-                  <div className="mt-1">{item.icon}</div>
-                  <div>
-                    <h4 className="text-xl mb-2">{item.title}</h4>
-                    <p className="text-gray-400 text-sm">{item.desc}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-          
-          <div className="relative">
-            <div className="aspect-[4/5] bg-gray-800 overflow-hidden grayscale hover:grayscale-0 transition-all duration-700">
-              <img 
-                src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=1000" 
-                alt="Founders" 
-                className="w-full h-full object-cover opacity-80"
-                referrerPolicy="no-referrer"
-              />
-            </div>
-            <div className="absolute -bottom-8 -right-8 bg-brand-gold p-8 text-brand-navy shadow-2xl">
-              <span className="text-4xl font-serif font-bold">4+</span>
-              <p className="text-[10px] font-bold uppercase tracking-widest mt-2">YEARS POST-MBA EXPERIENCE</p>
-            </div>
-          </div>
-        </div>
-      </Section>
-
-      <Section className="bg-brand-cream">
-        <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-4xl mb-6 font-serif italic text-brand-navy">Our Mission</h2>
-              <p className="text-brand-slate leading-relaxed mb-6">
-              We started Elite Consulting because we saw too many brilliant candidates failing not due to a lack of merit, but due to a lack of strategy. 
-              </p>
-              <p className="text-brand-slate leading-relaxed">
-                Our goal is to democratize the 'insider' knowledge of the HEC and Bocconi networks. We are doing this to share our success stories and help aspirants reach their goals by providing the same elite-level strategy that cleared the gates for us.
-              </p>
-            </div>
-            <div className="p-8 bg-white shadow-xl border-t-4 border-brand-gold">
-              <Quote className="text-brand-gold mb-4" size={32} />
-              <p className="text-lg text-brand-navy font-serif italic leading-relaxed">
-                "We don't just consult; we mentor. Your success is a testament to the effectiveness of the strategy we've engineered over years of post-MBA experience."
-              </p>
-            </div>
-          </div>
+        <div className="max-w-4xl mx-auto text-center">
+          <Quote className="text-brand-gold mx-auto mb-8 opacity-50" size={48} />
+          <h2 className="text-4xl md:text-5xl mb-8 font-serif italic leading-tight">
+            "We don't just consult; we mentor. Your success is a testament to the effectiveness of the strategy we've engineered over years of post-MBA experience."
+          </h2>
+          <p className="text-brand-gold uppercase tracking-[0.4em] text-xs font-bold">
+            The Founders' Promise
+          </p>
         </div>
       </Section>
 
