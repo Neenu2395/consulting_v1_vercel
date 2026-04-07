@@ -14,7 +14,6 @@ export function Founders() {
       achievements: [
         "HEC Paris MBA Alumnus",
         "Expert in Essay Architecture & Impact Visualization",
-        "Expert in European Elite Master's Strategy",
         "Specialist in Technical & Engineering Transitions",
         "Extensive network in US, EU and Asia"
       ],
@@ -28,7 +27,7 @@ export function Founders() {
       linkedin: "https://www.linkedin.com/in/neenuthankachan/",
       achievements: [
         "SDA Bocconi MBA Alumna",
-        "Expert in Global MBA Strategy",
+        "Expert in Global MBA and MS Strategy",
         "Specialist in Entrepreneurial & Design-Thinking Narratives",
         "Extensive Network in EU"
       ],
