@@ -155,16 +155,16 @@ export function Home() {
           <div className="lg:col-span-2 grid md:grid-cols-2 gap-6">
             {[
               { 
-                tier: 'Tier 1', 
-                title: 'The Narrative', 
-                focus: 'SOP & LOR Focus',
-                desc: 'Own the Story. We transform your professional milestones into a cohesive "Why MBA/MS" narrative.'
+                tier: 'Tier 0', 
+                title: 'The Diagnostic', 
+                focus: 'Founder-Led Session',
+                desc: 'A focused, founder-led session where we go deep on your profile, your goals, and your application history.'
               },
               { 
-                tier: 'Tier 2', 
+                tier: 'Tier 3', 
                 title: 'The Comprehensive', 
                 focus: 'Full-Cycle Engine',
-                desc: 'End-to-End Excellence. We act as your "Chief of Staff" for the entire admissions cycle.'
+                desc: 'Zero-defect. End-to-end management for high-stakes applicants targeting M7 and top EU schools.'
               }
             ].map((service, i) => (
               <div key={i} className="p-10 border border-white/10 hover:border-brand-gold transition-all group">

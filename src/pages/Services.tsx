@@ -6,44 +6,61 @@ import { Check, ArrowRight } from 'lucide-react';
 export function Services() {
   const tiers = [
     {
-      tier: 'Tier 1',
-      title: 'The Narrative',
-      pitch: 'Own the Story.',
-      focus: 'SOP & LOR Focus',
-      desc: 'Moving beyond the resume. We transform your professional milestones into a cohesive "Why MBA/MS" narrative.',
-      bestFor: 'Applicants with a strong profile who need to bridge the gap between "qualified" and "unforgettable."',
+      tier: 'Tier 0',
+      title: 'The Diagnostic',
+      pitch: 'Clarity Before Committing.',
+      focus: 'Founder-Led Session',
+      desc: 'A focused, founder-led session where we go deep on your profile, your goals, and your application history. No templates, no generic feedback—just an honest, experienced read from people who know these committees from the inside.',
+      bestFor: 'Anyone at the start of their journey who wants clarity before committing to a full engagement.',
       deliverables: [
-        "Deep-dive 'Story Mining' sessions.",
-        "3-round iterative editing for SOPs/Essays.",
-        "LOR Strategy: Mapping your recommenders to narrative gaps."
+        "60-minute 1:1 session with our founders.",
+        "Written profile assessment with honest gap analysis.",
+        "Personalized school fit recommendations."
+      ]
+    },
+    {
+      tier: 'Tier 1',
+      title: 'The Final Polish',
+      pitch: 'The Last 2%.',
+      focus: 'The AdCom Audit',
+      desc: "Between a good application and a great one sits a layer of detail that only trained eyes catch. The Final Polish is a single, comprehensive audit of your entire application portal, delivered as a 'Red Flag Report' with clear, actionable notes.",
+      bestFor: 'Self-starters who want the peace of mind of a HEC and Bocconi alumnus giving your application a final, honest yes or no.',
+      deliverables: [
+        "One-time comprehensive review of your full application portal.",
+        "Red Flag Report: inconsistencies, weak links, missed opportunities.",
+        "Final tone and elite polish check.",
+        "Founder sign-off: a clear go / refine recommendation."
       ]
     },
     {
       tier: 'Tier 2',
-      title: 'The Comprehensive',
-      pitch: 'End-to-End Excellence.',
-      focus: 'The Full-Cycle Engine',
-      desc: 'Complete Application Management. We act as your "Chief of Staff" for the entire admissions cycle.',
-      bestFor: 'High-stakes applicants targeting M7 and Top EU schools who require a zero-defect strategy.',
-      featured: true,
+      title: 'The Narrative',
+      pitch: 'Own the Story.',
+      focus: 'Story Architecture',
+      desc: 'Own the story. Own the outcome. We move beyond the resume to transform your professional milestones into a cohesive, unforgettable leadership narrative.',
+      bestFor: 'Applicants with a strong profile who need to bridge the gap between qualified and unforgettable.',
       deliverables: [
-        "Everything in 'The Narrative.'",
-        "School Selection ROI Analysis (US vs EU trade-offs).",
-        "Resume Re-engineering (The 'AdCom-Ready' format).",
-        "Unlimited Mock Interviews (M7 & HEC/Bocconi style)."
+        "Deep-dive story mining sessions.",
+        "CV/Resume re-engineering in AdCom-ready format.",
+        "3-round iterative editing for SOPs and essays.",
+        "LOR strategy: mapping recommenders to narrative gaps.",
+        "Reapplicant positioning (where applicable)."
       ]
     },
     {
       tier: 'Tier 3',
-      title: 'The Final Polish',
-      pitch: 'The Last 2%.',
-      focus: 'The AdCom Review',
-      desc: 'A rigorous, "Pre-Submission" audit for those who have already completed their drafts.',
-      bestFor: 'Self-starters who want the peace of mind of a HEC/Bocconi Alum\'s final "Yes/No."',
+      title: 'The Comprehensive',
+      pitch: 'Zero-Defect. End to End.',
+      focus: 'The Full-Cycle Engine',
+      desc: 'Zero-defect. End to end. Complete application management from day one. We act as your "Chief of Staff" for the entire admissions cycle, ensuring every detail is engineered for success.',
+      bestFor: 'High-stakes applicants targeting M7 and top EU schools who want a zero-defect strategy from day one.',
+      featured: true,
       deliverables: [
-        "One-time comprehensive review of the entire application portal.",
-        "A 'Red Flag' report: Identifying inconsistencies or weak links.",
-        "Final tone and 'Elite Polish' check."
+        "Everything in 'The Narrative.'",
+        "School selection ROI analysis: US vs EU trade-offs.",
+        "Unlimited mock interviews: M7 and HEC/Bocconi style.",
+        "Full application portal review before submission.",
+        "Waitlist and post-submission strategy."
       ]
     }
   ];
@@ -68,7 +85,7 @@ export function Services() {
       </Section>
 
       <Section className="bg-brand-cream">
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-8">
           {tiers.map((tier, i) => (
             <div 
               key={i} 
