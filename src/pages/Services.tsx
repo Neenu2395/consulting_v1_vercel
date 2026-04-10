@@ -61,7 +61,7 @@ export function Services() {
         "School selection ROI analysis: US vs EU trade-offs.",
         "Unlimited mock interviews: M7 and HEC/Bocconi style.",
         "Full application portal review before submission.",
-        "Waitlist and post-submission strategy."
+        "Waitlist and post-submission strategy.",
       ]
     }
   ];
