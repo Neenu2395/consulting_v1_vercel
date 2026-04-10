@@ -45,6 +45,7 @@ export function Services() {
         "3-round iterative editing for SOPs and essays.",
         "LOR strategy: mapping recommenders to narrative gaps.",
         "Reapplicant positioning (where applicable)."
+        "One interview round if selected for the next stage.",
       ]
     },
     {
