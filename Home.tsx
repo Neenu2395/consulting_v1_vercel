@@ -181,3 +181,29 @@ export function Home() {
     </div>
   );
 }
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What MBA programs do you specialize in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We specialize in M7 MBA programs and top European MBAs including HEC Paris and SDA Bocconi."
+      }
+    },
+    {
+      "@type": "Question", 
+      "name": "Who are your consultants?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our consultants are alumni of HEC Paris and SDA Bocconi with firsthand admissions experience."
+      }
+    }
+  ]
+}
+</script>
