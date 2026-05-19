@@ -14,7 +14,7 @@ const faqs = [
       },
       {
         q: 'Who are your consultants?',
-        a: 'Our consultants are alumni of HEC Paris and SDA Bocconi with firsthand admissions experience. We know these committees from the inside — no generic feedback, no templates.'
+        a: 'Our consultants are alumni of HEC Paris(MBA), IIT-M(M.Tech), NIT-C (B.Tech) and SDA Bocconi (MBA), ISEP Paris (MS) with firsthand multiple international admissions experience.'
       },
       {
         q: 'What services do you offer?',
@@ -27,7 +27,7 @@ const faqs = [
     questions: [
       {
         q: 'How does the consulting process work?',
-        a: 'We start with a profile evaluation to understand your background, goals, and target schools. From there we build a strategy-led narrative and guide you through every step — essays, CVs, letters of recommendation, interviews, and final submission.'
+        a: 'We start with a profile evaluation to understand your background, goals, and target schools. From there we build a strategy-led narrative and guide you through every step: essays, CVs, letters of recommendation, interviews, and final submission.'
       },
       {
         q: 'How long does the process take?',
