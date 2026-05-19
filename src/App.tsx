@@ -123,6 +123,7 @@ export default function App() {
             <Route path="/evaluate" element={<Evaluate />} />
             <Route path="/services" element={<Services />} />
             <Route path="/success-stories" element={<SuccessStories />} />
+            <Route path="/faq" element={<FAQ />} />
           </Routes>
         </main>
         <Footer />
