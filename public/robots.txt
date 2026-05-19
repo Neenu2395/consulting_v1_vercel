@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
 Sitemap: https://elite-admissions-consulting.com/sitemap.xml
+LLMs: https://elite-admissions-consulting.com/llms.txt
