@@ -8,7 +8,7 @@ import { Services } from './pages/Services';
 import { SuccessStories } from './pages/SuccessStories';
 import { Mail, Linkedin, Instagram, ArrowUpRight } from 'lucide-react';
 import { useForm, ValidationError } from '@formspree/react';
-import { FAQ } + <Route path="/faq">
+import { FAQ } from './pages/FAQ';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
