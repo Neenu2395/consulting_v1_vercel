@@ -9,3 +9,5 @@ createRoot(document.getElementById('root')!).render(
     <App />
   </StrictMode>,
 );
+
+<li><a href="/faq" className="hover:text-brand-gold transition-colors">FAQ</a></li>
