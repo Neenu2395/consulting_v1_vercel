@@ -8,7 +8,7 @@
     <meta name="description" content="Elite admissions consulting for M7, Top EU MBA, and Master's programs. Strategy-led admissions coaching by HEC Paris and SDA Bocconi alumni." />
     <meta name="keywords" content="MBA admissions consulting, M7 MBA, HEC Paris, SDA Bocconi, MS admissions, masters in engineering, admissions strategy" />
     
-    <!-- Open Graph / Facebook -->
+    <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://elite-admissions-consulting.com/" />
     <meta property="og:title" content="Elite Consulting | M7 & Top EU MBA/MS Consulting" />
@@ -23,25 +23,60 @@
     <meta property="twitter:image" content="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200" />
     
     <link rel="canonical" href="https://elite-admissions-consulting.com/" />
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Elite Admissions Consulting",
+      "url": "https://elite-admissions-consulting.com",
+      "description": "Elite admissions consulting for M7, Top EU MBA, and Master's programs by HEC Paris and SDA Bocconi alumni.",
+      "founder": {
+        "@type": "Person",
+        "alumniOf": ["HEC Paris", "SDA Bocconi"]
+      },
+      "serviceType": "MBA Admissions Consulting",
+      "areaServed": "Worldwide"
+    }
+    </script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What MBA programs do you specialize in?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We specialize in M7 MBA programs and top European MBAs including HEC Paris and SDA Bocconi."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who are your consultants?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our consultants are alumni of HEC Paris and SDA Bocconi with firsthand admissions experience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the consulting process work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We start with a profile evaluation, then build a strategy-led narrative, and guide you through essays, interviews, and application submission."
+          }
+        }
+      ]
+    }
+    </script>
+
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "Elite Admissions Consulting",
-  "url": "https://elite-admissions-consulting.com",
-  "description": "Elite admissions consulting for M7, Top EU MBA, and Master's programs by HEC Paris and SDA Bocconi alumni.",
-  "founder": {
-    "@type": "Person",
-    "alumniOf": ["HEC Paris", "SDA Bocconi"]
-  },
-  "serviceType": "MBA Admissions Consulting",
-  "areaServed": "Worldwide"
-}
-</script>
