@@ -1,3 +1,4 @@
+import { Head } from 'vite-react-ssg';
 import { Section, Container } from '../components/Layout';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
@@ -6,6 +7,11 @@ import { Award, Target, TrendingUp, ShieldCheck, Users, Briefcase, ChevronRight,
 export function Home() {
   return (
     <div className="pt-20">
+      <Head>
+        <title>Elite Consulting | M7 & Top EU MBA/MS Admissions Consulting</title>
+        <meta name="description" content="Strategy-led admissions coaching for M7, Top EU MBA, and Master's programs by HEC Paris and SDA Bocconi alumni." />
+        <link rel="canonical" href="https://elite-admissions-consulting.com/" />
+      </Head>
       {/* Hero Section */}
       <Section className="min-h-[90vh] flex items-center relative overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full bg-brand-navy/5 -skew-x-12 translate-x-1/4 z-0" />
