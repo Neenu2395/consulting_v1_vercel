@@ -1,9 +1,11 @@
+import { Head } from 'vite-react-ssg';
 import { Section, Container } from '../components/Layout';
 import { motion } from 'motion/react';
 import { Quote, GraduationCap, CheckCircle2 } from 'lucide-react';
 
 export function SuccessStories() {
   const stories = [
+    
     {
       school: 'RUHR Bochum',
       program: 'MS IN Computational engineering',
@@ -29,6 +31,11 @@ export function SuccessStories() {
 
   return (
     <div className="pt-20">
+      <Head>
+        <title>MBA & MS Admissions Services | Elite Consulting</title>
+        <meta name="description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
+        <link rel="canonical" href="https://elite-admissions-consulting.com/services" />
+      </Head>
       <Section className="bg-white border-b border-gray-100">
         <div className="max-w-4xl">
           <motion.div
