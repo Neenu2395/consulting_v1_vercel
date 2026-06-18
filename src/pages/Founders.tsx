@@ -42,7 +42,7 @@ export function Founders() {
         <title>The Founders | HEC Paris & SDA Bocconi Alumni — Elite Consulting</title>
         <meta name="description" content="Work directly with HEC Paris and SDA Bocconi alumni who have navigated elite MBA and Master's admissions firsthand." />
         <link rel="canonical" href="https://elite-admissions-consulting.com/founders" />
-    </Head>
+      </Head>
       <Section className="bg-white">
         <div className="max-w-4xl">
           <motion.div
