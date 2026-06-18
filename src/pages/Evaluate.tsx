@@ -7,10 +7,16 @@ import { AlertCircle, ShieldAlert, TrendingUp, Users } from 'lucide-react';
 export function Evaluate() {
   return (
     <div className="pt-20">
-      <Head>
+     <Head>
         <title>Free Profile Evaluation | Elite Consulting</title>
         <meta name="description" content="Get a rigorous, no-fluff diagnostic of your M7/EU MBA and MS chances from HEC and Bocconi alumni." />
         <link rel="canonical" href="https://elite-admissions-consulting.com/evaluate" />
+        <meta property="og:url" content="https://elite-admissions-consulting.com/evaluate" />
+        <meta property="og:title" content="Free Profile Evaluation | Elite Consulting" />
+        <meta property="og:description" content="Get a rigorous, no-fluff diagnostic of your M7/EU MBA and MS chances from HEC and Bocconi alumni." />
+        <meta property="twitter:url" content="https://elite-admissions-consulting.com/evaluate" />
+        <meta property="twitter:title" content="Free Profile Evaluation | Elite Consulting" />
+        <meta property="twitter:description" content="Get a rigorous, no-fluff diagnostic of your M7/EU MBA and MS chances from HEC and Bocconi alumni." />
       </Head>
       <Section className="bg-brand-navy text-white">
         <div className="max-w-4xl mx-auto text-center">
