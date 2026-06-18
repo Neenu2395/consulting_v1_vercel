@@ -32,9 +32,15 @@ export function SuccessStories() {
   return (
     <div className="pt-20">
       <Head>
-        <title>MBA & MS Admissions Services | Elite Consulting</title>
-        <meta name="description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
-        <link rel="canonical" href="https://elite-admissions-consulting.com/services" />
+        <title>Success Stories | M7 & Top EU MBA Admits — Elite Consulting</title>
+        <meta name="description" content="Real results: clients admitted to M7, HEC Paris, SDA Bocconi and other elite MBA and Master's programs." />
+        <link rel="canonical" href="https://elite-admissions-consulting.com/success-stories" />
+        <meta property="og:url" content="https://elite-admissions-consulting.com/success-stories" />
+        <meta property="og:title" content="Success Stories | M7 & Top EU MBA Admits — Elite Consulting" />
+        <meta property="og:description" content="Real results: clients admitted to M7, HEC Paris, SDA Bocconi and other elite MBA and Master's programs." />
+        <meta property="twitter:url" content="https://elite-admissions-consulting.com/success-stories" />
+        <meta property="twitter:title" content="Success Stories | M7 & Top EU MBA Admits — Elite Consulting" />
+        <meta property="twitter:description" content="Real results: clients admitted to M7, HEC Paris, SDA Bocconi and other elite MBA and Master's programs." />
       </Head>
       <Section className="bg-white border-b border-gray-100">
         <div className="max-w-4xl">
