@@ -42,6 +42,12 @@ export function Founders() {
         <title>The Founders | HEC Paris & SDA Bocconi Alumni — Elite Consulting</title>
         <meta name="description" content="Work directly with HEC Paris and SDA Bocconi alumni who have navigated elite MBA and Master's admissions firsthand." />
         <link rel="canonical" href="https://elite-admissions-consulting.com/founders" />
+        <meta property="og:url" content="https://elite-admissions-consulting.com/founders" />
+        <meta property="og:title" content="The Founders | HEC Paris & SDA Bocconi Alumni — Elite Consulting" />
+        <meta property="og:description" content="Work directly with HEC Paris and SDA Bocconi alumni who have navigated elite MBA and Master's admissions firsthand." />
+        <meta property="twitter:url" content="https://elite-admissions-consulting.com/founders" />
+        <meta property="twitter:title" content="The Founders | HEC Paris & SDA Bocconi Alumni — Elite Consulting" />
+        <meta property="twitter:description" content="Work directly with HEC Paris and SDA Bocconi alumni who have navigated elite MBA and Master's admissions firsthand." />
       </Head>
       <Section className="bg-white">
         <div className="max-w-4xl">
