@@ -11,6 +11,12 @@ export function Home() {
         <title>Elite Consulting | M7 & Top EU MBA/MS Admissions Consulting</title>
         <meta name="description" content="Strategy-led admissions coaching for M7, Top EU MBA, and Master's programs by HEC Paris and SDA Bocconi alumni." />
         <link rel="canonical" href="https://elite-admissions-consulting.com/" />
+        <meta property="og:url" content="https://elite-admissions-consulting.com/" />
+        <meta property="og:title" content="Elite Consulting | M7 & Top EU MBA/MS Admissions Consulting" />
+        <meta property="og:description" content="Strategy-led admissions coaching for M7, Top EU MBA, and Master's programs by HEC Paris and SDA Bocconi alumni." />
+        <meta property="twitter:url" content="https://elite-admissions-consulting.com/" />
+        <meta property="twitter:title" content="Elite Consulting | M7 & Top EU MBA/MS Admissions Consulting" />
+        <meta property="twitter:description" content="Strategy-led admissions coaching for M7, Top EU MBA, and Master's programs by HEC Paris and SDA Bocconi alumni." />
       </Head>
       {/* Hero Section */}
       <Section className="min-h-[90vh] flex items-center relative overflow-hidden">
