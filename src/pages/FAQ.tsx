@@ -1,3 +1,4 @@
+import { Head } from 'vite-react-ssg';
 import { Section } from '../components/Layout';
 import { motion } from 'motion/react';
 import { useState } from 'react';
@@ -84,6 +85,11 @@ function FAQItem({ q, a }: { q: string; a: string }) {
 export function FAQ() {
   return (
     <div className="pt-20">
+      <Head>
+        <title>FAQ | Elite Consulting MBA & MS Admissions</title>
+        <meta name="description" content="Answers about our elite MBA and Master's admissions consulting process, consultants, and packages." />
+        <link rel="canonical" href="https://elite-admissions-consulting.com/faq" />
+      </Head>
       <Section className="bg-white text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
