@@ -1,3 +1,4 @@
+import { Head } from 'vite-react-ssg';
 import { Section } from '../components/Layout';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
@@ -37,6 +38,11 @@ export function Founders() {
 
   return (
     <div className="pt-20">
+      <Head>
+        <title>The Founders | HEC Paris & SDA Bocconi Alumni — Elite Consulting</title>
+        <meta name="description" content="Work directly with HEC Paris and SDA Bocconi alumni who have navigated elite MBA and Master's admissions firsthand." />
+        <link rel="canonical" href="https://elite-admissions-consulting.com/founders" />
+    </Head>
       <Section className="bg-white">
         <div className="max-w-4xl">
           <motion.div
