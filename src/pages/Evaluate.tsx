@@ -1,3 +1,4 @@
+import { Head } from 'vite-react-ssg';
 import { Section } from '../components/Layout';
 import { EvaluationForm } from '../components/EvaluationForm';
 import { motion } from 'motion/react';
@@ -6,6 +7,11 @@ import { AlertCircle, ShieldAlert, TrendingUp, Users } from 'lucide-react';
 export function Evaluate() {
   return (
     <div className="pt-20">
+      <Head>
+        <title>Free Profile Evaluation | Elite Consulting</title>
+        <meta name="description" content="Get a rigorous, no-fluff diagnostic of your M7/EU MBA and MS chances from HEC and Bocconi alumni." />
+        <link rel="canonical" href="https://elite-admissions-consulting.com/evaluate" />
+      </Head>
       <Section className="bg-brand-navy text-white">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
