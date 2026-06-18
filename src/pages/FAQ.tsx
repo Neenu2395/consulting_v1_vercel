@@ -89,6 +89,12 @@ export function FAQ() {
         <title>FAQ | Elite Consulting MBA & MS Admissions</title>
         <meta name="description" content="Answers about our elite MBA and Master's admissions consulting process, consultants, and packages." />
         <link rel="canonical" href="https://elite-admissions-consulting.com/faq" />
+        <meta property="og:url" content="https://elite-admissions-consulting.com/faq" />
+        <meta property="og:title" content="FAQ | Elite Consulting MBA & MS Admissions" />
+        <meta property="og:description" content="Answers about our elite MBA and Master's admissions consulting process, consultants, and packages." />
+        <meta property="twitter:url" content="https://elite-admissions-consulting.com/faq" />
+        <meta property="twitter:title" content="FAQ | Elite Consulting MBA & MS Admissions" />
+        <meta property="twitter:description" content="Answers about our elite MBA and Master's admissions consulting process, consultants, and packages." />
       </Head>
       <Section className="bg-white text-center">
         <motion.div
