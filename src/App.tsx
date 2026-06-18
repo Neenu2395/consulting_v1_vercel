@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
 import { Navbar } from './components/Navbar';
 import { Home } from './pages/Home';
@@ -110,25 +110,30 @@ function Footer() {
     </footer>
   );
 }
-
-export default function App() {
+function RootLayout() {
   return (
-    <Router>
+    <div className="min-h-screen flex flex-col">
       <ScrollToTop />
-      <div className="min-h-screen flex flex-col">
-        <Navbar />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/founders" element={<Founders />} />
-            <Route path="/evaluate" element={<Evaluate />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/success-stories" element={<SuccessStories />} />
-            <Route path="/faq" element={<FAQ />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+      <Navbar />
+      <main className="flex-grow">
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
   );
 }
+
+export const routes = [
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: 'founders', element: <Founders /> },
+      { path: 'evaluate', element: <Evaluate /> },
+      { path: 'services', element: <Services /> },
+      { path: 'success-stories', element: <SuccessStories /> },
+      { path: 'faq', element: <FAQ /> },
+    ],
+  },
+];
