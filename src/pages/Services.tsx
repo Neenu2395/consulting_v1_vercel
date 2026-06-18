@@ -1,3 +1,4 @@
+import { Head } from 'vite-react-ssg';
 import { Section } from '../components/Layout';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
@@ -68,6 +69,11 @@ export function Services() {
 
   return (
     <div className="pt-20">
+      <Head>
+        <title>MBA & MS Admissions Services | Elite Consulting</title>
+        <meta name="description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
+        <link rel="canonical" href="https://elite-admissions-consulting.com/services" />
+      </Head>
       <Section className="bg-white text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
