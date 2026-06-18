@@ -70,17 +70,16 @@ export function Services() {
   return (
     <div className="pt-20">
       <Head>
-        <Head>
-          <title>MBA & MS Admissions Services | Elite Consulting</title>
-          <meta name="description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
-          <link rel="canonical" href="https://elite-admissions-consulting.com/services" />
-          <meta property="og:url" content="https://elite-admissions-consulting.com/services" />
-          <meta property="og:title" content="MBA & MS Admissions Services | Elite Consulting" />
-          <meta property="og:description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
-          <meta property="twitter:url" content="https://elite-admissions-consulting.com/services" />
-          <meta property="twitter:title" content="MBA & MS Admissions Services | Elite Consulting" />
-          <meta property="twitter:description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
-        </Head>
+        <title>MBA & MS Admissions Services | Elite Consulting</title>
+        <meta name="description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
+        <link rel="canonical" href="https://elite-admissions-consulting.com/services" />
+        <meta property="og:url" content="https://elite-admissions-consulting.com/services" />
+        <meta property="og:title" content="MBA & MS Admissions Services | Elite Consulting" />
+        <meta property="og:description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
+        <meta property="twitter:url" content="https://elite-admissions-consulting.com/services" />
+        <meta property="twitter:title" content="MBA & MS Admissions Services | Elite Consulting" />
+        <meta property="twitter:description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
+      </Head>
       <Section className="bg-white text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
