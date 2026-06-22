@@ -10,10 +10,9 @@ export function Services() {
       tier: 'Tier 0',
       title: 'The Diagnostic',
       pitch: 'Clarity Before Committing.',
-      price: 'from ₹4,999',
-      priceNote: 'Credited back when you upgrade to a paid engagement.',
+      priceNote: 'Free of cost',
       focus: 'Founder-Led Session',
-      desc: 'A founder-led deep dive into your profile, goals, and history — an honest read from people who know these committees from the inside.',
+      desc: 'A founder-led deep dive into your profile, goals, and history an honest read from people who know these committees from the inside.',
       bestFor: 'Anyone at the start of their journey who wants clarity before committing to a full engagement.',
       deliverables: [
         "60-minute 1:1 session with our founders.",
@@ -25,10 +24,10 @@ export function Services() {
       tier: 'Tier 1',
       title: 'The Final Polish',
       pitch: 'The Last 2%.',
-      price: 'from ₹19,999',
+      price: 'from ₹24,999',
       priceNote: 'One-time audit of your full application portal.',
       focus: 'The AdCom Audit',
-      desc: "A single, comprehensive audit of your entire application — delivered as a 'Red Flag Report' with clear, actionable notes.",
+      desc: "A single, comprehensive audit of your entire application delivered as a 'Red Flag Report' with clear, actionable notes.",
       bestFor: 'Self-starters who want the peace of mind of a HEC and Bocconi alumnus giving your application a final, honest yes or no.',
       deliverables: [
         "One-time comprehensive review of your full application portal.",
@@ -41,7 +40,7 @@ export function Services() {
       tier: 'Tier 2',
       title: 'The Narrative',
       pitch: 'Own the Story.',
-      price: 'from ₹74,999',
+      price: 'from ₹79,999',
       priceNote: 'Per school. Story, CV re-engineering & 3-round essays.',
       focus: 'Story Architecture',
       desc: 'We move beyond the resume to turn your milestones into a cohesive, unforgettable leadership narrative.',
@@ -62,7 +61,7 @@ export function Services() {
       price: 'from ₹1,49,999',
       priceNote: '+ from ₹40,000 per additional school.',
       focus: 'The Full-Cycle Engine',
-      desc: 'End-to-end management from day one — we act as your Chief of Staff for the entire admissions cycle, engineering every detail.',
+      desc: 'End-to-end management from day one we act as your Chief of Staff for the entire admissions cycle, engineering every detail.',
       bestFor: 'High-stakes applicants targeting M7 and top EU schools who want a zero-defect strategy from day one.',
       featured: true,
       deliverables: [
@@ -125,7 +124,7 @@ export function Services() {
             One clear path, from first draft to <span className="italic text-brand-gold">decision day.</span>
           </h2>
           <p className="text-brand-slate leading-relaxed">
-            Every engagement follows the same proven nine-stage process — so you always know where you stand and what comes next. We're transparent on the path; the craft on each step is what you're hiring us for.
+            Every engagement follows the same proven nine-stage process so you always know where you stand and what comes next. We're transparent on the path; the craft on each step is what you're hiring us for.
           </p>
         </div>
 
@@ -152,7 +151,7 @@ export function Services() {
         </div>
 
         <p className="text-center text-brand-slate text-sm italic mt-10">
-          Transparent on the path. Meticulous on the detail — that part we handle for you.
+          Transparent on the path. Meticulous on the detail, that part we handle for you.
         </p>
       </Section>
 
@@ -209,7 +208,7 @@ export function Services() {
 
         <div className="max-w-3xl mx-auto mt-16 text-center">
           <p className="text-brand-slate text-sm leading-relaxed mb-6">
-            All prices are indicative starting points. Final pricing depends on your target schools, number of applications, profile complexity, and timeline — every engagement is founder-led and tailored. We confirm a precise quote after your free diagnostic, with no obligation.
+            All prices are indicative starting points. Final pricing depends on your target schools, number of applications, profile complexity, and timeline every engagement is founder-led and tailored. We confirm a precise quote after your free diagnostic, with no obligation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link to="/evaluate" className="btn-primary text-center text-xs tracking-widest inline-flex items-center justify-center">
