@@ -1,3 +1,4 @@
+import { Head } from 'vite-react-ssg';
 import { Section } from '../components/Layout';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
@@ -44,6 +45,7 @@ export function Services() {
         "CV/Resume re-engineering in AdCom-ready format.",
         "3-round iterative editing for SOPs and essays.",
         "LOR strategy: mapping recommenders to narrative gaps.",
+        "One interview round if selected for the next stage.",
         "Reapplicant positioning (where applicable)."
       ]
     },
@@ -67,6 +69,17 @@ export function Services() {
 
   return (
     <div className="pt-20">
+      <Head>
+        <title>MBA & MS Admissions Services | Elite Consulting</title>
+        <meta name="description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
+        <link rel="canonical" href="https://elite-admissions-consulting.com/services" />
+        <meta property="og:url" content="https://elite-admissions-consulting.com/services" />
+        <meta property="og:title" content="MBA & MS Admissions Services | Elite Consulting" />
+        <meta property="og:description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
+        <meta property="twitter:url" content="https://elite-admissions-consulting.com/services" />
+        <meta property="twitter:title" content="MBA & MS Admissions Services | Elite Consulting" />
+        <meta property="twitter:description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
+      </Head>
       <Section className="bg-white text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
