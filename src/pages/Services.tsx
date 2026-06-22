@@ -13,7 +13,7 @@ export function Services() {
       price: 'from ₹4,999',
       priceNote: 'Credited back when you upgrade to a paid engagement.',
       focus: 'Founder-Led Session',
-      desc: 'A focused, founder-led session where we go deep on your profile, your goals, and your application history. No templates, no generic feedback—just an honest, experienced read from people who know these committees from the inside.',
+      desc: 'A founder-led deep dive into your profile, goals, and history — an honest read from people who know these committees from the inside.',
       bestFor: 'Anyone at the start of their journey who wants clarity before committing to a full engagement.',
       deliverables: [
         "60-minute 1:1 session with our founders.",
@@ -28,7 +28,7 @@ export function Services() {
       price: 'from ₹19,999',
       priceNote: 'One-time audit of your full application portal.',
       focus: 'The AdCom Audit',
-      desc: "Between a good application and a great one sits a layer of detail that only trained eyes catch. The Final Polish is a single, comprehensive audit of your entire application portal, delivered as a 'Red Flag Report' with clear, actionable notes.",
+      desc: "A single, comprehensive audit of your entire application — delivered as a 'Red Flag Report' with clear, actionable notes.",
       bestFor: 'Self-starters who want the peace of mind of a HEC and Bocconi alumnus giving your application a final, honest yes or no.',
       deliverables: [
         "One-time comprehensive review of your full application portal.",
@@ -44,7 +44,7 @@ export function Services() {
       price: 'from ₹74,999',
       priceNote: 'Per school. Story, CV re-engineering & 3-round essays.',
       focus: 'Story Architecture',
-      desc: 'Own the story. Own the outcome. We move beyond the resume to transform your professional milestones into a cohesive, unforgettable leadership narrative.',
+      desc: 'We move beyond the resume to turn your milestones into a cohesive, unforgettable leadership narrative.',
       bestFor: 'Applicants with a strong profile who need to bridge the gap between qualified and unforgettable.',
       deliverables: [
         "Deep-dive story mining sessions.",
@@ -62,7 +62,7 @@ export function Services() {
       price: 'from ₹1,49,999',
       priceNote: '+ from ₹40,000 per additional school.',
       focus: 'The Full-Cycle Engine',
-      desc: 'Zero-defect. End to end. Complete application management from day one. We act as your "Chief of Staff" for the entire admissions cycle, ensuring every detail is engineered for success.',
+      desc: 'End-to-end management from day one — we act as your Chief of Staff for the entire admissions cycle, engineering every detail.',
       bestFor: 'High-stakes applicants targeting M7 and top EU schools who want a zero-defect strategy from day one.',
       featured: true,
       deliverables: [
@@ -118,7 +118,49 @@ export function Services() {
         </p>
       </Section>
 
+      <Section className="bg-white">
+        <div className="text-center max-w-2xl mx-auto mb-16">
+          <span className="text-brand-gold text-xs font-bold uppercase tracking-[0.3em]">How We Do It</span>
+          <h2 className="text-4xl md:text-5xl mt-4 mb-6">
+            One clear path, from first draft to <span className="italic text-brand-gold">decision day.</span>
+          </h2>
+          <p className="text-brand-slate leading-relaxed">
+            Every engagement follows the same proven nine-stage process — so you always know where you stand and what comes next. We're transparent on the path; the craft on each step is what you're hiring us for.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200 border border-gray-200 rounded-lg overflow-hidden">
+          {process.map((step, i) => (
+            <div
+              key={i}
+              className={`p-8 transition-colors duration-300 ${step.signature ? 'bg-brand-cream' : 'bg-white hover:bg-brand-cream/50'}`}
+            >
+              <div className="flex items-center mb-4">
+                <span
+                  className={`flex items-center justify-center w-10 h-10 rounded-full font-serif text-sm font-bold ${step.signature ? 'bg-brand-gold text-white border border-brand-gold' : 'text-brand-gold border-[1.5px] border-brand-gold/50'}`}
+                >
+                  {step.no}
+                </span>
+                {step.signature && (
+                  <span className="ml-3 text-[10px] font-bold uppercase tracking-[0.12em] text-brand-gold">Signature</span>
+                )}
+              </div>
+              <h3 className="text-lg font-serif text-brand-navy mb-1">{step.title}</h3>
+              <p className="text-sm text-brand-slate leading-relaxed">{step.desc}</p>
+            </div>
+          ))}
+        </div>
+
+        <p className="text-center text-brand-slate text-sm italic mt-10">
+          Transparent on the path. Meticulous on the detail — that part we handle for you.
+        </p>
+      </Section>
+
       <Section className="bg-brand-cream">
+        <div className="text-center max-w-2xl mx-auto mb-12">
+          <span className="text-brand-gold text-xs font-bold uppercase tracking-[0.3em]">The Tiers</span>
+          <h2 className="text-4xl mt-4">Choose Your Level of Engagement.</h2>
+        </div>
         <div className="grid lg:grid-cols-2 xl:grid-cols-4 gap-8">
           {tiers.map((tier, i) => (
             <div
@@ -178,44 +220,6 @@ export function Services() {
             </a>
           </div>
         </div>
-      </Section>
-
-      <Section className="bg-white">
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="text-brand-gold text-xs font-bold uppercase tracking-[0.3em]">How We Do It</span>
-          <h2 className="text-4xl md:text-5xl mt-4 mb-6">
-            One clear path, from first draft to <span className="italic text-brand-gold">decision day.</span>
-          </h2>
-          <p className="text-brand-slate leading-relaxed">
-            Every engagement follows the same proven nine-stage process — so you always know where you stand and what comes next. We're transparent on the path; the craft on each step is what you're hiring us for.
-          </p>
-        </div>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-gray-200 border border-gray-200 rounded-lg overflow-hidden">
-          {process.map((step, i) => (
-            <div
-              key={i}
-              className={`p-8 transition-colors duration-300 ${step.signature ? 'bg-brand-cream' : 'bg-white hover:bg-brand-cream/50'}`}
-            >
-              <div className="flex items-center mb-4">
-                <span
-                  className={`flex items-center justify-center w-10 h-10 rounded-full font-serif text-sm font-bold ${step.signature ? 'bg-brand-gold text-white border border-brand-gold' : 'text-brand-gold border-[1.5px] border-brand-gold/50'}`}
-                >
-                  {step.no}
-                </span>
-                {step.signature && (
-                  <span className="ml-3 text-[10px] font-bold uppercase tracking-[0.12em] text-brand-gold">Signature</span>
-                )}
-              </div>
-              <h3 className="text-lg font-serif text-brand-navy mb-1">{step.title}</h3>
-              <p className="text-sm text-brand-slate leading-relaxed">{step.desc}</p>
-            </div>
-          ))}
-        </div>
-
-        <p className="text-center text-brand-slate text-sm italic mt-10">
-          Transparent on the path. Meticulous on the detail — that part we handle for you.
-        </p>
       </Section>
     </div>
   );
