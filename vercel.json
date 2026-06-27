@@ -1,3 +1,10 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/founders", "destination": "/founders.html" },
+    { "source": "/services", "destination": "/services.html" },
+    { "source": "/evaluate", "destination": "/evaluate.html" },
+    { "source": "/success-stories", "destination": "/success-stories.html" },
+    { "source": "/faq", "destination": "/faq.html" }
+  ]
 }
