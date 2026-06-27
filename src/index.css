@@ -41,14 +41,3 @@
 .input-field {
   @apply w-full px-4 py-3 bg-white border border-gray-200 focus:border-brand-gold focus:ring-1 focus:ring-brand-gold outline-none transition-all;
 }
-
-/* SSR fix: prevent motion animations from hiding content in static HTML */
-[data-server-rendered="true"] [style*="opacity:0"],
-[data-server-rendered="true"] [style*="opacity: 0"] {
-  opacity: 1 !important;
-}
-
-[data-server-rendered="true"] [style*="transform:translateY"],
-[data-server-rendered="true"] [style*="transform: translateY"] {
-  transform: none !important;
-}
