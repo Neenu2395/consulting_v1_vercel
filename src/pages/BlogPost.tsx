@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ChevronRight } from 'lucide-react';
 import { Section } from '../components/Layout';
 import { Breadcrumbs, JsonLd, SITE_URL } from '../components/Seo';
+import { Comments } from '../components/Comments';
 import { getPost } from '../data/posts';
 
 export function BlogPost() {
@@ -125,6 +126,8 @@ export function BlogPost() {
               Book a Free Evaluation
             </Link>
           </div>
+
+          <Comments pageId={post.slug} pageUrl={url} pageTitle={post.title} />
         </article>
       </Section>
     </div>

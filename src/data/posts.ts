@@ -29,7 +29,7 @@ export const posts: Post[] = [
     slug: 'how-to-get-into-hec-paris-mba',
     title: 'How to Get Into the HEC Paris MBA: A Strategic Guide',
     description:
-      'A step-by-step guide to the HEC Paris MBA application — what the admissions committee actually rewards, how to position an engineering or technical profile, and the timeline to follow.',
+      'A step-by-step guide to the HEC Paris MBA application: what the admissions committee actually rewards, how to position an engineering or technical profile, and the timeline to follow.',
     date: '2026-06-28',
     readingTime: '6 min read',
     author: 'Elite Admissions Consulting',
@@ -43,12 +43,12 @@ export const posts: Post[] = [
       { type: 'h2', text: 'What HEC Paris Looks For' },
       {
         type: 'p',
-        text: 'HEC values structured, analytical thinking paired with a clear sense of international ambition. The school is not simply collecting impressive resumes — it is assembling a cohort. Your job in the application is to show how you make that cohort better and how the program is a deliberate step in your trajectory, not a default option.',
+        text: 'HEC values structured, analytical thinking paired with a clear sense of international ambition. The school is not simply collecting impressive resumes; it is assembling a cohort. Your job in the application is to show how you make that cohort better and how the program is a deliberate step in your trajectory, not a default option.',
       },
       {
         type: 'ul',
         items: [
-          'Clarity of goals — short and long-term goals that are specific and believable given your background.',
+          'Clarity of goals: short and long-term goals that are specific and believable given your background.',
           'Demonstrated leadership and impact, quantified wherever possible.',
           'A genuine reason for HEC specifically: faculty, specializations, the Paris ecosystem, the network.',
           'International outlook and the ability to thrive in a highly diverse classroom.',
@@ -57,7 +57,7 @@ export const posts: Post[] = [
       { type: 'h2', text: 'Positioning a Technical or Engineering Profile' },
       {
         type: 'p',
-        text: 'Engineers often undersell themselves by listing what they built instead of what changed because of them. The fix is to translate technical work into leadership and business impact: the decision you influenced, the team you aligned, the revenue or efficiency you moved. Admissions readers are not engineers — they need the "so what" made explicit.',
+        text: 'Engineers often undersell themselves by listing what they built instead of what changed because of them. The fix is to translate technical work into leadership and business impact: the decision you influenced, the team you aligned, the revenue or efficiency you moved. Admissions readers are not engineers, so they need the "so what" made explicit.',
       },
       { type: 'h2', text: 'The Essays' },
       {
@@ -76,7 +76,7 @@ export const posts: Post[] = [
       },
       {
         type: 'p',
-        text: 'If you want a candid read on where your profile stands for HEC Paris and which schools are realistic, start with a free profile evaluation — we will tell you the hard truth, not what you want to hear.',
+        text: 'If you want a candid read on where your profile stands for HEC Paris and which schools are realistic, start with a free profile evaluation. We will tell you the hard truth, not what you want to hear.',
       },
     ],
   },
@@ -84,7 +84,7 @@ export const posts: Post[] = [
     slug: 'sda-bocconi-mba-worth-it-roi-guide',
     title: 'Is the SDA Bocconi MBA Worth It? An ROI & Admissions Guide',
     description:
-      'A clear-eyed look at the SDA Bocconi MBA — cost, scholarships, career outcomes, who it suits, and how to position your application to get in.',
+      'A clear-eyed look at the SDA Bocconi MBA: cost, scholarships, career outcomes, who it suits, and how to position your application to get in.',
     date: '2026-06-26',
     readingTime: '7 min read',
     author: 'Elite Admissions Consulting',
@@ -93,7 +93,7 @@ export const posts: Post[] = [
     body: [
       {
         type: 'p',
-        text: 'SDA Bocconi sits among the strongest MBA programs in Europe, with particular pull in luxury, finance, and consulting across the EU. But "is it worth it" is the wrong question in the abstract — it is only worth it relative to your goals, your alternatives, and how you position yourself. Here is how to think about it honestly.',
+        text: 'SDA Bocconi sits among the strongest MBA programs in Europe, with particular pull in luxury, finance, and consulting across the EU. But "is it worth it" is the wrong question in the abstract; it is only worth it relative to your goals, your alternatives, and how you position yourself. Here is how to think about it honestly.',
       },
       { type: 'h2', text: 'The ROI Case' },
       {
@@ -105,7 +105,7 @@ export const posts: Post[] = [
         items: [
           'Shorter program = lower total cost and faster payback.',
           'Strong placement in consulting, finance, luxury, and consumer goods in Europe.',
-          'Scholarships meaningfully change the ROI — apply early, when more funding is available.',
+          'Scholarships meaningfully change the ROI, so apply early, when more funding is available.',
           'Weigh it against your realistic M7 odds, not against the M7 brand in the abstract.',
         ],
       },
@@ -121,7 +121,7 @@ export const posts: Post[] = [
       },
       {
         type: 'p',
-        text: 'One of our founders is an SDA Bocconi MBA alumna — if you want an inside read on fit, scholarships, and how to position your profile, book a free evaluation.',
+        text: 'One of our founders is an SDA Bocconi MBA alumna. If you want an inside read on fit, scholarships, and how to position your profile, book a free evaluation.',
       },
     ],
   },
@@ -138,12 +138,12 @@ export const posts: Post[] = [
     body: [
       {
         type: 'p',
-        text: 'Engineers are among the strongest MBA applicants on paper — analytical, high-achieving, often with impressive technical scope. Yet they are frequently dinged at M7 schools for one reason: their essays read like project reports, not leadership stories. The work is impressive; the framing is not. Here is how to fix that.',
+        text: 'Engineers are among the strongest MBA applicants on paper: analytical, high-achieving, often with impressive technical scope. Yet they are frequently dinged at M7 schools for one reason: their essays read like project reports, not leadership stories. The work is impressive; the framing is not. Here is how to fix that.',
       },
       { type: 'h2', text: 'The Core Problem: "What" vs "So What"' },
       {
         type: 'p',
-        text: 'Technical writing trains you to describe what you built. Admissions essays demand the "so what": the decision you influenced, the people you aligned, the business outcome you moved. Readers on the committee are not engineers — if the impact is not made explicit in human and commercial terms, it does not land.',
+        text: 'Technical writing trains you to describe what you built. Admissions essays demand the "so what": the decision you influenced, the people you aligned, the business outcome you moved. Readers on the committee are not engineers, and if the impact is not made explicit in human and commercial terms, it does not land.',
       },
       { type: 'h2', text: 'Translate Technical Work Into Leadership' },
       {
@@ -152,7 +152,7 @@ export const posts: Post[] = [
           'Lead with the outcome, not the architecture: revenue, cost, time, or risk you changed.',
           'Name the people: who you persuaded, mentored, or unblocked.',
           'Show judgment under ambiguity, not just technical correctness.',
-          'Quantify everything you credibly can — numbers are how committees calibrate scale.',
+          'Quantify everything you credibly can, because numbers are how committees calibrate scale.',
         ],
       },
       { type: 'h2', text: 'Build One Throughline' },
