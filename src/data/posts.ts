@@ -313,6 +313,55 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: 'how-to-choose-the-right-mba-school',
+    title: "How to Choose the Right MBA School: The Questions Rankings Can't Answer",
+    description:
+      'A GMAT calculator and a ranking are not a school selection strategy. Here are the questions that actually decide whether an MBA program is right for you.',
+    date: '2026-04-28',
+    readingTime: '5 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'how to choose an MBA program, MBA school selection, how to build an MBA school list, choosing an MBA school, MBA program research, MBA alumni outcomes',
+    body: [
+      {
+        type: 'p',
+        text: 'One of the first things we ask someone is simple: why this school? A lot of the time the answer is some version of "my GMAT or GRE fits the range," "it is highly ranked," or "someone I know went there." We get it. Choosing a school is overwhelming, and the internet hands you a score and a list and makes it feel like the decision is already made.',
+      },
+      { type: 'h2', text: 'A Ranking and a Score Are Not a Decision' },
+      {
+        type: 'p',
+        text: 'When the research stops at a ranking and a score range, that is a little concerning. Not because the school is necessarily wrong, but because the research usually stopped too early. The factors that decide whether a program is right for you are harder to find, and they almost never appear in a ranking table.',
+      },
+      { type: 'h2', text: 'The Questions That Actually Matter' },
+      {
+        type: 'p',
+        text: 'These are the questions we would want answered before adding any school to a list, and they take more than a calculator to answer.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Where are the alumni now? Not the famous names featured on the website, but the regular graduates. Are they in the roles and the cities you actually want to be in?',
+          'What does the location open for you? Europe, Asia, or the US, and the specific city the school sits in, shapes what comes to you after graduation more than most people realize.',
+          'What are the real job opportunities coming out of this campus? Not the brochure, but the actual industries, the actual companies, and the actual doors that open for graduates.',
+        ],
+      },
+      { type: 'h2', text: 'Why Location Matters More Than People Realize' },
+      {
+        type: 'p',
+        text: 'The city your school sits in quietly determines which recruiters show up, which internships are reachable, and which network you build by default. A program that is perfect for a career in European finance may be the wrong choice for US tech, even if both schools sit near each other in the rankings. Match the geography to the future you want, not the other way around.',
+      },
+      { type: 'h2', text: 'Build the List Around Your Goals, Not the Brochure' },
+      {
+        type: 'p',
+        text: 'When we work with someone on school selection, these are the conversations we have before anything else. The right school is out there, but finding it takes more than a GMAT or GRE calculator. It takes an honest look at where you want to end up and which programs actually put graduates there.',
+      },
+      {
+        type: 'p',
+        text: 'Not sure if your school list is right for you? Start with a free profile evaluation and we will pressure-test it with you.',
+      },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
