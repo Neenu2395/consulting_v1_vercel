@@ -33,14 +33,14 @@ export function SuccessStories() {
   return (
     <div className="pt-20">
       <Head>
-        <title>Success Stories | M7 & Top EU MBA Admits — Elite Consulting</title>
+        <title>Success Stories | M7 & Top EU MBA Admits - Elite Consulting</title>
         <meta name="description" content="Real results: clients admitted to M7, HEC Paris, SDA Bocconi and other elite MBA and Master's programs." />
         <link rel="canonical" href="https://elite-admissions-consulting.com/success-stories" />
         <meta property="og:url" content="https://elite-admissions-consulting.com/success-stories" />
-        <meta property="og:title" content="Success Stories | M7 & Top EU MBA Admits — Elite Consulting" />
+        <meta property="og:title" content="Success Stories | M7 & Top EU MBA Admits - Elite Consulting" />
         <meta property="og:description" content="Real results: clients admitted to M7, HEC Paris, SDA Bocconi and other elite MBA and Master's programs." />
         <meta property="twitter:url" content="https://elite-admissions-consulting.com/success-stories" />
-        <meta property="twitter:title" content="Success Stories | M7 & Top EU MBA Admits — Elite Consulting" />
+        <meta property="twitter:title" content="Success Stories | M7 & Top EU MBA Admits - Elite Consulting" />
         <meta property="twitter:description" content="Real results: clients admitted to M7, HEC Paris, SDA Bocconi and other elite MBA and Master's programs." />
       </Head>
       <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Success Stories', path: '/success-stories' }]} />
@@ -100,7 +100,7 @@ export function SuccessStories() {
                       </p>
                     </div>
                     <p className="mt-6 text-brand-navy font-bold uppercase tracking-widest text-xs">
-                      — {story.candidate}
+                      {story.candidate}
                     </p>
                   </div>
                   

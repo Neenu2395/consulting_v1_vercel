@@ -40,14 +40,14 @@ export function Founders() {
   return (
     <div className="pt-20">
       <Head>
-        <title>The Founders | HEC Paris & SDA Bocconi Alumni — Elite Consulting</title>
+        <title>The Founders | HEC Paris & SDA Bocconi Alumni - Elite Consulting</title>
         <meta name="description" content="Work directly with HEC Paris and SDA Bocconi alumni who have navigated elite MBA and Master's admissions firsthand." />
         <link rel="canonical" href="https://elite-admissions-consulting.com/founders" />
         <meta property="og:url" content="https://elite-admissions-consulting.com/founders" />
-        <meta property="og:title" content="The Founders | HEC Paris & SDA Bocconi Alumni — Elite Consulting" />
+        <meta property="og:title" content="The Founders | HEC Paris & SDA Bocconi Alumni - Elite Consulting" />
         <meta property="og:description" content="Work directly with HEC Paris and SDA Bocconi alumni who have navigated elite MBA and Master's admissions firsthand." />
         <meta property="twitter:url" content="https://elite-admissions-consulting.com/founders" />
-        <meta property="twitter:title" content="The Founders | HEC Paris & SDA Bocconi Alumni — Elite Consulting" />
+        <meta property="twitter:title" content="The Founders | HEC Paris & SDA Bocconi Alumni - Elite Consulting" />
         <meta property="twitter:description" content="Work directly with HEC Paris and SDA Bocconi alumni who have navigated elite MBA and Master's admissions firsthand." />
       </Head>
       <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'The Founders', path: '/founders' }]} />

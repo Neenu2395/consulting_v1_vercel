@@ -32,7 +32,9 @@ export default defineConfig(({ mode }) => {
       // gets a 404 page, JSON.parse throws, and the page renders an error
       // boundary (Google sees a Soft 404). 'defer' guarantees correct ordering.
       script: 'defer',
-      formatting: 'minify',
+      // This vite-react-ssg version only supports 'none' | 'prettify'. 'none'
+      // keeps the pre-rendered HTML compact (smallest output).
+      formatting: 'none',
     },
     server: {
       hmr: process.env.DISABLE_HMR !== 'true',

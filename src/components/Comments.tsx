@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 
 // ---------------------------------------------------------------------------
-// Cusdis comments (https://cusdis.com) — lightweight, privacy-friendly, and
+// Cusdis comments (https://cusdis.com): lightweight, privacy-friendly, and
 // readers can comment with just a name (no account required).
 //
 // SETUP (one time):
@@ -17,7 +17,7 @@ import { useEffect } from 'react';
 // ---------------------------------------------------------------------------
 
 const env = import.meta.env as Record<string, string | undefined>;
-// Public App ID (safe to commit — it ships in the page HTML). Override via the
+// Public App ID (safe to commit, it ships in the page HTML). Override via the
 // VITE_CUSDIS_APP_ID env var if you ever rotate sites.
 const CUSDIS_APP_ID = env.VITE_CUSDIS_APP_ID ?? '265c733c-49fd-488e-ae55-86fcdc6460b6';
 const CUSDIS_HOST = 'https://cusdis.com';
