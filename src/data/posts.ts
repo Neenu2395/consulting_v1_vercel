@@ -261,6 +261,51 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: 'ai-cant-choose-your-mba-essay-story',
+    title: "AI Can Write Your MBA Essay, But It Can't Choose Your Story",
+    description:
+      'AI can draft your MBA or MS essay, but it cannot tell you which moment from your life is worth writing about. Here is how to choose the story that actually lands.',
+    date: '2026-06-27',
+    readingTime: '4 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'MBA essay topic, what to write about in MBA essay, AI MBA essays, MBA essay story, how to choose MBA essay topic, SDA Bocconi essay, MS essay',
+    body: [
+      {
+        type: 'p',
+        text: 'AI can write your MBA or MS essay. We all know this by now. You can generate a clean, grammatical, perfectly competent draft in seconds. But that was never the hard part of the essay, and it is not where applications are won or lost.',
+      },
+      { type: 'h2', text: 'The Story You Almost Skip Is Often the Right One' },
+      {
+        type: 'p',
+        text: 'When I was sitting with my Bocconi application, no tool could have told me which moment from my life was worth writing about. I almost skipped the ones that ended up mattering most. They felt too small, too ordinary, not impressive enough. It turned out those were exactly the right ones.',
+      },
+      {
+        type: 'p',
+        text: 'This is the part no model can do for you. Choosing the story takes judgment about your own life: knowing which ordinary moment actually reveals who you are, and trusting it over the obvious trophy.',
+      },
+      { type: 'h2', text: 'Why a Small Moment Beats a Big Achievement' },
+      {
+        type: 'p',
+        text: 'A small moment, told well, lands harder than a big achievement that is simply listed. The achievement tells the committee what you did. The moment shows them how you think, what you value, and what you do when no one is watching. One is a line on a resume. The other is a reason to admit you.',
+      },
+      { type: 'h2', text: "The Committee Doesn't Want Your Highlight Reel" },
+      {
+        type: 'p',
+        text: 'Admissions readers are not looking for your highlight reel. They want to feel like they are reading about a real person making real decisions: the kind of writing where they find themselves wanting to know what happens next. That pull is impossible to fake and impossible to generate. It comes from a true story, chosen well and told honestly.',
+      },
+      { type: 'h2', text: 'Where AI Helps, and Where It Does Not' },
+      {
+        type: 'p',
+        text: 'AI can help you write. It can tighten a sentence, fix your grammar, and give you a starting draft. But deciding what story to tell, what to keep, and what to cut is still on you. That judgment is the entire game, and it is exactly what we help with at Elite Consulting.',
+      },
+      {
+        type: 'p',
+        text: 'If you are staring at a blank essay and unsure which story is yours to tell, that is the right moment to talk to us. Book a free profile evaluation and we will help you find it.',
+      },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
