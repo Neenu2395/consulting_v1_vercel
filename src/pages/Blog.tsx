@@ -11,7 +11,7 @@ export function Blog() {
   return (
     <div className="pt-20">
       <Head>
-        <title>Insights | MBA & MS Admissions Advice — Elite Consulting</title>
+        <title>Insights | MBA & MS Admissions Advice - Elite Consulting</title>
         <meta
           name="description"
           content="Strategy, essay, and interview advice for M7, HEC Paris, SDA Bocconi, and top Master's admissions — from HEC Paris and SDA Bocconi alumni."
