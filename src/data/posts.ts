@@ -80,6 +80,92 @@ export const posts: Post[] = [
       },
     ],
   },
+  {
+    slug: 'sda-bocconi-mba-worth-it-roi-guide',
+    title: 'Is the SDA Bocconi MBA Worth It? An ROI & Admissions Guide',
+    description:
+      'A clear-eyed look at the SDA Bocconi MBA — cost, scholarships, career outcomes, who it suits, and how to position your application to get in.',
+    date: '2026-06-26',
+    readingTime: '7 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'SDA Bocconi MBA, SDA Bocconi MBA worth it, SDA Bocconi MBA ROI, SDA Bocconi admissions, Bocconi MBA scholarships, Italy MBA',
+    body: [
+      {
+        type: 'p',
+        text: 'SDA Bocconi sits among the strongest MBA programs in Europe, with particular pull in luxury, finance, and consulting across the EU. But "is it worth it" is the wrong question in the abstract — it is only worth it relative to your goals, your alternatives, and how you position yourself. Here is how to think about it honestly.',
+      },
+      { type: 'h2', text: 'The ROI Case' },
+      {
+        type: 'p',
+        text: 'A European one-year MBA like Bocconi has a structural ROI advantage over two-year US programs: lower tuition and only one year of foregone salary. If your target is the EU market, Bocconi\'s brand and alumni network are hard to beat for the price. The calculus shifts if your goal is a US role, where M7 programs carry more recruiting weight.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Shorter program = lower total cost and faster payback.',
+          'Strong placement in consulting, finance, luxury, and consumer goods in Europe.',
+          'Scholarships meaningfully change the ROI — apply early, when more funding is available.',
+          'Weigh it against your realistic M7 odds, not against the M7 brand in the abstract.',
+        ],
+      },
+      { type: 'h2', text: 'Who Bocconi Suits' },
+      {
+        type: 'p',
+        text: 'Bocconi rewards candidates with international ambition who want to build a career in or with Europe. If you are drawn to design-led, entrepreneurial, and globally minded business culture, it is a natural fit. If you are fixated solely on US tech or US finance, be honest about whether the geography matches your goals.',
+      },
+      { type: 'h2', text: 'Positioning Your Application' },
+      {
+        type: 'p',
+        text: 'The committee wants coherence: a clear reason you are pursuing an MBA now, why Europe, and why Bocconi specifically. Generic ambition is the most common failure mode. Tie your past achievements to a specific forward trajectory the program enables, and make your international and leadership signals concrete and quantified.',
+      },
+      {
+        type: 'p',
+        text: 'One of our founders is an SDA Bocconi MBA alumna — if you want an inside read on fit, scholarships, and how to position your profile, book a free evaluation.',
+      },
+    ],
+  },
+  {
+    slug: 'm7-mba-essays-for-engineers',
+    title: 'M7 MBA Essays for Engineers: How to Stand Out',
+    description:
+      'Engineers have strong profiles but often write weak essays. Here is how to translate technical work into the leadership narrative M7 admissions committees reward.',
+    date: '2026-06-24',
+    readingTime: '6 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'M7 MBA essays, MBA essays for engineers, MBA admissions for engineers, technical profile MBA, leadership narrative MBA essay',
+    body: [
+      {
+        type: 'p',
+        text: 'Engineers are among the strongest MBA applicants on paper — analytical, high-achieving, often with impressive technical scope. Yet they are frequently dinged at M7 schools for one reason: their essays read like project reports, not leadership stories. The work is impressive; the framing is not. Here is how to fix that.',
+      },
+      { type: 'h2', text: 'The Core Problem: "What" vs "So What"' },
+      {
+        type: 'p',
+        text: 'Technical writing trains you to describe what you built. Admissions essays demand the "so what": the decision you influenced, the people you aligned, the business outcome you moved. Readers on the committee are not engineers — if the impact is not made explicit in human and commercial terms, it does not land.',
+      },
+      { type: 'h2', text: 'Translate Technical Work Into Leadership' },
+      {
+        type: 'ul',
+        items: [
+          'Lead with the outcome, not the architecture: revenue, cost, time, or risk you changed.',
+          'Name the people: who you persuaded, mentored, or unblocked.',
+          'Show judgment under ambiguity, not just technical correctness.',
+          'Quantify everything you credibly can — numbers are how committees calibrate scale.',
+        ],
+      },
+      { type: 'h2', text: 'Build One Throughline' },
+      {
+        type: 'p',
+        text: 'Treat the essay set as a single argument about who you are and where you are going, not a series of independent answers. The strongest engineering applicants connect their technical depth to a specific, believable leadership trajectory the MBA accelerates. That coherence is what separates "qualified" from "admitted."',
+      },
+      {
+        type: 'p',
+        text: 'We specialize in technical and engineering transitions for M7 and top EU programs. If you want help turning your work into a narrative that resonates, start with a free profile evaluation.',
+      },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
