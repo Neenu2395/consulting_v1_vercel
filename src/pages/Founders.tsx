@@ -3,6 +3,7 @@ import { Section } from '../components/Layout';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Award, BookOpen, Globe, CheckCircle2, Quote, Linkedin } from 'lucide-react';
+import { Breadcrumbs } from '../components/Seo';
 
 export function Founders() {
   const founders = [
@@ -49,6 +50,7 @@ export function Founders() {
         <meta property="twitter:title" content="The Founders | HEC Paris & SDA Bocconi Alumni — Elite Consulting" />
         <meta property="twitter:description" content="Work directly with HEC Paris and SDA Bocconi alumni who have navigated elite MBA and Master's admissions firsthand." />
       </Head>
+      <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'The Founders', path: '/founders' }]} />
       <Section className="bg-white">
         <div className="max-w-4xl">
           <motion.div

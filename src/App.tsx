@@ -9,6 +9,9 @@ import { SuccessStories } from './pages/SuccessStories';
 import { Mail, Linkedin, Instagram, ArrowUpRight } from 'lucide-react';
 import { useForm, ValidationError } from '@formspree/react';
 import { FAQ } from './pages/FAQ';
+import { Blog } from './pages/Blog';
+import { BlogPost } from './pages/BlogPost';
+import { posts } from './data/posts';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -134,6 +137,12 @@ export const routes = [
       { path: 'services', element: <Services /> },
       { path: 'success-stories', element: <SuccessStories /> },
       { path: 'faq', element: <FAQ /> },
+      { path: 'blog', element: <Blog /> },
+      {
+        path: 'blog/:slug',
+        element: <BlogPost />,
+        getStaticPaths: () => posts.map((p) => `/blog/${p.slug}`),
+      },
     ],
   },
 ];

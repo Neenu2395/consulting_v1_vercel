@@ -6,6 +6,8 @@
     { "source": "/evaluate", "destination": "/evaluate.html" },
     { "source": "/success-stories", "destination": "/success-stories.html" },
     { "source": "/faq", "destination": "/faq.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/blog/:slug", "destination": "/blog/:slug.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

@@ -3,6 +3,7 @@ import { Section } from '../components/Layout';
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Check, ArrowRight } from 'lucide-react';
+import { Breadcrumbs, JsonLd, SITE_URL } from '../components/Seo';
 
 export function Services() {
   const tiers = [
@@ -99,6 +100,26 @@ export function Services() {
         <meta property="twitter:title" content="MBA & MS Admissions Services | Elite Consulting" />
         <meta property="twitter:description" content="Strategy-led admissions packages for M7, top European MBA, and Master's applicants — from profile evaluation to interview prep." />
       </Head>
+      <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Services', path: '/services' }]} />
+      <JsonLd
+        data={{
+          '@context': 'https://schema.org',
+          '@type': 'Service',
+          serviceType: 'MBA & MS Admissions Consulting',
+          provider: { '@id': `${SITE_URL}/#organization` },
+          areaServed: { '@type': 'Place', name: 'Worldwide' },
+          hasOfferCatalog: {
+            '@type': 'OfferCatalog',
+            name: 'Admissions Consulting Packages',
+            itemListElement: tiers.map((t) => ({
+              '@type': 'Offer',
+              name: t.title,
+              description: t.desc,
+              category: t.focus,
+            })),
+          },
+        }}
+      />
 
       <Section className="bg-white text-center">
         <motion.div

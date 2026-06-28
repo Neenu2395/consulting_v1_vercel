@@ -18,6 +18,7 @@ export function Navbar() {
     { name: 'The Founders', path: '/founders' },
     { name: 'Services', path: '/services' },
     { name: 'Success Stories', path: '/success-stories' },
+    { name: 'Insights', path: '/blog' },
     { name: 'FAQ', path: '/faq' },
   ];
 

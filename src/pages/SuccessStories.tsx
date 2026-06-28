@@ -2,6 +2,7 @@ import { Head } from 'vite-react-ssg';
 import { Section, Container } from '../components/Layout';
 import { motion } from 'motion/react';
 import { Quote, GraduationCap, CheckCircle2 } from 'lucide-react';
+import { Breadcrumbs } from '../components/Seo';
 
 export function SuccessStories() {
   const stories = [
@@ -42,6 +43,7 @@ export function SuccessStories() {
         <meta property="twitter:title" content="Success Stories | M7 & Top EU MBA Admits — Elite Consulting" />
         <meta property="twitter:description" content="Real results: clients admitted to M7, HEC Paris, SDA Bocconi and other elite MBA and Master's programs." />
       </Head>
+      <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Success Stories', path: '/success-stories' }]} />
       <Section className="bg-white border-b border-gray-100">
         <div className="max-w-4xl">
           <motion.div

@@ -4,6 +4,7 @@ import { motion } from 'motion/react';
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { Breadcrumbs } from '../components/Seo';
 
 const faqs = [
   {
@@ -96,6 +97,7 @@ export function FAQ() {
         <meta property="twitter:title" content="FAQ | Elite Consulting MBA & MS Admissions" />
         <meta property="twitter:description" content="Answers about our elite MBA and Master's admissions consulting process, consultants, and packages." />
       </Head>
+      <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'FAQ', path: '/faq' }]} />
       <Section className="bg-white text-center">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
