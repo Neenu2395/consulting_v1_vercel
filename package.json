@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite --port=3000 --host=0.0.0.0",
-    "build": "vite-react-ssg build",
+    "build": "npm run sitemap && vite-react-ssg build",
     "preview": "vite preview",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
-    "og": "node scripts/generate-og.mjs"
+    "og": "node scripts/generate-og.mjs",
+    "sitemap": "tsx scripts/generate-sitemaps.ts"
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
