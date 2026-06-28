@@ -19,6 +19,12 @@ export interface Post {
   date: string;
   readingTime: string;
   author: string;
+  /**
+   * Optional profile URL for the author. When set, the author is treated as a
+   * named Person (with this as sameAs) in the schema and byline; otherwise the
+   * author is treated as the Organization.
+   */
+  authorUrl?: string;
   /** SEO keywords for this post */
   keywords: string;
   body: Block[];
@@ -268,7 +274,8 @@ export const posts: Post[] = [
       'AI can draft your MBA or MS essay, but it cannot tell you which moment from your life is worth writing about. Here is how to choose the story that actually lands.',
     date: '2026-06-27',
     readingTime: '4 min read',
-    author: 'Elite Admissions Consulting',
+    author: 'Neenu Thankachan',
+    authorUrl: 'https://www.linkedin.com/in/neenuthankachan/',
     keywords:
       'MBA essay topic, what to write about in MBA essay, AI MBA essays, MBA essay story, how to choose MBA essay topic, SDA Bocconi essay, MS essay',
     body: [

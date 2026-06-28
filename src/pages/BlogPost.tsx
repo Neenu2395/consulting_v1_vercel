@@ -62,7 +62,14 @@ export function BlogPost() {
           dateModified: post.date,
           keywords: post.keywords,
           mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-          author: { '@type': 'Organization', name: post.author, url: SITE_URL },
+          author: post.authorUrl
+            ? {
+                '@type': 'Person',
+                name: post.author,
+                url: post.authorUrl,
+                worksFor: { '@type': 'Organization', name: 'Elite Admissions Consulting', url: SITE_URL },
+              }
+            : { '@type': 'Organization', name: post.author, url: SITE_URL },
           publisher: {
             '@type': 'Organization',
             name: 'Elite Admissions Consulting',
@@ -91,6 +98,22 @@ export function BlogPost() {
             </time>
             <span className="text-brand-gold">·</span>
             <span>{post.readingTime}</span>
+            <span className="text-brand-gold">·</span>
+            <span>
+              By{' '}
+              {post.authorUrl ? (
+                <a
+                  href={post.authorUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-brand-navy hover:text-brand-gold underline-offset-2 hover:underline transition-colors"
+                >
+                  {post.author}
+                </a>
+              ) : (
+                post.author
+              )}
+            </span>
           </div>
 
           <h1 className="text-4xl md:text-6xl mb-10 leading-[1.1]">{post.title}</h1>
