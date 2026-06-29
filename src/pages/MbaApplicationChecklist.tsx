@@ -134,7 +134,7 @@ export function MbaApplicationChecklist() {
       <Breadcrumbs
         items={[
           { name: 'Home', path: '/' },
-          { name: 'Resources', path: '/resources/mba-application-checklist' },
+          { name: 'Resources', path: '/resources' },
           { name: 'MBA Application Checklist', path: '/resources/mba-application-checklist' },
         ]}
       />

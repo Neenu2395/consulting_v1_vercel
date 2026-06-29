@@ -11,6 +11,7 @@ import { writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { posts } from '../src/data/posts';
+import { resources } from '../src/data/resources';
 
 const SITE = 'https://elite-admissions-consulting.com';
 
@@ -40,9 +41,13 @@ const pages: { path: string; priority: string }[] = [
   { path: '/evaluate', priority: '0.7' },
   { path: '/faq', priority: '0.8' },
   { path: '/blog', priority: '0.7' },
-  { path: '/resources/mba-application-checklist', priority: '0.8' },
+  { path: '/resources', priority: '0.7' },
 ];
-const pagesXml = urlset(pages.map((p) => urlEntry(`${SITE}${p.path}`, PAGES_LASTMOD, p.priority)));
+// Resource detail pages are derived from the resources data so they stay in sync.
+const resourcePages = resources.map((r) => ({ path: r.path, priority: '0.8' }));
+const pagesXml = urlset(
+  [...pages, ...resourcePages].map((p) => urlEntry(`${SITE}${p.path}`, PAGES_LASTMOD, p.priority)),
+);
 
 // --- Blog posts ----------------------------------------------------------
 const sortedPosts = [...posts].sort((a, b) => b.date.localeCompare(a.date));
@@ -62,5 +67,5 @@ writeFileSync(path.join(publicDir, 'sitemap-blog.xml'), blogXml);
 writeFileSync(path.join(publicDir, 'sitemap.xml'), indexXml);
 
 console.log(
-  `Generated sitemap.xml (index) + sitemap-pages.xml (${pages.length} pages) + sitemap-blog.xml (${sortedPosts.length} posts)`,
+  `Generated sitemap.xml (index) + sitemap-pages.xml (${pages.length + resourcePages.length} pages) + sitemap-blog.xml (${sortedPosts.length} posts)`,
 );
