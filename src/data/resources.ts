@@ -24,4 +24,12 @@ export const resources: Resource[] = [
     tag: 'Checklist',
     cta: 'Open the checklist',
   },
+  {
+    path: '/resources/mba-essay-brainstorming-worksheet',
+    title: 'MBA Essay Brainstorming Worksheet',
+    description:
+      'Guided prompts to surface the real stories behind a memorable application. Write your answers, save them on this device, and print when you are ready to draft.',
+    tag: 'Worksheet',
+    cta: 'Start brainstorming',
+  },
 ];

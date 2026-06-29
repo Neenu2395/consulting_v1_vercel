@@ -10,6 +10,7 @@
     { "source": "/blog/:slug", "destination": "/blog/:slug.html" },
     { "source": "/resources", "destination": "/resources.html" },
     { "source": "/resources/mba-application-checklist", "destination": "/resources/mba-application-checklist.html" },
+    { "source": "/resources/mba-essay-brainstorming-worksheet", "destination": "/resources/mba-essay-brainstorming-worksheet.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }

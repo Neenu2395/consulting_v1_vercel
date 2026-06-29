@@ -13,6 +13,7 @@ import { Blog } from './pages/Blog';
 import { BlogPost } from './pages/BlogPost';
 import { Resources } from './pages/Resources';
 import { MbaApplicationChecklist } from './pages/MbaApplicationChecklist';
+import { MbaEssayBrainstormWorksheet } from './pages/MbaEssayBrainstormWorksheet';
 import { posts } from './data/posts';
 
 function ScrollToTop() {
@@ -149,6 +150,7 @@ export const routes = [
       },
       { path: 'resources', element: <Resources /> },
       { path: 'resources/mba-application-checklist', element: <MbaApplicationChecklist /> },
+      { path: 'resources/mba-essay-brainstorming-worksheet', element: <MbaEssayBrainstormWorksheet /> },
     ],
   },
 ];
