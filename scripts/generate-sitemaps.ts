@@ -40,6 +40,7 @@ const pages: { path: string; priority: string }[] = [
   { path: '/evaluate', priority: '0.7' },
   { path: '/faq', priority: '0.8' },
   { path: '/blog', priority: '0.7' },
+  { path: '/resources/mba-application-checklist', priority: '0.8' },
 ];
 const pagesXml = urlset(pages.map((p) => urlEntry(`${SITE}${p.path}`, PAGES_LASTMOD, p.priority)));
 

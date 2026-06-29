@@ -11,6 +11,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import { FAQ } from './pages/FAQ';
 import { Blog } from './pages/Blog';
 import { BlogPost } from './pages/BlogPost';
+import { MbaApplicationChecklist } from './pages/MbaApplicationChecklist';
 import { posts } from './data/posts';
 
 function ScrollToTop() {
@@ -52,6 +53,8 @@ function Footer() {
               <li><a href="/founders" className="hover:text-brand-gold transition-colors">The Founders</a></li>
               <li><a href="/services" className="hover:text-brand-gold transition-colors">Services</a></li>
               <li><a href="/success-stories" className="hover:text-brand-gold transition-colors">Success Stories</a></li>
+              <li><a href="/blog" className="hover:text-brand-gold transition-colors">Insights</a></li>
+              <li><a href="/resources/mba-application-checklist" className="hover:text-brand-gold transition-colors">MBA Application Checklist</a></li>
             </ul>
           </div>
           
@@ -143,6 +146,7 @@ export const routes = [
         element: <BlogPost />,
         getStaticPaths: () => posts.map((p) => `/blog/${p.slug}`),
       },
+      { path: 'resources/mba-application-checklist', element: <MbaApplicationChecklist /> },
     ],
   },
 ];
