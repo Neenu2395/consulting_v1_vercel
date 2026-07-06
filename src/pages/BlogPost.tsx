@@ -77,6 +77,19 @@ export function BlogPost() {
           },
         }}
       />
+      {post.faq && post.faq.length > 0 && (
+        <JsonLd
+          data={{
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: post.faq.map((item) => ({
+              '@type': 'Question',
+              name: item.q,
+              acceptedAnswer: { '@type': 'Answer', text: item.a },
+            })),
+          }}
+        />
+      )}
 
       <Section className="bg-white">
         <article className="max-w-3xl mx-auto">
@@ -136,9 +149,51 @@ export function BlogPost() {
                   </ul>
                 );
               }
+              if (block.type === 'table') {
+                return (
+                  <div key={i} className="overflow-x-auto">
+                    <table className="w-full text-base border-collapse">
+                      <thead>
+                        <tr className="bg-brand-navy text-white text-left">
+                          {block.headers.map((h, j) => (
+                            <th key={j} className="p-3 font-medium">
+                              {h}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {block.rows.map((row, r) => (
+                          <tr key={r} className="border-b border-gray-100 align-top">
+                            {row.map((cell, c) => (
+                              <td key={c} className={`p-3 ${c === 0 ? 'font-medium text-brand-navy' : ''}`}>
+                                {cell}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                );
+              }
               return <p key={i}>{block.text}</p>;
             })}
           </div>
+
+          {post.faq && post.faq.length > 0 && (
+            <div className="mt-16">
+              <h2 className="text-2xl md:text-3xl font-serif text-brand-navy mb-8">Frequently asked questions</h2>
+              <div className="divide-y divide-gray-100 border-t border-b border-gray-100">
+                {post.faq.map((item, i) => (
+                  <div key={i} className="py-6">
+                    <h3 className="text-lg font-medium text-brand-navy mb-2">{item.q}</h3>
+                    <p className="text-brand-slate leading-relaxed">{item.a}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
           <div className="mt-16 p-8 bg-brand-navy text-white">
             <h3 className="text-2xl font-serif mb-3">Want a candid read on your profile?</h3>
@@ -149,6 +204,24 @@ export function BlogPost() {
               Book a Free Evaluation
             </Link>
           </div>
+
+          {post.related && post.related.length > 0 && (
+            <div className="mt-16 pt-10 border-t border-gray-100">
+              <h2 className="text-xs font-bold uppercase tracking-[0.3em] text-brand-gold mb-6">Related reading</h2>
+              <ul className="space-y-3">
+                {post.related.map((link) => (
+                  <li key={link.path}>
+                    <Link
+                      to={link.path}
+                      className="text-lg text-brand-navy hover:text-brand-gold underline-offset-4 hover:underline transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
 
           <Comments pageId={post.slug} pageUrl={url} pageTitle={post.title} />
         </article>

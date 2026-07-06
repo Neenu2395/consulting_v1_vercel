@@ -9,7 +9,21 @@
 export type Block =
   | { type: 'p'; text: string }
   | { type: 'h2'; text: string }
-  | { type: 'ul'; items: string[] };
+  | { type: 'ul'; items: string[] }
+  | { type: 'table'; headers: string[]; rows: string[][] };
+
+/** A question/answer pair. When a post has these, an FAQ section and FAQPage
+ *  structured data are rendered (good for rich results and AI answers). */
+export interface Faq {
+  q: string;
+  a: string;
+}
+
+/** Internal link to a related post, for topic-cluster interlinking. */
+export interface RelatedLink {
+  label: string;
+  path: string;
+}
 
 export interface Post {
   slug: string;
@@ -28,6 +42,10 @@ export interface Post {
   /** SEO keywords for this post */
   keywords: string;
   body: Block[];
+  /** Optional FAQ section + FAQPage schema. */
+  faq?: Faq[];
+  /** Optional related-post links rendered at the end of the article. */
+  related?: RelatedLink[];
 }
 
 export const posts: Post[] = [
@@ -91,7 +109,7 @@ export const posts: Post[] = [
     title: 'Is the SDA Bocconi MBA Worth It? An ROI & Admissions Guide',
     description:
       'A clear-eyed look at the SDA Bocconi MBA: cost, scholarships, career outcomes, who it suits, and how to position your application to get in.',
-    date: '2026-06-26',
+    date: '2026-07-04',
     readingTime: '7 min read',
     author: 'Elite Admissions Consulting',
     keywords:
@@ -129,6 +147,25 @@ export const posts: Post[] = [
         type: 'p',
         text: 'One of our founders is an SDA Bocconi MBA alumna. If you want an inside read on fit, scholarships, and how to position your profile, book a free evaluation.',
       },
+    ],
+    faq: [
+      {
+        q: 'Is the SDA Bocconi MBA worth it?',
+        a: 'For candidates targeting a career in or with Europe, yes. The one-year format keeps total cost and foregone salary lower than a two-year US MBA, and Bocconi places strongly in consulting, finance, and luxury across the EU. It is less ideal if your goal is specifically US tech or US finance.',
+      },
+      {
+        q: 'What is the ROI of the SDA Bocconi MBA?',
+        a: 'A one-year European MBA has a structural ROI advantage: lower tuition and only one year out of the workforce. Scholarships, which are more available if you apply early, can improve the return significantly.',
+      },
+      {
+        q: 'Who is the SDA Bocconi MBA best for?',
+        a: 'Candidates with international ambition who want to build a career in or with Europe, and who are drawn to a design-led, entrepreneurial, and globally minded business culture.',
+      },
+    ],
+    related: [
+      { label: 'SDA Bocconi MBA Acceptance Rate: How Selective Is It?', path: '/blog/sda-bocconi-mba-acceptance-rate' },
+      { label: 'What Is SDA Bocconi? A Guide to the School and Its MBA', path: '/blog/what-is-sda-bocconi' },
+      { label: 'HEC Paris vs INSEAD: Which MBA Is Right for You?', path: '/blog/hec-paris-vs-insead-which-mba' },
     ],
   },
   {
@@ -224,37 +261,60 @@ export const posts: Post[] = [
   },
   {
     slug: 'gmat-vs-gre-for-mba',
-    title: 'GMAT vs GRE for Top MBA Programs: Which Should You Take?',
+    title: 'GMAT vs GRE for MBA: Which Should You Take? (2026 Guide)',
     description:
-      'Top MBA programs accept both the GMAT and GRE. Here is how to decide which test gives you the best shot based on your strengths and target schools.',
-    date: '2026-06-20',
-    readingTime: '5 min read',
+      'GMAT or GRE for your MBA? A clear comparison of the two tests, whether business schools prefer one, how they differ, and how to decide which gives you the best shot.',
+    date: '2026-07-05',
+    readingTime: '7 min read',
     author: 'Elite Admissions Consulting',
     keywords:
-      'GMAT vs GRE, GMAT or GRE for MBA, GRE for MBA, GMAT for MBA, MBA test requirements, M7 MBA GMAT',
+      'GMAT vs GRE, GMAT or GRE for MBA, do business schools prefer GMAT over GRE, difference between GMAT and GRE, GMAT vs GRE vs EA, GRE or GMAT for data science, GMAT Focus vs GRE',
     body: [
       {
         type: 'p',
-        text: 'Almost every top MBA program, including the M7 and the leading European schools, now accepts both the GMAT and the GRE, and treats them equally. That means the question is no longer which test schools prefer, but which test lets you post the strongest score relative to other applicants. Here is how to choose.',
+        text: 'Almost every top MBA program, including the M7 and the leading European schools, now accepts both the GMAT and the GRE and treats them equally. So the real question is not which test schools prefer, but which test lets you post the strongest score relative to other applicants. This guide breaks down the differences and how to decide.',
       },
-      { type: 'h2', text: 'Do Schools Prefer One?' },
+      {
+        type: 'table',
+        headers: ['', 'GMAT (Focus Edition)', 'GRE'],
+        rows: [
+          ['Accepted by MBA programs', 'Yes, virtually all', 'Yes, virtually all'],
+          ['Built for', 'Business school specifically', 'Graduate programs of all kinds'],
+          ['Quant', 'No calculator (except Data Insights)', 'On-screen calculator allowed'],
+          ['Verbal', 'Grammar and reasoning', 'More vocabulary-heavy'],
+          ['Score scale', '205 to 805', '260 to 340'],
+          ['Also useful for', 'Some finance and consulting recruiting', 'Many non-MBA and dual-degree programs'],
+        ],
+      },
+      { type: 'h2', text: 'Do Business Schools Prefer the GMAT Over the GRE?' },
       {
         type: 'p',
-        text: 'For the vast majority of top programs, no. Admissions committees have stated repeatedly that they have no preference and will not penalize a GRE submission. The exception is if you are also targeting certain finance or consulting roles that still ask for a GMAT score, so check your post-MBA recruiting goals, not just the school policy.',
+        text: 'For the vast majority of top programs, no. Admissions committees have stated repeatedly that they have no preference and will not penalize a GRE submission. The one nuance is post-MBA recruiting: a few finance and consulting employers still like to see a GMAT score. So check your target roles, not just the school policy, before you decide.',
       },
       { type: 'h2', text: 'Play to Your Strengths' },
       {
         type: 'ul',
         items: [
-          'The GMAT rewards data sufficiency and integrated reasoning, which suit quantitatively confident test-takers.',
-          'The GRE has a more vocabulary-heavy verbal section and an on-screen calculator for quant, which some find more forgiving.',
-          'Take a full-length practice test of each, untimed pressure aside, and compare your percentiles. Go with the test where you land higher.',
+          'The GMAT rewards business and data reasoning under tight time pressure, which suits quantitatively confident test-takers.',
+          'The GRE has a more vocabulary-heavy verbal section and allows an on-screen calculator in quant, which some find more forgiving.',
+          'The GRE also lets you skip and return to questions within a section, while the GMAT Focus Edition lets you choose the order of its three sections.',
+          'Take a full-length official practice test of each and compare your percentiles. Go with the test where you land higher.',
         ],
       },
       { type: 'h2', text: 'Think in Percentiles, Not Raw Scores' },
       {
         type: 'p',
-        text: 'Schools read your score as a percentile against the applicant pool, so the only comparison that matters is where each test places you. A higher GRE percentile beats a mediocre GMAT score every time. Use the official concordance tables to convert and compare honestly.',
+        text: 'Schools read your score as a percentile against the applicant pool, so the only comparison that matters is where each test places you. A higher GRE percentile beats a mediocre GMAT score every time. Use the official concordance tables to convert between the two and compare honestly.',
+      },
+      { type: 'h2', text: 'What About the GMAT Focus Edition and the Executive Assessment?' },
+      {
+        type: 'p',
+        text: 'The GMAT Focus Edition is now the standard GMAT: shorter, with three sections (Quant, Verbal, and Data Insights) and a 205 to 805 scale. The Executive Assessment (EA) is a separate, shorter exam aimed at experienced candidates applying to executive or part-time MBA programs. If you are applying to a full-time MBA, take the GMAT or GRE. Use the EA only when your target program specifically prefers it.',
+      },
+      { type: 'h2', text: 'GRE or GMAT for Data Science and Dual Degrees?' },
+      {
+        type: 'p',
+        text: 'If you are considering a data science, engineering, or dual-degree program alongside your MBA, the GRE is often the safer choice because it is accepted across far more non-business programs. One GRE score can cover both an MBA and a technical Master\'s, which saves you taking two different tests.',
       },
       { type: 'h2', text: 'The Bottom Line' },
       {
@@ -265,6 +325,33 @@ export const posts: Post[] = [
         type: 'p',
         text: 'Not sure which test or score range your target schools expect? A free profile evaluation will give you a realistic benchmark for your list.',
       },
+    ],
+    faq: [
+      {
+        q: 'Do business schools prefer the GMAT over the GRE?',
+        a: 'No. Almost all top MBA programs, including the M7, accept both and state they have no preference. Choose the test where you score in a higher percentile. The only nuance is that a few finance and consulting employers still like to see a GMAT score.',
+      },
+      {
+        q: 'Is the GMAT or GRE easier?',
+        a: 'Neither is universally easier. The GMAT rewards business and data reasoning under time pressure, while the GRE is more vocabulary-heavy and allows a calculator in quant. Take an official practice test of each and compare your percentiles.',
+      },
+      {
+        q: 'Should I take the GMAT or GRE for an MBA?',
+        a: 'Take whichever gives you the higher percentile relative to other applicants, then prepare seriously for that one. Do not split your effort across both tests.',
+      },
+      {
+        q: 'What is the difference between the GRE and the GMAT?',
+        a: 'The GMAT is built specifically for business school and emphasizes data and business reasoning. The GRE is a general graduate exam used across many programs, with a broader vocabulary focus and an on-screen calculator in quant.',
+      },
+      {
+        q: 'GMAT, GRE, or Executive Assessment (EA): which should I take?',
+        a: 'The EA is a shorter exam aimed at experienced candidates applying to executive or part-time MBA programs. Most full-time MBA applicants should take the GMAT or GRE and use the EA only if their target program specifically prefers it.',
+      },
+    ],
+    related: [
+      { label: 'How to Get Into the HEC Paris MBA', path: '/blog/how-to-get-into-hec-paris-mba' },
+      { label: "How to Choose the Right MBA School", path: '/blog/how-to-choose-the-right-mba-school' },
+      { label: 'The Complete MBA Application Checklist', path: '/resources/mba-application-checklist' },
     ],
   },
   {
@@ -360,6 +447,141 @@ export const posts: Post[] = [
         type: 'p',
         text: 'Not sure if your school list is right for you? Start with a free profile evaluation and we will pressure-test it with you.',
       },
+    ],
+  },
+  {
+    slug: 'what-is-sda-bocconi',
+    title: 'What Is SDA Bocconi? A Guide to the School and Its MBA',
+    description:
+      'What is SDA Bocconi? A clear guide to the Milan business school, its reputation and strengths, its MBA program, and who it is a fit for.',
+    date: '2026-07-02',
+    readingTime: '5 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'what is SDA Bocconi, how is SDA Bocconi, SDA Bocconi, SDA Bocconi MBA, Bocconi business school, SDA Bocconi reputation, SDA Bocconi Milan',
+    body: [
+      {
+        type: 'p',
+        text: 'If you have been researching MBA or Master\'s programs in Europe, you have probably come across the name SDA Bocconi. Here is what it actually is, what it is known for, and who it tends to fit.',
+      },
+      { type: 'h2', text: 'What SDA Bocconi Is' },
+      {
+        type: 'p',
+        text: 'SDA Bocconi School of Management is the graduate business school of Bocconi University, based in Milan, Italy. It runs the university\'s MBA, Executive MBA, and specialized Master\'s programs, and is consistently ranked among the top business schools in Europe.',
+      },
+      { type: 'h2', text: 'Its Reputation and Strengths' },
+      {
+        type: 'ul',
+        items: [
+          'Particular strength in finance, luxury and fashion management, consulting, and entrepreneurship.',
+          'Deep roots in the European and Italian business establishment.',
+          'A highly international, diverse cohort.',
+          'A Milan location that opens access to European finance, consulting, and luxury industries.',
+        ],
+      },
+      { type: 'h2', text: 'The SDA Bocconi MBA' },
+      {
+        type: 'p',
+        text: 'The full-time MBA is a one-year program taught in English with an international cohort and strong placement across Europe. The one-year format favors speed and a lower total cost than a typical two-year US program, since you spend less time out of the workforce.',
+      },
+      { type: 'h2', text: 'Who It Fits' },
+      {
+        type: 'p',
+        text: 'Bocconi suits candidates with international ambition who want to build a career in or with Europe, and who are drawn to a design-led, entrepreneurial, globally minded business culture. It is a less natural fit if your goal is specifically US tech or US finance.',
+      },
+      {
+        type: 'p',
+        text: 'One of our founders is an SDA Bocconi MBA alumna. If you want an honest read on whether Bocconi fits your goals, book a free evaluation.',
+      },
+    ],
+    faq: [
+      {
+        q: 'What is SDA Bocconi?',
+        a: 'SDA Bocconi School of Management is the graduate business school of Bocconi University in Milan, Italy. It runs the MBA, Executive MBA, and specialized Master\'s programs and ranks among Europe\'s top business schools.',
+      },
+      {
+        q: 'Is SDA Bocconi a good business school?',
+        a: 'Yes. It is consistently ranked among the best in Europe, with particular strength in finance, luxury, consulting, and entrepreneurship, and a highly international cohort.',
+      },
+      {
+        q: 'Where is SDA Bocconi located?',
+        a: 'In Milan, Italy, which gives students access to European finance, consulting, and luxury industries.',
+      },
+    ],
+    related: [
+      { label: 'Is the SDA Bocconi MBA Worth It? An ROI & Admissions Guide', path: '/blog/sda-bocconi-mba-worth-it-roi-guide' },
+      { label: 'SDA Bocconi MBA Acceptance Rate: How Selective Is It?', path: '/blog/sda-bocconi-mba-acceptance-rate' },
+      { label: 'HEC Paris vs INSEAD: Which MBA Is Right for You?', path: '/blog/hec-paris-vs-insead-which-mba' },
+    ],
+  },
+  {
+    slug: 'sda-bocconi-mba-acceptance-rate',
+    title: 'SDA Bocconi MBA Acceptance Rate: How Selective Is It Really?',
+    description:
+      'SDA Bocconi does not publish an official MBA acceptance rate. Here is what selectivity actually means at Bocconi and how to maximize your odds of admission.',
+    date: '2026-07-03',
+    readingTime: '5 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'SDA Bocconi MBA acceptance rate, SDA Bocconi acceptance rate, how selective is SDA Bocconi, SDA Bocconi admissions, SDA Bocconi MBA requirements',
+    body: [
+      {
+        type: 'p',
+        text: 'One of the most common questions we get about the SDA Bocconi MBA is its acceptance rate. The honest answer is more useful than a single number, so here is how to actually think about it.',
+      },
+      { type: 'h2', text: 'Does SDA Bocconi Publish an Acceptance Rate?' },
+      {
+        type: 'p',
+        text: 'Like many top European MBA programs, SDA Bocconi does not publish an official acceptance rate. Admissions run in rounds on a rolling basis, so the effective selectivity depends heavily on when you apply and the strength of that round\'s pool. Chasing a precise percentage is the wrong focus.',
+      },
+      { type: 'h2', text: 'What "Selective" Actually Means Here' },
+      {
+        type: 'p',
+        text: 'Bocconi is genuinely selective, but admissions are not a lottery. The committee is assembling a diverse, international cohort. Your odds depend far more on the coherence of your story, your fit with the program, and the round you apply in than on any headline rate.',
+      },
+      { type: 'h2', text: 'What Actually Drives an Admit' },
+      {
+        type: 'ul',
+        items: [
+          'A clear, specific reason for pursuing an MBA now, and for Bocconi in particular.',
+          'Demonstrated leadership and impact, quantified wherever possible.',
+          'A competitive GMAT or GRE percentile.',
+          'A genuine international outlook and fit with the cohort.',
+          'Applying in an earlier round, when more seats and scholarships are available.',
+        ],
+      },
+      { type: 'h2', text: 'How to Maximize Your Odds' },
+      {
+        type: 'p',
+        text: 'Apply early, build a coherent narrative rather than a list of achievements, and be honest about fit. If your profile is borderline on paper, positioning matters even more, and that is exactly where expert guidance moves the needle.',
+      },
+      {
+        type: 'p',
+        text: 'One of our founders is an SDA Bocconi MBA alumna. For an honest read on your odds and how to strengthen your application, book a free evaluation.',
+      },
+    ],
+    faq: [
+      {
+        q: 'What is the SDA Bocconi MBA acceptance rate?',
+        a: 'SDA Bocconi does not publish an official MBA acceptance rate. It is a selective program with rolling, round-based admissions, so effective selectivity varies by round and applicant pool. Focus on fit and applying early rather than a single percentage.',
+      },
+      {
+        q: 'How selective is SDA Bocconi?',
+        a: 'It is genuinely selective, but admissions are not a lottery. The committee builds a diverse international cohort, so a coherent story, a strong profile, and an early application matter more than a headline rate.',
+      },
+      {
+        q: 'What GMAT or GRE score do I need for SDA Bocconi?',
+        a: 'There is no strict cutoff, but a competitive percentile strengthens your application. Aim for a score at or above the program\'s typical range and pair it with a strong overall profile.',
+      },
+      {
+        q: 'Does applying early improve my chances at SDA Bocconi?',
+        a: 'Yes. Earlier rounds generally have more available seats and scholarship funding, so applying early can improve both your odds and your financial package.',
+      },
+    ],
+    related: [
+      { label: 'Is the SDA Bocconi MBA Worth It? An ROI & Admissions Guide', path: '/blog/sda-bocconi-mba-worth-it-roi-guide' },
+      { label: 'What Is SDA Bocconi? A Guide to the School and Its MBA', path: '/blog/what-is-sda-bocconi' },
+      { label: 'GMAT vs GRE for MBA: Which Should You Take?', path: '/blog/gmat-vs-gre-for-mba' },
     ],
   },
 ];
