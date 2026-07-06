@@ -584,6 +584,145 @@ export const posts: Post[] = [
       { label: 'GMAT vs GRE for MBA: Which Should You Take?', path: '/blog/gmat-vs-gre-for-mba' },
     ],
   },
+  {
+    slug: 'sda-bocconi-mba-requirements',
+    title: 'SDA Bocconi MBA Requirements: What You Need to Apply',
+    description:
+      'The SDA Bocconi MBA application requirements explained: work experience, GMAT or GRE, essays, references, English proficiency, and the interview.',
+    date: '2026-07-01',
+    readingTime: '5 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'SDA Bocconi MBA requirements, SDA Bocconi admission requirements, how to apply to SDA Bocconi, SDA Bocconi MBA application, SDA Bocconi entry requirements',
+    body: [
+      {
+        type: 'p',
+        text: 'If you are considering the SDA Bocconi MBA, here is what a complete application typically involves. Always confirm the current specifics on the official admissions page, since details can change from one intake to the next.',
+      },
+      { type: 'h2', text: 'The Core Application Components' },
+      {
+        type: 'ul',
+        items: [
+          'A completed bachelor\'s degree, in any discipline.',
+          'Professional work experience (a full-time MBA generally expects a few years).',
+          'A GMAT or GRE score, where a competitive percentile strengthens your case.',
+          'Application essays.',
+          'A current CV or resume.',
+          'Letters of recommendation.',
+          'Proof of English proficiency, such as TOEFL or IELTS, for non-native speakers.',
+          'An admissions interview, by invitation.',
+        ],
+      },
+      { type: 'h2', text: 'What Matters Most Beyond the Checklist' },
+      {
+        type: 'p',
+        text: 'Meeting the requirements gets you considered, not admitted. The committee is looking for a coherent story: why an MBA, why now, and why Bocconi. Strong, quantified leadership and a genuine international outlook carry far more weight than simply clearing the minimums.',
+      },
+      { type: 'h2', text: 'A Note on Test Scores' },
+      {
+        type: 'p',
+        text: 'There is no strict cutoff, but a competitive GMAT or GRE percentile reassures the committee on academic readiness. If you are still deciding between the two tests, our GMAT vs GRE guide walks through how to choose.',
+      },
+      { type: 'h2', text: 'Timing' },
+      {
+        type: 'p',
+        text: 'Bocconi admits in rounds. Applying in an earlier round generally means more available seats and scholarship funding, so it pays to prepare your materials early rather than rushing a later deadline.',
+      },
+      {
+        type: 'p',
+        text: 'One of our founders is an SDA Bocconi MBA alumna. For help turning these requirements into a standout application, book a free evaluation.',
+      },
+    ],
+    faq: [
+      {
+        q: 'What are the requirements for the SDA Bocconi MBA?',
+        a: 'Typically a completed bachelor\'s degree, professional work experience, a GMAT or GRE score, essays, a CV, letters of recommendation, English proficiency for non-native speakers, and an admissions interview by invitation. Confirm current specifics on the official page.',
+      },
+      {
+        q: 'How much work experience do I need for the SDA Bocconi MBA?',
+        a: 'A full-time MBA generally expects a few years of professional experience. The quality and impact of your experience matter more than the exact number of years.',
+      },
+      {
+        q: 'Do I need a GMAT or GRE for SDA Bocconi?',
+        a: 'A GMAT or GRE score is part of a competitive application. There is no strict cutoff, but a strong percentile reassures the committee on academic readiness.',
+      },
+      {
+        q: 'Is an interview required for the SDA Bocconi MBA?',
+        a: 'Yes. Shortlisted candidates are invited to an admissions interview as part of the process.',
+      },
+    ],
+    related: [
+      { label: 'SDA Bocconi MBA Acceptance Rate: How Selective Is It?', path: '/blog/sda-bocconi-mba-acceptance-rate' },
+      { label: 'SDA Bocconi MBA Scholarships: How to Improve Your Odds', path: '/blog/sda-bocconi-mba-scholarships' },
+      { label: 'Is the SDA Bocconi MBA Worth It? An ROI & Admissions Guide', path: '/blog/sda-bocconi-mba-worth-it-roi-guide' },
+    ],
+  },
+  {
+    slug: 'sda-bocconi-mba-scholarships',
+    title: 'SDA Bocconi MBA Scholarships: How to Improve Your Odds',
+    description:
+      'How SDA Bocconi MBA scholarships work and how to improve your chances: types of funding, why applying early matters, and how to strengthen your case.',
+    date: '2026-06-30',
+    readingTime: '4 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'SDA Bocconi MBA scholarships, SDA Bocconi scholarship, Bocconi MBA funding, SDA Bocconi financial aid, MBA scholarships Europe',
+    body: [
+      {
+        type: 'p',
+        text: 'Scholarships can meaningfully change the ROI of the SDA Bocconi MBA. Here is how funding generally works and how to give yourself the best shot. Confirm the current scholarship details on the official site, since offerings change with each intake.',
+      },
+      { type: 'h2', text: 'How Scholarship Funding Generally Works' },
+      {
+        type: 'p',
+        text: 'Top European MBA programs, Bocconi included, typically offer a mix of merit-based awards and need-based support, alongside external and diversity-focused scholarships. Amounts and criteria vary by intake, so treat the official admissions page as the source of truth.',
+      },
+      { type: 'h2', text: 'Why Applying Early Matters' },
+      {
+        type: 'p',
+        text: 'Scholarship funds are finite and often awarded on a rolling basis alongside admissions decisions. Applying in an earlier round usually means more funding is still available, so early and strong applicants tend to have the best access.',
+      },
+      { type: 'h2', text: 'How to Strengthen Your Scholarship Case' },
+      {
+        type: 'ul',
+        items: [
+          'Apply early, before funds are committed.',
+          'Post a competitive GMAT or GRE percentile, since merit awards often track academic strength.',
+          'Present a clear, high-impact leadership record.',
+          'Show a coherent story and strong fit, which many awards reward.',
+          'Research external and country-specific scholarships in parallel.',
+        ],
+      },
+      { type: 'h2', text: 'The Bigger Picture' },
+      {
+        type: 'p',
+        text: 'A scholarship changes your ROI, but the decision should still start with fit. A funded seat at the wrong school is a worse outcome than a smaller award at the right one.',
+      },
+      {
+        type: 'p',
+        text: 'Want to plan your applications for the best shot at both admission and funding? Book a free evaluation with our SDA Bocconi and HEC Paris alumni.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Does SDA Bocconi offer MBA scholarships?',
+        a: 'Yes. Like most top European MBA programs, Bocconi typically offers a mix of merit-based, need-based, and diversity or external scholarships. Specific awards and amounts vary by intake, so check the official admissions page.',
+      },
+      {
+        q: 'How do I improve my chances of an SDA Bocconi scholarship?',
+        a: 'Apply early while funds are available, post a competitive GMAT or GRE score, present strong quantified leadership, and show a coherent story and fit. Explore external scholarships in parallel.',
+      },
+      {
+        q: 'Are SDA Bocconi scholarships merit-based or need-based?',
+        a: 'Typically both. Programs usually offer merit awards tied to profile strength as well as need-based support, plus some diversity and external options. Confirm current details officially.',
+      },
+    ],
+    related: [
+      { label: 'Is the SDA Bocconi MBA Worth It? An ROI & Admissions Guide', path: '/blog/sda-bocconi-mba-worth-it-roi-guide' },
+      { label: 'SDA Bocconi MBA Requirements: What You Need to Apply', path: '/blog/sda-bocconi-mba-requirements' },
+      { label: 'SDA Bocconi MBA Acceptance Rate: How Selective Is It?', path: '/blog/sda-bocconi-mba-acceptance-rate' },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
