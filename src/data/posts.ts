@@ -103,6 +103,25 @@ export const posts: Post[] = [
         text: 'If you want a candid read on where your profile stands for HEC Paris and which schools are realistic, start with a free profile evaluation. We will tell you the hard truth, not what you want to hear.',
       },
     ],
+    faq: [
+      {
+        q: 'How hard is it to get into the HEC Paris MBA?',
+        a: 'It is genuinely selective, but admissions are not a lottery. The committee rewards a coherent story, quantified leadership, a competitive test score, and a clear reason for choosing HEC. Applying early also helps.',
+      },
+      {
+        q: 'What does HEC Paris look for in MBA applicants?',
+        a: 'Clarity of goals, demonstrated leadership and impact, a genuine reason for HEC specifically, and an international outlook. They are assembling a cohort, so fit and story matter as much as raw stats.',
+      },
+      {
+        q: 'When should I start my HEC Paris MBA application?',
+        a: 'Ideally six to nine months out: profile diagnostic and test strategy first, then career goals and narrative, then essays and recommender briefing, then interview preparation. Earlier rounds offer more seats and scholarships.',
+      },
+    ],
+    related: [
+      { label: 'HEC Paris MBA Requirements: What You Need to Apply', path: '/blog/hec-paris-mba-requirements' },
+      { label: 'HEC Paris MBA Acceptance Rate: How Selective Is It?', path: '/blog/hec-paris-mba-acceptance-rate' },
+      { label: 'Is the HEC Paris MBA Worth It? An ROI & Admissions Guide', path: '/blog/is-the-hec-paris-mba-worth-it' },
+    ],
   },
   {
     slug: 'sda-bocconi-mba-worth-it-roi-guide',
@@ -721,6 +740,279 @@ export const posts: Post[] = [
       { label: 'Is the SDA Bocconi MBA Worth It? An ROI & Admissions Guide', path: '/blog/sda-bocconi-mba-worth-it-roi-guide' },
       { label: 'SDA Bocconi MBA Requirements: What You Need to Apply', path: '/blog/sda-bocconi-mba-requirements' },
       { label: 'SDA Bocconi MBA Acceptance Rate: How Selective Is It?', path: '/blog/sda-bocconi-mba-acceptance-rate' },
+    ],
+  },
+  {
+    slug: 'is-the-hec-paris-mba-worth-it',
+    title: 'Is the HEC Paris MBA Worth It? An ROI & Admissions Guide',
+    description:
+      'A clear-eyed look at the HEC Paris MBA: cost, scholarships, career outcomes, who it suits, and how to position your application to get in.',
+    date: '2026-06-19',
+    readingTime: '6 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'HEC Paris MBA worth it, HEC Paris MBA ROI, HEC Paris MBA, HEC Paris admissions, is HEC Paris worth it',
+    body: [
+      {
+        type: 'p',
+        text: 'HEC Paris runs one of the most selective MBA programs in Europe. But "worth it" is never an abstract question. It depends on your goals, your alternatives, and how well you position yourself. Here is an honest look at the trade-offs.',
+      },
+      { type: 'h2', text: 'The ROI Case' },
+      {
+        type: 'p',
+        text: 'The HEC Paris MBA runs about 16 months, which gives you a longer runway than a one-year program for internships, specializations, and a genuine career pivot. It places strongly into consulting, finance, and luxury across Europe, and the Paris ecosystem opens doors on the continent. The trade-off versus a one-year MBA is a bit more time out of the workforce, so weigh the added runway against the added cost.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'A longer program that supports internships and a real career switch.',
+          'Strong placement in consulting, finance, luxury, and entrepreneurship in Europe.',
+          'Scholarships can change the ROI meaningfully, especially if you apply early.',
+          'Weigh it against your realistic options: one-year EU programs and two-year US M7 schools.',
+        ],
+      },
+      { type: 'h2', text: 'Who HEC Paris Suits' },
+      {
+        type: 'p',
+        text: 'HEC rewards structured, analytical candidates with international ambition who want the time and space to pivot careers. If you value a longer runway, internship options, and strength in finance, luxury, or European roles, it is a natural fit. If your only goal is the fastest possible return to work, a one-year program may suit you better.',
+      },
+      { type: 'h2', text: 'Positioning Your Application' },
+      {
+        type: 'p',
+        text: 'The committee wants coherence: why an MBA, why now, and why HEC specifically. Generic ambition is the most common failure mode. Tie your achievements to a clear forward trajectory the program enables, and make your leadership and international signals concrete and quantified.',
+      },
+      {
+        type: 'p',
+        text: 'One of our founders is an HEC Paris MBA alumnus. For a candid read on whether HEC fits your goals, book a free evaluation.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Is the HEC Paris MBA worth it?',
+        a: 'For candidates who want a longer runway to pivot careers and strong placement in European consulting, finance, or luxury, yes. The 16-month format supports internships and specialization. It is less ideal if your only priority is the fastest possible return to work.',
+      },
+      {
+        q: 'What is the ROI of the HEC Paris MBA?',
+        a: 'The ROI depends on your target market and funding. HEC places strongly in Europe, and scholarships, which are more available when you apply early, can improve the return significantly. Compare it against one-year EU programs and two-year US options.',
+      },
+      {
+        q: 'Who is the HEC Paris MBA best for?',
+        a: 'Structured, analytical candidates with international ambition who want time to pivot careers and strength in finance, luxury, consulting, or European roles.',
+      },
+    ],
+    related: [
+      { label: 'How to Get Into the HEC Paris MBA', path: '/blog/how-to-get-into-hec-paris-mba' },
+      { label: 'HEC Paris MBA Acceptance Rate: How Selective Is It?', path: '/blog/hec-paris-mba-acceptance-rate' },
+      { label: 'HEC Paris vs INSEAD: Which MBA Is Right for You?', path: '/blog/hec-paris-vs-insead-which-mba' },
+    ],
+  },
+  {
+    slug: 'hec-paris-mba-acceptance-rate',
+    title: 'HEC Paris MBA Acceptance Rate: How Selective Is It Really?',
+    description:
+      'HEC Paris does not publish an official MBA acceptance rate. Here is what selectivity actually means at HEC and how to maximize your odds of admission.',
+    date: '2026-06-18',
+    readingTime: '5 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'HEC Paris MBA acceptance rate, HEC Paris acceptance rate, how selective is HEC Paris, HEC Paris admissions, HEC Paris MBA selectivity',
+    body: [
+      {
+        type: 'p',
+        text: 'A common question about the HEC Paris MBA is its acceptance rate. As with most top programs, the honest answer is more useful than a single number.',
+      },
+      { type: 'h2', text: 'Does HEC Paris Publish an Acceptance Rate?' },
+      {
+        type: 'p',
+        text: 'Like most top European MBA programs, HEC Paris does not publish an official acceptance rate. Admissions run in rounds on a rolling basis, so effective selectivity depends on when you apply and the strength of that round\'s pool. Chasing a precise percentage is the wrong focus.',
+      },
+      { type: 'h2', text: 'What "Selective" Actually Means Here' },
+      {
+        type: 'p',
+        text: 'HEC is genuinely selective, but admissions are not a lottery. The committee is assembling a diverse, international cohort, and your odds depend far more on the coherence of your story, your fit with the program, and the round you apply in than on any headline rate.',
+      },
+      { type: 'h2', text: 'What Actually Drives an Admit' },
+      {
+        type: 'ul',
+        items: [
+          'A clear, specific reason for pursuing an MBA now, and for HEC in particular.',
+          'Demonstrated leadership and impact, quantified wherever possible.',
+          'A competitive GMAT or GRE percentile.',
+          'A genuine international outlook and fit with the cohort.',
+          'Applying in an earlier round, when more seats and scholarships are available.',
+        ],
+      },
+      { type: 'h2', text: 'How to Maximize Your Odds' },
+      {
+        type: 'p',
+        text: 'Apply early, build a coherent narrative rather than a list of achievements, and be honest about fit. If your profile is borderline on paper, positioning matters even more.',
+      },
+      {
+        type: 'p',
+        text: 'One of our founders is an HEC Paris MBA alumnus. For an honest read on your odds and how to strengthen your application, book a free evaluation.',
+      },
+    ],
+    faq: [
+      {
+        q: 'What is the HEC Paris MBA acceptance rate?',
+        a: 'HEC Paris does not publish an official MBA acceptance rate. It is a selective program with rolling, round-based admissions, so effective selectivity varies by round and applicant pool. Focus on fit and applying early rather than a single percentage.',
+      },
+      {
+        q: 'How selective is HEC Paris?',
+        a: 'It is genuinely selective, but admissions are not a lottery. The committee builds a diverse international cohort, so a coherent story, a strong profile, and an early application matter more than a headline rate.',
+      },
+      {
+        q: 'What GMAT or GRE score do I need for HEC Paris?',
+        a: 'There is no strict cutoff, but a competitive percentile strengthens your application. Aim for a score at or above the program\'s typical range and pair it with a strong overall profile.',
+      },
+      {
+        q: 'Does applying early improve my chances at HEC Paris?',
+        a: 'Yes. Earlier rounds generally have more available seats and scholarship funding, so applying early can improve both your odds and your financial package.',
+      },
+    ],
+    related: [
+      { label: 'How to Get Into the HEC Paris MBA', path: '/blog/how-to-get-into-hec-paris-mba' },
+      { label: 'HEC Paris MBA Requirements: What You Need to Apply', path: '/blog/hec-paris-mba-requirements' },
+      { label: 'Is the HEC Paris MBA Worth It? An ROI & Admissions Guide', path: '/blog/is-the-hec-paris-mba-worth-it' },
+    ],
+  },
+  {
+    slug: 'hec-paris-mba-requirements',
+    title: 'HEC Paris MBA Requirements: What You Need to Apply',
+    description:
+      'The HEC Paris MBA application requirements explained: work experience, GMAT or GRE, essays, references, English proficiency, and the interview.',
+    date: '2026-06-17',
+    readingTime: '5 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'HEC Paris MBA requirements, HEC Paris admission requirements, how to apply to HEC Paris, HEC Paris MBA application, HEC Paris entry requirements',
+    body: [
+      {
+        type: 'p',
+        text: 'If you are considering the HEC Paris MBA, here is what a complete application typically involves. Always confirm the current specifics on the official admissions page, since details can change from one intake to the next.',
+      },
+      { type: 'h2', text: 'The Core Application Components' },
+      {
+        type: 'ul',
+        items: [
+          'A completed bachelor\'s degree, in any discipline.',
+          'Professional work experience (a full-time MBA generally expects a few years).',
+          'A GMAT or GRE score, where a competitive percentile strengthens your case.',
+          'Application essays.',
+          'A current CV or resume.',
+          'Letters of recommendation.',
+          'Proof of English proficiency, such as TOEFL or IELTS, for non-native speakers.',
+          'An admissions interview, by invitation.',
+        ],
+      },
+      { type: 'h2', text: 'What Matters Most Beyond the Checklist' },
+      {
+        type: 'p',
+        text: 'Meeting the requirements gets you considered, not admitted. HEC is looking for a coherent story: why an MBA, why now, and why HEC. Strong, quantified leadership and a genuine international outlook carry far more weight than simply clearing the minimums.',
+      },
+      { type: 'h2', text: 'A Note on Test Scores' },
+      {
+        type: 'p',
+        text: 'There is no strict cutoff, but a competitive GMAT or GRE percentile reassures the committee on academic readiness. If you are still deciding between the two tests, our GMAT vs GRE guide walks through how to choose.',
+      },
+      { type: 'h2', text: 'Timing' },
+      {
+        type: 'p',
+        text: 'HEC admits in rounds. Applying in an earlier round generally means more available seats and scholarship funding, so it pays to prepare your materials early rather than rushing a later deadline.',
+      },
+      {
+        type: 'p',
+        text: 'One of our founders is an HEC Paris MBA alumnus. For help turning these requirements into a standout application, book a free evaluation.',
+      },
+    ],
+    faq: [
+      {
+        q: 'What are the requirements for the HEC Paris MBA?',
+        a: 'Typically a completed bachelor\'s degree, professional work experience, a GMAT or GRE score, essays, a CV, letters of recommendation, English proficiency for non-native speakers, and an admissions interview by invitation. Confirm current specifics on the official page.',
+      },
+      {
+        q: 'How much work experience do I need for the HEC Paris MBA?',
+        a: 'A full-time MBA generally expects a few years of professional experience. The quality and impact of your experience matter more than the exact number of years.',
+      },
+      {
+        q: 'Do I need a GMAT or GRE for HEC Paris?',
+        a: 'A GMAT or GRE score is part of a competitive application. There is no strict cutoff, but a strong percentile reassures the committee on academic readiness.',
+      },
+      {
+        q: 'Is an interview required for the HEC Paris MBA?',
+        a: 'Yes. Shortlisted candidates are invited to an admissions interview as part of the process.',
+      },
+    ],
+    related: [
+      { label: 'HEC Paris MBA Acceptance Rate: How Selective Is It?', path: '/blog/hec-paris-mba-acceptance-rate' },
+      { label: 'HEC Paris MBA Scholarships: How to Improve Your Odds', path: '/blog/hec-paris-mba-scholarships' },
+      { label: 'How to Get Into the HEC Paris MBA', path: '/blog/how-to-get-into-hec-paris-mba' },
+    ],
+  },
+  {
+    slug: 'hec-paris-mba-scholarships',
+    title: 'HEC Paris MBA Scholarships: How to Improve Your Odds',
+    description:
+      'How HEC Paris MBA scholarships work and how to improve your chances: types of funding, why applying early matters, and how to strengthen your case.',
+    date: '2026-06-16',
+    readingTime: '4 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'HEC Paris MBA scholarships, HEC Paris scholarship, HEC Paris MBA funding, HEC Paris financial aid, MBA scholarships Europe',
+    body: [
+      {
+        type: 'p',
+        text: 'Scholarships can meaningfully change the ROI of the HEC Paris MBA. Here is how funding generally works and how to give yourself the best shot. Confirm the current scholarship details on the official site, since offerings change with each intake.',
+      },
+      { type: 'h2', text: 'How Scholarship Funding Generally Works' },
+      {
+        type: 'p',
+        text: 'Top European MBA programs, HEC included, typically offer a mix of merit-based awards and need-based support, alongside external and diversity-focused scholarships. Amounts and criteria vary by intake, so treat the official admissions page as the source of truth.',
+      },
+      { type: 'h2', text: 'Why Applying Early Matters' },
+      {
+        type: 'p',
+        text: 'Scholarship funds are finite and often awarded on a rolling basis alongside admissions decisions. Applying in an earlier round usually means more funding is still available, so early and strong applicants tend to have the best access.',
+      },
+      { type: 'h2', text: 'How to Strengthen Your Scholarship Case' },
+      {
+        type: 'ul',
+        items: [
+          'Apply early, before funds are committed.',
+          'Post a competitive GMAT or GRE percentile, since merit awards often track academic strength.',
+          'Present a clear, high-impact leadership record.',
+          'Show a coherent story and strong fit, which many awards reward.',
+          'Research external and country-specific scholarships in parallel.',
+        ],
+      },
+      { type: 'h2', text: 'The Bigger Picture' },
+      {
+        type: 'p',
+        text: 'A scholarship changes your ROI, but the decision should still start with fit. A funded seat at the wrong school is a worse outcome than a smaller award at the right one.',
+      },
+      {
+        type: 'p',
+        text: 'Want to plan your applications for the best shot at both admission and funding? Book a free evaluation with our HEC Paris and SDA Bocconi alumni.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Does HEC Paris offer MBA scholarships?',
+        a: 'Yes. Like most top European MBA programs, HEC typically offers a mix of merit-based, need-based, and diversity or external scholarships. Specific awards and amounts vary by intake, so check the official admissions page.',
+      },
+      {
+        q: 'How do I improve my chances of an HEC Paris scholarship?',
+        a: 'Apply early while funds are available, post a competitive GMAT or GRE score, present strong quantified leadership, and show a coherent story and fit. Explore external scholarships in parallel.',
+      },
+      {
+        q: 'Are HEC Paris scholarships merit-based or need-based?',
+        a: 'Typically both. Programs usually offer merit awards tied to profile strength as well as need-based support, plus some diversity and external options. Confirm current details officially.',
+      },
+    ],
+    related: [
+      { label: 'Is the HEC Paris MBA Worth It? An ROI & Admissions Guide', path: '/blog/is-the-hec-paris-mba-worth-it' },
+      { label: 'HEC Paris MBA Requirements: What You Need to Apply', path: '/blog/hec-paris-mba-requirements' },
+      { label: 'HEC Paris MBA Acceptance Rate: How Selective Is It?', path: '/blog/hec-paris-mba-acceptance-rate' },
     ],
   },
 ];
