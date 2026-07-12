@@ -277,6 +277,11 @@ export const posts: Post[] = [
         text: 'One of our founders is an HEC Paris MBA alumnus. If you want a candid read on which program fits your profile and goals, book a free evaluation.',
       },
     ],
+    related: [
+      { label: 'Is the HEC Paris MBA Worth It? An ROI & Admissions Guide', path: '/blog/is-the-hec-paris-mba-worth-it' },
+      { label: 'Is the INSEAD MBA Worth It? An ROI & Admissions Guide', path: '/blog/is-the-insead-mba-worth-it' },
+      { label: 'How to Get Into INSEAD', path: '/blog/how-to-get-into-insead' },
+    ],
   },
   {
     slug: 'gmat-vs-gre-for-mba',
@@ -1013,6 +1018,352 @@ export const posts: Post[] = [
       { label: 'Is the HEC Paris MBA Worth It? An ROI & Admissions Guide', path: '/blog/is-the-hec-paris-mba-worth-it' },
       { label: 'HEC Paris MBA Requirements: What You Need to Apply', path: '/blog/hec-paris-mba-requirements' },
       { label: 'HEC Paris MBA Acceptance Rate: How Selective Is It?', path: '/blog/hec-paris-mba-acceptance-rate' },
+    ],
+  },
+  {
+    slug: 'how-to-get-into-insead',
+    title: 'How to Get Into INSEAD: A Strategic Guide',
+    description:
+      'How to get into the INSEAD MBA: what the admissions committee rewards, how to position an international profile, and the timeline to follow.',
+    date: '2026-06-15',
+    readingTime: '6 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'how to get into INSEAD, INSEAD MBA admissions, INSEAD admissions, INSEAD MBA, INSEAD application, INSEAD acceptance',
+    body: [
+      {
+        type: 'p',
+        text: 'INSEAD is one of the most selective and international MBA programs in the world, with campuses in Fontainebleau, Singapore, and Abu Dhabi. Getting in is less about raw stats and more about a sharp, coherent story and a genuinely international outlook. This guide breaks down what the committee actually rewards.',
+      },
+      { type: 'h2', text: 'What INSEAD Looks For' },
+      {
+        type: 'p',
+        text: 'INSEAD values an international mindset, clear leadership, and the ability to thrive in a fast, intensely diverse cohort. The program is short and demanding, so the committee wants candidates who can contribute from day one and hit the ground running.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Clarity of goals, both short and long term, that are specific and believable.',
+          'Demonstrated leadership and impact, quantified wherever possible.',
+          'Genuine international exposure and cross-cultural adaptability.',
+          'A specific reason for INSEAD, not just a highly ranked global MBA.',
+        ],
+      },
+      { type: 'h2', text: 'Positioning Your Profile' },
+      {
+        type: 'p',
+        text: 'Treat your application as one connected argument about who you are and where you are going. INSEAD sees enormous numbers of strong international candidates, so coherence and a distinct story matter more than another impressive-looking resume. Make your international and leadership signals concrete.',
+      },
+      { type: 'h2', text: 'The Pace and Language Factor' },
+      {
+        type: 'p',
+        text: 'The INSEAD MBA runs about ten months, so the pace is relentless and the cohort is one of the most international anywhere. INSEAD is also known for its language requirement, so confirm the current entry and graduation language rules on the official site and plan for them early.',
+      },
+      { type: 'h2', text: 'A Realistic Timeline' },
+      {
+        type: 'ul',
+        items: [
+          '6 to 9 months out: profile diagnostic, test strategy, and a clear reason for INSEAD.',
+          '4 to 6 months out: career-goal clarity and your core narrative.',
+          '2 to 4 months out: essay development and recommender briefing.',
+          '1 to 2 months out: interview preparation, often with alumni interviewers.',
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Want a candid read on whether your profile is competitive for INSEAD? Start with a free profile evaluation and we will tell you the hard truth.',
+      },
+    ],
+    faq: [
+      {
+        q: 'How hard is it to get into INSEAD?',
+        a: 'INSEAD is highly selective, but admissions are not a lottery. The committee rewards a coherent story, quantified leadership, genuine international exposure, and a competitive test score. Applying early also helps.',
+      },
+      {
+        q: 'What does INSEAD look for in MBA applicants?',
+        a: 'An international mindset, clear leadership and impact, the ability to thrive in a fast and diverse cohort, and a specific reason for choosing INSEAD.',
+      },
+      {
+        q: 'When should I start my INSEAD application?',
+        a: 'Ideally six to nine months out: diagnostic and test strategy first, then goals and narrative, then essays and recommenders, then interview preparation. Earlier rounds offer more seats and scholarships.',
+      },
+    ],
+    related: [
+      { label: 'Is the INSEAD MBA Worth It? An ROI & Admissions Guide', path: '/blog/is-the-insead-mba-worth-it' },
+      { label: 'INSEAD MBA Acceptance Rate: How Selective Is It?', path: '/blog/insead-mba-acceptance-rate' },
+      { label: 'HEC Paris vs INSEAD: Which MBA Is Right for You?', path: '/blog/hec-paris-vs-insead-which-mba' },
+    ],
+  },
+  {
+    slug: 'is-the-insead-mba-worth-it',
+    title: 'Is the INSEAD MBA Worth It? An ROI & Admissions Guide',
+    description:
+      'A clear-eyed look at the INSEAD MBA: cost, scholarships, career outcomes, who it suits, and how to position your application to get in.',
+    date: '2026-06-14',
+    readingTime: '6 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'INSEAD MBA worth it, INSEAD MBA ROI, INSEAD MBA, INSEAD admissions, is INSEAD worth it',
+    body: [
+      {
+        type: 'p',
+        text: 'INSEAD runs one of the strongest and most international MBA programs in the world. But "worth it" is never abstract. It depends on your goals, your alternatives, and how well you position yourself. Here is an honest look at the trade-offs.',
+      },
+      { type: 'h2', text: 'The ROI Case' },
+      {
+        type: 'p',
+        text: 'The INSEAD MBA is a roughly ten-month program, so you return to the workforce fast, which improves the payback compared with a two-year US MBA. It has an unmatched pipeline into top consulting, a very large and globally mobile alumni network, and a genuinely international brand. Tuition is high, but the shorter time out of work offsets much of it.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'A short program means a faster return to work and a quicker payback.',
+          'An exceptional consulting pipeline and a huge global alumni network.',
+          'Strong global mobility across Europe, Asia, and the Middle East.',
+          'Scholarships can change the ROI meaningfully, especially if you apply early.',
+        ],
+      },
+      { type: 'h2', text: 'Who INSEAD Suits' },
+      {
+        type: 'p',
+        text: 'INSEAD rewards candidates who want speed, maximum global mobility, and a consulting-heavy network. If you value an intensely international experience and a fast return to work, it is a natural fit. If you want a longer runway to pivot with internships, a longer program may suit you better.',
+      },
+      { type: 'h2', text: 'Positioning Your Application' },
+      {
+        type: 'p',
+        text: 'The committee wants coherence: why an MBA, why now, and why INSEAD. Generic ambition is the most common failure mode. Tie your achievements to a clear forward trajectory the program enables, and make your leadership and international signals concrete and quantified.',
+      },
+      {
+        type: 'p',
+        text: 'For a candid read on whether INSEAD fits your goals, book a free evaluation with our HEC Paris and SDA Bocconi alumni.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Is the INSEAD MBA worth it?',
+        a: 'For candidates who want speed, global mobility, and a consulting-heavy network, yes. The ten-month format means a fast return to work. It is less ideal if you want a longer runway to pivot careers with internships.',
+      },
+      {
+        q: 'What is the ROI of the INSEAD MBA?',
+        a: 'Tuition is high, but the short program limits time out of the workforce, which improves payback. A strong consulting pipeline and large alumni network add to the return, and early applicants have better access to scholarships.',
+      },
+      {
+        q: 'Who is the INSEAD MBA best for?',
+        a: 'Candidates who want a fast, intensely international MBA with strong consulting placement and global mobility across Europe, Asia, and the Middle East.',
+      },
+    ],
+    related: [
+      { label: 'How to Get Into INSEAD', path: '/blog/how-to-get-into-insead' },
+      { label: 'INSEAD MBA Acceptance Rate: How Selective Is It?', path: '/blog/insead-mba-acceptance-rate' },
+      { label: 'HEC Paris vs INSEAD: Which MBA Is Right for You?', path: '/blog/hec-paris-vs-insead-which-mba' },
+    ],
+  },
+  {
+    slug: 'insead-mba-acceptance-rate',
+    title: 'INSEAD MBA Acceptance Rate: How Selective Is It Really?',
+    description:
+      'INSEAD does not publish an official MBA acceptance rate. Here is what selectivity actually means at INSEAD and how to maximize your odds of admission.',
+    date: '2026-06-13',
+    readingTime: '5 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'INSEAD MBA acceptance rate, INSEAD acceptance rate, how selective is INSEAD, INSEAD admissions, INSEAD MBA selectivity',
+    body: [
+      {
+        type: 'p',
+        text: 'A common question about the INSEAD MBA is its acceptance rate. As with most top programs, the honest answer is more useful than a single number.',
+      },
+      { type: 'h2', text: 'Does INSEAD Publish an Acceptance Rate?' },
+      {
+        type: 'p',
+        text: 'Like most top global MBA programs, INSEAD does not publish an official acceptance rate. Admissions run in rounds on a rolling basis, and INSEAD runs more than one intake per year, so effective selectivity depends on when you apply and the strength of that round\'s pool. Chasing a precise percentage is the wrong focus.',
+      },
+      { type: 'h2', text: 'What "Selective" Actually Means Here' },
+      {
+        type: 'p',
+        text: 'INSEAD is genuinely selective, but admissions are not a lottery. The committee is assembling an exceptionally diverse, international cohort, and your odds depend far more on the coherence of your story, your fit with the program, and the round you apply in than on any headline rate.',
+      },
+      { type: 'h2', text: 'What Actually Drives an Admit' },
+      {
+        type: 'ul',
+        items: [
+          'A clear, specific reason for pursuing an MBA now, and for INSEAD in particular.',
+          'Demonstrated leadership and impact, quantified wherever possible.',
+          'A competitive GMAT or GRE percentile.',
+          'Genuine international exposure and cross-cultural adaptability.',
+          'Applying in an earlier round, when more seats and scholarships are available.',
+        ],
+      },
+      { type: 'h2', text: 'How to Maximize Your Odds' },
+      {
+        type: 'p',
+        text: 'Apply early, build a coherent narrative rather than a list of achievements, and be honest about fit. If your profile is borderline on paper, positioning matters even more.',
+      },
+      {
+        type: 'p',
+        text: 'For an honest read on your odds and how to strengthen your INSEAD application, book a free evaluation.',
+      },
+    ],
+    faq: [
+      {
+        q: 'What is the INSEAD MBA acceptance rate?',
+        a: 'INSEAD does not publish an official MBA acceptance rate. It is a selective program with rolling, round-based admissions across multiple intakes, so effective selectivity varies by round and pool. Focus on fit and applying early rather than a single percentage.',
+      },
+      {
+        q: 'How selective is INSEAD?',
+        a: 'It is genuinely selective, but admissions are not a lottery. The committee builds an exceptionally international cohort, so a coherent story, a strong profile, and an early application matter more than a headline rate.',
+      },
+      {
+        q: 'What GMAT or GRE score do I need for INSEAD?',
+        a: 'There is no strict cutoff, but a competitive percentile strengthens your application. Aim for a score at or above the program\'s typical range and pair it with a strong overall profile.',
+      },
+      {
+        q: 'Does applying early improve my chances at INSEAD?',
+        a: 'Yes. Earlier rounds generally have more available seats and scholarship funding, so applying early can improve both your odds and your financial package.',
+      },
+    ],
+    related: [
+      { label: 'How to Get Into INSEAD', path: '/blog/how-to-get-into-insead' },
+      { label: 'INSEAD MBA Requirements: What You Need to Apply', path: '/blog/insead-mba-requirements' },
+      { label: 'Is the INSEAD MBA Worth It? An ROI & Admissions Guide', path: '/blog/is-the-insead-mba-worth-it' },
+    ],
+  },
+  {
+    slug: 'insead-mba-requirements',
+    title: 'INSEAD MBA Requirements: What You Need to Apply',
+    description:
+      'The INSEAD MBA application requirements explained: work experience, GMAT or GRE, essays, references, the language requirement, and the interview.',
+    date: '2026-06-12',
+    readingTime: '5 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'INSEAD MBA requirements, INSEAD admission requirements, how to apply to INSEAD, INSEAD MBA application, INSEAD language requirement',
+    body: [
+      {
+        type: 'p',
+        text: 'If you are considering the INSEAD MBA, here is what a complete application typically involves. Always confirm the current specifics on the official admissions page, since details can change from one intake to the next.',
+      },
+      { type: 'h2', text: 'The Core Application Components' },
+      {
+        type: 'ul',
+        items: [
+          'A completed bachelor\'s degree, in any discipline.',
+          'Professional work experience (a full-time MBA generally expects a few years).',
+          'A GMAT or GRE score, where a competitive percentile strengthens your case.',
+          'Application essays.',
+          'A current CV or resume.',
+          'Letters of recommendation.',
+          'Interviews, by invitation, often conducted by INSEAD alumni.',
+        ],
+      },
+      { type: 'h2', text: 'The Language Requirement' },
+      {
+        type: 'p',
+        text: 'INSEAD is distinctive for its language requirement. Historically, candidates need practical knowledge of English plus another language to enter, and a third language to graduate. The exact rules change over time, so confirm the current language requirement on the official site and plan for it early, because it can affect your timeline.',
+      },
+      { type: 'h2', text: 'What Matters Most Beyond the Checklist' },
+      {
+        type: 'p',
+        text: 'Meeting the requirements gets you considered, not admitted. INSEAD is looking for a coherent story: why an MBA, why now, and why INSEAD. Strong, quantified leadership and a genuine international outlook carry far more weight than simply clearing the minimums.',
+      },
+      { type: 'h2', text: 'Timing' },
+      {
+        type: 'p',
+        text: 'INSEAD admits in rounds and runs more than one intake per year. Applying in an earlier round generally means more available seats and scholarship funding, so prepare your materials early.',
+      },
+      {
+        type: 'p',
+        text: 'For help turning these requirements into a standout application, book a free evaluation.',
+      },
+    ],
+    faq: [
+      {
+        q: 'What are the requirements for the INSEAD MBA?',
+        a: 'Typically a completed bachelor\'s degree, professional work experience, a GMAT or GRE score, essays, a CV, letters of recommendation, interviews by invitation, and INSEAD\'s language requirement. Confirm current specifics on the official page.',
+      },
+      {
+        q: 'What is the INSEAD language requirement?',
+        a: 'INSEAD is known for requiring proficiency in more than one language. Historically you need English plus another language to enter and a third to graduate, but the exact rules change, so confirm them on the official site and plan early.',
+      },
+      {
+        q: 'How much work experience do I need for the INSEAD MBA?',
+        a: 'A full-time MBA generally expects a few years of professional experience. The quality and impact of your experience matter more than the exact number of years.',
+      },
+      {
+        q: 'Is an interview required for the INSEAD MBA?',
+        a: 'Yes. Shortlisted candidates are invited to interviews, which are often conducted by INSEAD alumni.',
+      },
+    ],
+    related: [
+      { label: 'INSEAD MBA Acceptance Rate: How Selective Is It?', path: '/blog/insead-mba-acceptance-rate' },
+      { label: 'INSEAD MBA Scholarships: How to Improve Your Odds', path: '/blog/insead-mba-scholarships' },
+      { label: 'How to Get Into INSEAD', path: '/blog/how-to-get-into-insead' },
+    ],
+  },
+  {
+    slug: 'insead-mba-scholarships',
+    title: 'INSEAD MBA Scholarships: How to Improve Your Odds',
+    description:
+      'How INSEAD MBA scholarships work and how to improve your chances: types of funding, why applying early matters, and how to strengthen your case.',
+    date: '2026-06-11',
+    readingTime: '4 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'INSEAD MBA scholarships, INSEAD scholarship, INSEAD MBA funding, INSEAD financial aid, MBA scholarships Europe',
+    body: [
+      {
+        type: 'p',
+        text: 'Scholarships can meaningfully change the ROI of the INSEAD MBA. Here is how funding generally works and how to give yourself the best shot. Confirm the current scholarship details on the official site, since offerings change with each intake.',
+      },
+      { type: 'h2', text: 'How Scholarship Funding Generally Works' },
+      {
+        type: 'p',
+        text: 'INSEAD offers a wide range of scholarships, typically spanning merit-based awards, need-based support, and diversity and region-specific funding, alongside external scholarships. Amounts and criteria vary by intake, so treat the official admissions page as the source of truth.',
+      },
+      { type: 'h2', text: 'Why Applying Early Matters' },
+      {
+        type: 'p',
+        text: 'Many scholarships are tied to your admissions application and awarded on a rolling basis. Applying in an earlier round usually means more funding is still available, so early and strong applicants tend to have the best access.',
+      },
+      { type: 'h2', text: 'How to Strengthen Your Scholarship Case' },
+      {
+        type: 'ul',
+        items: [
+          'Apply early, before funds are committed.',
+          'Post a competitive GMAT or GRE percentile, since merit awards often track academic strength.',
+          'Present a clear, high-impact leadership record.',
+          'Write any scholarship-specific essays with the same care as your main application.',
+          'Research external and country-specific scholarships in parallel.',
+        ],
+      },
+      { type: 'h2', text: 'The Bigger Picture' },
+      {
+        type: 'p',
+        text: 'A scholarship changes your ROI, but the decision should still start with fit. A funded seat at the wrong school is a worse outcome than a smaller award at the right one.',
+      },
+      {
+        type: 'p',
+        text: 'Want to plan your applications for the best shot at both admission and funding? Book a free evaluation.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Does INSEAD offer MBA scholarships?',
+        a: 'Yes. INSEAD offers a wide range of scholarships, typically including merit-based, need-based, diversity, and region-specific awards, plus external options. Specific awards and amounts vary by intake, so check the official admissions page.',
+      },
+      {
+        q: 'How do I improve my chances of an INSEAD scholarship?',
+        a: 'Apply early while funds are available, post a competitive GMAT or GRE score, present strong quantified leadership, and write any scholarship essays carefully. Explore external scholarships in parallel.',
+      },
+      {
+        q: 'Are INSEAD scholarships merit-based or need-based?',
+        a: 'Both. INSEAD offers merit awards tied to profile strength as well as need-based and diversity or region-specific support, plus external options. Confirm current details officially.',
+      },
+    ],
+    related: [
+      { label: 'Is the INSEAD MBA Worth It? An ROI & Admissions Guide', path: '/blog/is-the-insead-mba-worth-it' },
+      { label: 'INSEAD MBA Requirements: What You Need to Apply', path: '/blog/insead-mba-requirements' },
+      { label: 'INSEAD MBA Acceptance Rate: How Selective Is It?', path: '/blog/insead-mba-acceptance-rate' },
     ],
   },
 ];
