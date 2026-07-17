@@ -125,14 +125,14 @@ export const posts: Post[] = [
   },
   {
     slug: 'sda-bocconi-mba-worth-it-roi-guide',
-    title: 'Is the SDA Bocconi MBA Worth It? An ROI & Admissions Guide',
+    title: 'Is the SDA Bocconi MBA Worth It? Cost, ROI & Admissions Guide',
     description:
-      'A clear-eyed look at the SDA Bocconi MBA: cost, scholarships, career outcomes, who it suits, and how to position your application to get in.',
-    date: '2026-07-04',
+      'A clear-eyed look at the SDA Bocconi MBA: what it costs, scholarships, career outcomes, who it suits, and how to position your application to get in.',
+    date: '2026-07-15',
     readingTime: '7 min read',
     author: 'Elite Admissions Consulting',
     keywords:
-      'SDA Bocconi MBA, SDA Bocconi MBA worth it, SDA Bocconi MBA ROI, SDA Bocconi admissions, Bocconi MBA scholarships, Italy MBA',
+      'SDA Bocconi MBA, SDA Bocconi MBA worth it, SDA Bocconi MBA cost, SDA Bocconi MBA tuition, SDA Bocconi MBA price, SDA Bocconi MBA ROI, SDA Bocconi admissions, Bocconi MBA scholarships, Italy MBA',
     body: [
       {
         type: 'p',
@@ -151,6 +151,24 @@ export const posts: Post[] = [
           'Scholarships meaningfully change the ROI, so apply early, when more funding is available.',
           'Weigh it against your realistic M7 odds, not against the M7 brand in the abstract.',
         ],
+      },
+      { type: 'h2', text: 'What Does the SDA Bocconi MBA Cost?' },
+      {
+        type: 'p',
+        text: 'Tuition changes with each intake, so always take the current figure from the official SDA Bocconi admissions page rather than a blog post. What stays constant is the structure of the cost, and that is what you should actually budget for.',
+      },
+      {
+        type: 'ul',
+        items: [
+          'Tuition: the headline figure published by the school for your intake.',
+          'Living costs: roughly a year in Milan, including housing, which is pricier than most of Italy but cheaper than London or Paris.',
+          'Foregone salary: about one year out of the workforce, which is where the one-year format saves you the most versus a two-year MBA.',
+          'Offsets: scholarships, external funding, and any employer support. Applying in an earlier round improves your access to scholarship money.',
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Put together, the total investment is typically well below a two-year US MBA once you account for the shorter time out of work. That structural difference, more than any single line item, is what drives the ROI comparison.',
       },
       { type: 'h2', text: 'Who Bocconi Suits' },
       {
@@ -175,6 +193,10 @@ export const posts: Post[] = [
       {
         q: 'What is the ROI of the SDA Bocconi MBA?',
         a: 'A one-year European MBA has a structural ROI advantage: lower tuition and only one year out of the workforce. Scholarships, which are more available if you apply early, can improve the return significantly.',
+      },
+      {
+        q: 'How much does the SDA Bocconi MBA cost?',
+        a: 'Tuition changes with each intake, so take the current figure from the official SDA Bocconi admissions page. Budget for tuition plus roughly a year of living costs in Milan and one year of foregone salary, offset by scholarships, which are more available in earlier rounds.',
       },
       {
         q: 'Who is the SDA Bocconi MBA best for?',
