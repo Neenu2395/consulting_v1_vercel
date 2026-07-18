@@ -5,12 +5,18 @@ journalists skim. No em dashes anywhere (house style).
 
 ---
 
-## 1. HARO / Connectively / Qwoted responses
+## 1. Journalist-query responses (SOS / Qwoted / Featured / Help a B2B Writer)
 
-Sign up at connectively.us (formerly HARO) and qwoted.com as a **source**.
-Search or filter for: MBA, business school, graduate school, admissions,
-higher education, careers, GMAT. Respond within 2-3 hours of a query when
-possible; speed matters more than polish.
+Note: HARO/Connectively shut down in late 2024. Its replacements:
+- Source of Sources: https://www.sourceofsources.com (free daily query emails,
+  run by HARO's original founder; start here)
+- Qwoted: https://www.qwoted.com (sign up as a source; free tier)
+- Featured: https://featured.com (answer questions, get quoted with a link)
+- Help a B2B Writer: https://helpab2bwriter.com (B2B-focused query emails)
+
+Watch for: MBA, business school, graduate school, admissions, higher
+education, careers, GMAT, study abroad. Respond within 2-3 hours of a query
+when possible; speed matters more than polish.
 
 ### Template A: expert comment on an MBA/admissions topic
 
