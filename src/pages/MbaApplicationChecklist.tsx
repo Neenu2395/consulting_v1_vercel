@@ -107,7 +107,7 @@ export function MbaApplicationChecklist() {
   return (
     <div className="pt-20">
       <Head>
-        <title>The Complete MBA Application Checklist (Free) | Elite Consulting</title>
+        <title>The Complete MBA Application Checklist (Free) | Elite Admissions Consulting</title>
         <meta
           name="description"
           content="A free, step-by-step MBA application checklist covering every phase from research and testing to essays, interviews, and decisions. Built by HEC Paris and SDA Bocconi alumni."

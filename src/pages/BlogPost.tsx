@@ -14,7 +14,7 @@ export function BlogPost() {
     return (
       <div className="pt-20">
         <Head>
-          <title>Article not found | Elite Consulting</title>
+          <title>Article not found | Elite Admissions Consulting</title>
           <meta name="robots" content="noindex" />
         </Head>
         <Section className="bg-white">
@@ -32,7 +32,7 @@ export function BlogPost() {
   return (
     <div className="pt-20">
       <Head>
-        <title>{`${post.title} | Elite Consulting`}</title>
+        <title>{`${post.title} | Elite Admissions Consulting`}</title>
         <meta name="description" content={post.description} />
         <meta name="keywords" content={post.keywords} />
         <link rel="canonical" href={url} />

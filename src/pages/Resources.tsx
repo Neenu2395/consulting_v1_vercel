@@ -9,7 +9,7 @@ export function Resources() {
   return (
     <div className="pt-20">
       <Head>
-        <title>Free MBA & MS Admissions Resources | Elite Consulting</title>
+        <title>Free MBA & MS Admissions Resources | Elite Admissions Consulting</title>
         <meta
           name="description"
           content="Free tools and resources for MBA and Master's applicants: checklists, worksheets, and guides from HEC Paris and SDA Bocconi alumni."
@@ -20,13 +20,13 @@ export function Resources() {
         />
         <link rel="canonical" href={`${SITE_URL}/resources`} />
         <meta property="og:url" content={`${SITE_URL}/resources`} />
-        <meta property="og:title" content="Free MBA & MS Admissions Resources | Elite Consulting" />
+        <meta property="og:title" content="Free MBA & MS Admissions Resources | Elite Admissions Consulting" />
         <meta
           property="og:description"
           content="Free tools and resources for MBA and Master's applicants from HEC Paris and SDA Bocconi alumni."
         />
         <meta property="twitter:url" content={`${SITE_URL}/resources`} />
-        <meta property="twitter:title" content="Free MBA & MS Admissions Resources | Elite Consulting" />
+        <meta property="twitter:title" content="Free MBA & MS Admissions Resources | Elite Admissions Consulting" />
       </Head>
       <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Resources', path: '/resources' }]} />
       <JsonLd

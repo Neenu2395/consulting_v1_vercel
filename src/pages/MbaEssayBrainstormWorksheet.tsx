@@ -87,7 +87,7 @@ export function MbaEssayBrainstormWorksheet() {
   return (
     <div className="pt-20">
       <Head>
-        <title>Free MBA Essay Brainstorming Worksheet | Elite Consulting</title>
+        <title>Free MBA Essay Brainstorming Worksheet | Elite Admissions Consulting</title>
         <meta
           name="description"
           content="A free MBA essay brainstorming worksheet with guided prompts to surface the stories that make your application memorable. Write, save, and print your answers."

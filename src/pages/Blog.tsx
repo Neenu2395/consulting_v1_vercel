@@ -11,20 +11,20 @@ export function Blog() {
   return (
     <div className="pt-20">
       <Head>
-        <title>Insights | MBA & MS Admissions Advice - Elite Consulting</title>
+        <title>Insights | MBA & MS Admissions Advice - Elite Admissions Consulting</title>
         <meta
           name="description"
           content="Strategy, essay, and interview advice for M7, HEC Paris, SDA Bocconi, and top Master's admissions, from HEC Paris and SDA Bocconi alumni."
         />
         <link rel="canonical" href="https://elite-admissions-consulting.com/blog" />
         <meta property="og:url" content="https://elite-admissions-consulting.com/blog" />
-        <meta property="og:title" content="Insights | MBA & MS Admissions Advice - Elite Consulting" />
+        <meta property="og:title" content="Insights | MBA & MS Admissions Advice - Elite Admissions Consulting" />
         <meta
           property="og:description"
           content="Strategy, essay, and interview advice for M7, HEC Paris, SDA Bocconi, and top Master's admissions."
         />
         <meta property="twitter:url" content="https://elite-admissions-consulting.com/blog" />
-        <meta property="twitter:title" content="Insights | MBA & MS Admissions Advice - Elite Consulting" />
+        <meta property="twitter:title" content="Insights | MBA & MS Admissions Advice - Elite Admissions Consulting" />
       </Head>
       <Breadcrumbs items={[{ name: 'Home', path: '/' }, { name: 'Insights', path: '/blog' }]} />
       <JsonLd
