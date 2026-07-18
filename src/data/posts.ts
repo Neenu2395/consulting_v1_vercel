@@ -1388,6 +1388,357 @@ export const posts: Post[] = [
       { label: 'INSEAD MBA Acceptance Rate: How Selective Is It?', path: '/blog/insead-mba-acceptance-rate' },
     ],
   },
+  {
+    slug: 'hec-paris-vs-sda-bocconi-mba',
+    title: 'HEC Paris vs SDA Bocconi: An Honest MBA Comparison From Alumni of Both',
+    description:
+      'HEC Paris or SDA Bocconi for your MBA? A comparison of format, culture, career outcomes, and cost, written by a founding team with an alumnus of each school.',
+    date: '2026-07-18',
+    readingTime: '7 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'HEC Paris vs SDA Bocconi, SDA Bocconi vs HEC Paris, HEC or Bocconi MBA, best MBA in Europe, European MBA comparison, France vs Italy MBA',
+    body: [
+      {
+        type: 'p',
+        text: 'Most comparisons of HEC Paris and SDA Bocconi are written by people who attended neither. Our founding team includes an alumnus of each: one HEC Paris MBA and one SDA Bocconi MBA. So this comparison comes from inside both classrooms, and we have no incentive to favor either. Here is how the two schools actually differ.',
+      },
+      {
+        type: 'table',
+        headers: ['', 'HEC Paris MBA', 'SDA Bocconi MBA'],
+        rows: [
+          ['Length', 'About 16 months', 'About 12 months'],
+          ['Location', 'Paris area, France', 'Milan, Italy'],
+          ['Known for', 'Finance, consulting, luxury, entrepreneurship', 'Finance, luxury and fashion, consulting'],
+          ['Style', 'Structured, analytical, rigorous', 'Entrepreneurial, design-led, hands-on'],
+          ['Best if you want', 'A longer runway and internships to pivot', 'Speed, lower total cost, faster payback'],
+        ],
+      },
+      { type: 'h2', text: 'Format: the 16-Month Runway vs the One-Year Sprint' },
+      {
+        type: 'p',
+        text: 'The biggest structural difference is time. HEC\'s roughly 16-month format leaves room for internships, specializations, and reflection, which matters enormously if you are switching function, industry, and geography at once. Bocconi\'s roughly one-year format gets you back into the workforce faster with less total cost and less foregone salary. Neither is better in the abstract; they reward different plans.',
+      },
+      { type: 'h2', text: 'Culture: Two Different Personalities' },
+      {
+        type: 'p',
+        text: 'From the inside, the cultural difference is real. HEC carries the structured, analytical rigor of the French grande ecole tradition. Bocconi has an entrepreneurial, design-led energy that reflects Milan itself. Both cohorts are highly international, but the day-to-day feel is distinct, and applicants tend to have a genuine gut preference once they talk to students of each.',
+      },
+      { type: 'h2', text: 'Careers: Where Each Opens Doors' },
+      {
+        type: 'p',
+        text: 'Both place strongly into consulting and finance across Europe. HEC benefits from the Paris ecosystem and deep ties into French and pan-European business. Bocconi is exceptionally strong in luxury and fashion thanks to Milan, alongside finance and consulting. Check each school\'s latest employment report for your specific target function and country rather than deciding on overall brand.',
+      },
+      { type: 'h2', text: 'Cost and ROI' },
+      {
+        type: 'p',
+        text: 'Bocconi\'s shorter format generally means a lower total investment once you count foregone salary, which gives it a structural payback advantage. HEC costs more time and money but buys a longer runway and internship options. Scholarships exist at both and are more accessible in earlier rounds, so apply early wherever you lean.',
+      },
+      { type: 'h2', text: 'So Which Should You Choose?' },
+      {
+        type: 'p',
+        text: 'Choose HEC Paris if you want time to pivot, internship options, and the Paris network. Choose SDA Bocconi if you want speed, a lower total cost, and strength in luxury and Italian-European business. If you are torn, the deciding question is usually your five-year plan: the school whose geography and recruiting pipeline sit closest to it wins.',
+      },
+      {
+        type: 'p',
+        text: 'We are alumni of both schools, so we can give you the inside view on fit without bias toward either. Book a free evaluation and we will tell you honestly which one suits your profile.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Which is better, HEC Paris or SDA Bocconi?',
+        a: 'Neither is universally better. HEC Paris offers a longer 16-month runway suited to big career pivots, with strength in the Paris and pan-European network. SDA Bocconi offers a faster one-year format with a lower total cost and standout strength in luxury and Italian-European business. The better school is the one aligned with your five-year plan.',
+      },
+      {
+        q: 'Is HEC Paris or SDA Bocconi cheaper?',
+        a: 'Bocconi\'s shorter format generally means a lower total investment once foregone salary is counted. Exact tuition changes each intake, so compare current figures on the official sites and factor in scholarships, which are more available in earlier rounds.',
+      },
+      {
+        q: 'Which is better for luxury careers, HEC or Bocconi?',
+        a: 'Both have genuine luxury strength, but Milan gives Bocconi a distinctive edge in luxury and fashion, while HEC benefits from the Paris luxury ecosystem. Look at each school\'s recent placements with the specific luxury houses you care about.',
+      },
+    ],
+    related: [
+      { label: 'Is the HEC Paris MBA Worth It? An ROI & Admissions Guide', path: '/blog/is-the-hec-paris-mba-worth-it' },
+      { label: 'Is the SDA Bocconi MBA Worth It? Cost, ROI & Admissions Guide', path: '/blog/sda-bocconi-mba-worth-it-roi-guide' },
+      { label: 'HEC Paris vs INSEAD: Which MBA Is Right for You?', path: '/blog/hec-paris-vs-insead-which-mba' },
+    ],
+  },
+  {
+    slug: 'ms-vs-mba-for-engineers',
+    title: 'MS vs MBA for Engineers: Which Degree Actually Fits Your Goals?',
+    description:
+      'MS or MBA after engineering? How to decide between a technical Master\'s and an MBA based on the career you want, not the degree that sounds more impressive.',
+    date: '2026-07-17',
+    readingTime: '6 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'MS vs MBA for engineers, MBA or MS after engineering, masters or MBA for engineers, MS or MBA which is better, engineering career MBA',
+    body: [
+      {
+        type: 'p',
+        text: 'Every year, thousands of engineers agonize over the same fork in the road: a technical Master\'s or an MBA. Most advice frames it as which degree is better. That is the wrong question. The right question is which career you actually want, because the two degrees lead to genuinely different places.',
+      },
+      { type: 'h2', text: 'The One-Question Test' },
+      {
+        type: 'p',
+        text: 'Do you want to go deeper into the technology, or move up into the decisions around it? An MS makes you a stronger specialist: better research, better roles in engineering, a path toward technical leadership or a PhD. An MBA moves you toward managing products, businesses, and people: consulting, product management, strategy, general management. Depth versus direction. Everything else follows from this answer.',
+      },
+      { type: 'h2', text: 'When the MS Is the Right Call' },
+      {
+        type: 'ul',
+        items: [
+          'You genuinely enjoy the technical work and want harder problems, not fewer of them.',
+          'Your target roles (R&D, advanced engineering, data science, research) list an MS or PhD as the credential.',
+          'You are early in your career; an MS right after your bachelor\'s is normal, while top MBAs expect work experience.',
+          'Cost matters: MS programs, especially in countries like Germany, can be dramatically cheaper than an MBA.',
+        ],
+      },
+      { type: 'h2', text: 'When the MBA Is the Right Call' },
+      {
+        type: 'ul',
+        items: [
+          'You keep gravitating toward the business decisions: why the product exists, how it is priced, who buys it.',
+          'You have a few years of work experience and a leadership story to tell.',
+          'Your target roles (consulting, product, strategy, general management) recruit heavily from MBA programs.',
+          'You want to change function, industry, or geography in one move, which is the MBA\'s specialty.',
+        ],
+      },
+      { type: 'h2', text: 'The Hybrid Truth Most People Miss' },
+      {
+        type: 'p',
+        text: 'The degrees are not mutually exclusive over a career. A common and powerful path for engineers is MS first, a few years of technical work, then an MBA once a leadership story exists. What rarely works is choosing an MBA just because it sounds more senior, without wanting the careers it leads to. Committees can smell that, and so will you, two years in.',
+      },
+      {
+        type: 'p',
+        text: 'We specialize in exactly this decision: our clients are overwhelmingly engineers choosing between MS and MBA paths in Europe and the US. Book a free evaluation and we will tell you honestly which path fits your profile and goals.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Should an engineer do an MS or an MBA?',
+        a: 'It depends on the career you want. Choose an MS to go deeper technically toward specialist and R&D roles. Choose an MBA to move toward product, consulting, strategy, or general management. The degree follows the career, not the other way around.',
+      },
+      {
+        q: 'Can I do an MS first and an MBA later?',
+        a: 'Yes, and it is a common path for engineers: MS first, a few years of technical work, then an MBA once you have a leadership story. The combination is powerful for product and technology leadership roles.',
+      },
+      {
+        q: 'Is an MS cheaper than an MBA?',
+        a: 'Usually, often dramatically. Technical Master\'s programs, especially in countries like Germany, can cost a fraction of an MBA, and you can start one earlier in your career since top MBAs expect several years of work experience.',
+      },
+    ],
+    related: [
+      { label: 'M7 MBA Essays for Engineers: How to Stand Out', path: '/blog/m7-mba-essays-for-engineers' },
+      { label: 'One-Year vs Two-Year MBA: Which Format Wins for You?', path: '/blog/one-year-vs-two-year-mba' },
+      { label: 'The Complete MBA Application Checklist', path: '/resources/mba-application-checklist' },
+    ],
+  },
+  {
+    slug: 'one-year-vs-two-year-mba',
+    title: 'One-Year vs Two-Year MBA: Which Format Wins for You?',
+    description:
+      'One-year European MBA or two-year US MBA? The real trade-offs: cost, internships, career pivots, and ROI, explained without the marketing gloss.',
+    date: '2026-07-16',
+    readingTime: '6 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'one year vs two year MBA, 1 year MBA vs 2 year MBA, one year MBA worth it, European MBA vs US MBA, MBA format comparison',
+    body: [
+      {
+        type: 'p',
+        text: 'The one-year versus two-year MBA debate is usually argued as Europe versus the US, but the real difference is simpler: what are you buying with the second year, and do you need it? Here is the honest trade-off.',
+      },
+      {
+        type: 'table',
+        headers: ['', 'One-Year MBA (most EU)', 'Two-Year MBA (most US)'],
+        rows: [
+          ['Time out of work', 'About 12 months', 'About 21 months'],
+          ['Total cost incl. lost salary', 'Lower', 'Substantially higher'],
+          ['Summer internship', 'Usually no', 'Yes, built in'],
+          ['Best for', 'Accelerating an existing direction', 'Big three-way career pivots'],
+          ['Typical examples', 'INSEAD, SDA Bocconi, Cambridge, Oxford', 'M7 and most top US programs'],
+        ],
+      },
+      { type: 'h2', text: 'What the Second Year Actually Buys' },
+      {
+        type: 'p',
+        text: 'The two-year format\'s biggest asset is the summer internship. If you are attempting the full triple jump, changing function, industry, and country at once, that internship is often the bridge employers need to take a chance on you. It also buys more time for recruiting, clubs, and exploration if you genuinely do not know what you want next.',
+      },
+      { type: 'h2', text: 'What the One-Year Format Wins' },
+      {
+        type: 'p',
+        text: 'Math. Half the tuition-time, and crucially, a year less of foregone salary, which is usually the biggest hidden cost of any MBA. If you broadly know your direction and want the brand, network, and a sharper acceleration, the one-year format returns your investment faster. It is also kinder to sponsored or older candidates who cannot justify two years away.',
+      },
+      { type: 'h2', text: 'The Honest Decision Rule' },
+      {
+        type: 'ul',
+        items: [
+          'Know your direction and want acceleration: one-year format wins on ROI.',
+          'Need a built-in internship to make a big pivot credible: two-year format earns its cost.',
+          'Targeting a US career: US two-year programs carry more local recruiting weight.',
+          'Targeting Europe or a global role: top one-year European programs place just as strongly there.',
+        ],
+      },
+      {
+        type: 'p',
+        text: 'A note on the middle path: HEC Paris at roughly 16 months deliberately sits between the formats, long enough for an internship, shorter than a US program. That is exactly why it suits big pivots aimed at Europe.',
+      },
+      {
+        type: 'p',
+        text: 'Not sure which format your goals actually demand? A free profile evaluation will give you a straight answer, including whether the schools you are eyeing match the pivot you are planning.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Is a one-year MBA worth it?',
+        a: 'Yes, when you broadly know your direction and want acceleration. You save a year of tuition-time and foregone salary, which makes payback significantly faster. It is less suited to a full function-industry-country pivot that depends on a summer internship.',
+      },
+      {
+        q: 'What is the main disadvantage of a one-year MBA?',
+        a: 'No built-in summer internship. If your career change depends on an internship as a stepping stone, the two-year format, or a mid-length program like HEC Paris, covers that gap.',
+      },
+      {
+        q: 'Do employers value a one-year MBA less?',
+        a: 'Not at the top schools. In Europe, one-year programs like INSEAD and SDA Bocconi place at the same level as two-year US programs. What matters is the school\'s recruiting strength in the region and function you target.',
+      },
+    ],
+    related: [
+      { label: 'Is the SDA Bocconi MBA Worth It? Cost, ROI & Admissions Guide', path: '/blog/sda-bocconi-mba-worth-it-roi-guide' },
+      { label: 'Is the INSEAD MBA Worth It? An ROI & Admissions Guide', path: '/blog/is-the-insead-mba-worth-it' },
+      { label: 'HEC Paris vs SDA Bocconi: An Honest MBA Comparison', path: '/blog/hec-paris-vs-sda-bocconi-mba' },
+    ],
+  },
+  {
+    slug: 'european-mba-for-indian-engineers',
+    title: 'The European MBA for Indian Engineers: What Actually Changes',
+    description:
+      'Why Indian engineers increasingly choose European MBAs over US programs: cost, visas, timelines, and how to position a technical Indian profile for HEC, INSEAD, or Bocconi.',
+    date: '2026-07-15',
+    readingTime: '6 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'European MBA for Indian students, MBA in Europe for Indian engineers, HEC Paris Indian students, INSEAD Indian applicants, Europe vs US MBA India',
+    body: [
+      {
+        type: 'p',
+        text: 'If you are an Indian engineer considering an MBA abroad, the default script says US or bust. But a growing share of strong Indian candidates are choosing Europe instead, and for reasons that have little to do with rankings. Having guided many of them, and having made versions of this move ourselves, here is what actually changes when you point your MBA at Europe.',
+      },
+      { type: 'h2', text: 'The Money Math Changes First' },
+      {
+        type: 'p',
+        text: 'A one-year European MBA means roughly half the time out of work compared with a two-year US program, and total costs that are often dramatically lower once foregone salary is counted. For a self-funded Indian candidate, that difference can decide whether the degree is financeable at all, and how many years of your post-MBA salary go to loan repayment instead of your life.',
+      },
+      { type: 'h2', text: 'The Profile Competition Is Different' },
+      {
+        type: 'p',
+        text: 'Indian engineers are one of the most competitive applicant pools at US M7 programs, where you are benchmarked against thousands of profiles that look statistically similar to yours. European schools receive strong Indian applicants too, but the pool dynamics are less brutal, and a well-positioned technical profile with a coherent Europe story genuinely stands out.',
+      },
+      { type: 'h2', text: 'What You Must Get Right' },
+      {
+        type: 'ul',
+        items: [
+          'A believable "why Europe" story: committees can tell when Europe is a backup, so build a real one.',
+          'Language reality: English gets you admitted, but local language effort expands your job market in France, Italy, and Germany.',
+          'Visa and work-permit rules differ by country and change over time, so verify current post-study work options officially.',
+          'Recruiting geography: target schools whose placement matches the country you actually want to work in.',
+        ],
+      },
+      { type: 'h2', text: 'Positioning a Technical Indian Profile' },
+      {
+        type: 'p',
+        text: 'The classic mistake is competing on credentials, which everyone in the pool already has. What differentiates is translated impact: the business outcomes of your technical work, leadership beyond your job description, and a specific, credible plan that connects your engineering background to a European career. That is precisely the transition our founders specialize in.',
+      },
+      {
+        type: 'p',
+        text: 'We advise Indian engineers targeting HEC Paris, SDA Bocconi, INSEAD, and top MS programs across Europe. Book a free evaluation for an honest read on where your profile stands in the European pool.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Is a European MBA worth it for Indian students?',
+        a: 'Often, yes. Lower total cost, a one-year format, and less brutal pool competition than the US M7 make top European programs a strong choice, provided you build a genuine Europe career story and verify current visa and work rules for your target country.',
+      },
+      {
+        q: 'Which European MBA is best for Indian engineers?',
+        a: 'It depends on your target geography and function. INSEAD offers speed and global consulting reach, HEC Paris offers a longer runway with internship options, and SDA Bocconi offers strong ROI with luxury and finance strength. Match the school\'s recruiting to your plan.',
+      },
+      {
+        q: 'Is the US or Europe better for an MBA for Indian applicants?',
+        a: 'The US wins for US careers; Europe wins on cost, speed, and a less saturated applicant pool. The honest answer depends on where you want to be working three years after graduation.',
+      },
+    ],
+    related: [
+      { label: 'MS vs MBA for Engineers: Which Degree Fits Your Goals?', path: '/blog/ms-vs-mba-for-engineers' },
+      { label: 'One-Year vs Two-Year MBA: Which Format Wins for You?', path: '/blog/one-year-vs-two-year-mba' },
+      { label: 'M7 MBA Essays for Engineers: How to Stand Out', path: '/blog/m7-mba-essays-for-engineers' },
+    ],
+  },
+  {
+    slug: 'sda-bocconi-mba-luxury-careers',
+    title: 'The SDA Bocconi MBA for Luxury Careers: Why Milan Matters',
+    description:
+      'Why SDA Bocconi is a standout MBA for luxury and fashion careers: the Milan advantage, how recruiting works, and how to position your application for the industry.',
+    date: '2026-07-14',
+    readingTime: '5 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'SDA Bocconi luxury, MBA for luxury industry, luxury management MBA, SDA Bocconi fashion, MBA luxury careers, luxury brand management MBA',
+    body: [
+      {
+        type: 'p',
+        text: 'Ask anyone in luxury where the industry\'s talent pipelines run, and two cities come up again and again: Paris and Milan. That geography is exactly why SDA Bocconi punches so far above its weight for luxury careers. Here is how the Bocconi-Milan combination actually works, and how to use it.',
+      },
+      { type: 'h2', text: 'The Milan Advantage Is Structural, Not Marketing' },
+      {
+        type: 'p',
+        text: 'Milan is home turf for some of the world\'s most important luxury and fashion houses, and the city\'s business ecosystem runs on those industries. Studying at Bocconi puts you inside that ecosystem for a year: guest speakers from the industry, alumni embedded across the major houses, and recruiting conversations that simply happen more naturally when the companies are nearby.',
+      },
+      { type: 'h2', text: 'How Luxury Recruiting Actually Works' },
+      {
+        type: 'p',
+        text: 'Luxury hires fewer MBAs than consulting or finance, and it hires them differently: networks, internships, and demonstrated passion for the category matter more than on-campus mass recruiting. That rewards a school whose location and alumni put you close to the industry, and it punishes applicants who treat luxury as a glamorous afterthought. The industry can tell.',
+      },
+      { type: 'h2', text: 'Positioning Your Application for Luxury' },
+      {
+        type: 'ul',
+        items: [
+          'Show a real thread: retail, brand, craftsmanship, or consumer experience in your history, not just admiration for the products.',
+          'Connect your functional skill (engineering, finance, operations, digital) to a problem luxury actually has.',
+          'Name the segment you want: fashion, jewelry and watches, hospitality, beauty, or automotive luxury are different worlds.',
+          'Use the essays to prove category understanding, not category enthusiasm.',
+        ],
+      },
+      { type: 'h2', text: 'Is Bocconi the Only Route Into Luxury?' },
+      {
+        type: 'p',
+        text: 'No. HEC Paris has genuine luxury strength through the Paris ecosystem, and a few other European schools place into the industry. But if luxury is your primary goal and you want the one-year format, Bocconi\'s combination of location, alumni, and industry ties is hard to beat. Check the school\'s latest placement details for the specific houses you care about.',
+      },
+      {
+        type: 'p',
+        text: 'One of our founders is an SDA Bocconi MBA alumna with firsthand knowledge of how the school connects to the industry. If luxury is your target, book a free evaluation and we will map your profile to a realistic route in.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Is SDA Bocconi good for luxury careers?',
+        a: 'Yes, it is one of the strongest MBA choices for luxury. Milan\'s position as a global luxury capital gives Bocconi structural advantages: industry ties, embedded alumni, and proximity to the major houses that no ranking fully captures.',
+      },
+      {
+        q: 'How do I get into the luxury industry with an MBA?',
+        a: 'Luxury hires fewer MBAs and relies more on networks, internships, and demonstrated category understanding than mass on-campus recruiting. Choose a school close to the industry, build a real thread to the category in your story, and target a specific segment.',
+      },
+      {
+        q: 'Which MBA is best for luxury, HEC Paris or SDA Bocconi?',
+        a: 'Both are genuinely strong. Bocconi rides Milan\'s fashion and luxury ecosystem in a one-year format; HEC benefits from the Paris luxury ecosystem with a longer program. Compare recent placements with the specific houses you care about.',
+      },
+    ],
+    related: [
+      { label: 'Is the SDA Bocconi MBA Worth It? Cost, ROI & Admissions Guide', path: '/blog/sda-bocconi-mba-worth-it-roi-guide' },
+      { label: 'What Is SDA Bocconi? A Guide to the School and Its MBA', path: '/blog/what-is-sda-bocconi' },
+      { label: 'HEC Paris vs SDA Bocconi: An Honest MBA Comparison', path: '/blog/hec-paris-vs-sda-bocconi-mba' },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
