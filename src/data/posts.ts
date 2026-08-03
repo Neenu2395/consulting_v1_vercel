@@ -1739,6 +1739,366 @@ export const posts: Post[] = [
       { label: 'HEC Paris vs SDA Bocconi: An Honest MBA Comparison', path: '/blog/hec-paris-vs-sda-bocconi-mba' },
     ],
   },
+  {
+    slug: 'mba-application-timeline-round-1-vs-round-2',
+    title: 'MBA Application Timeline: Round 1 vs Round 2 (and Why It Matters)',
+    description:
+      'When should you apply for your MBA? How Round 1, Round 2, and Round 3 actually differ, who should target each, and a month-by-month timeline that works.',
+    date: '2026-07-13',
+    readingTime: '6 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'MBA application timeline, MBA round 1 vs round 2, when to apply MBA, MBA application rounds, MBA round 3, MBA deadlines',
+    body: [
+      {
+        type: 'p',
+        text: 'Every school cluster on this blog says the same thing: apply early. This post explains why, and exactly what early means. The round you choose changes your odds, your scholarship access, and the quality of application you can realistically produce. Here is how to decide.',
+      },
+      { type: 'h2', text: 'What the Rounds Actually Mean' },
+      {
+        type: 'p',
+        text: 'Most top MBA programs admit in rounds: typically Round 1 in early autumn, Round 2 in early winter, and Round 3 in spring. Seats and scholarship funds are allocated as rounds progress, so the pool you compete against and the money available to you change with each deadline.',
+      },
+      {
+        type: 'table',
+        headers: ['', 'Round 1', 'Round 2', 'Round 3'],
+        rows: [
+          ['Typical timing', 'Sep to Oct', 'Jan', 'Mar to Apr'],
+          ['Seats available', 'Most', 'Many', 'Few'],
+          ['Scholarship access', 'Best', 'Good', 'Limited'],
+          ['Best for', 'Ready, strong profiles', 'Most applicants', 'Exceptional cases only'],
+        ],
+      },
+      { type: 'h2', text: 'Round 1: The Advantage, With One Warning' },
+      {
+        type: 'p',
+        text: 'Round 1 offers the most seats, the fullest scholarship pool, and a committee reading with fresh eyes. It also signals organization and genuine interest. The warning: a rushed Round 1 application is worse than a polished Round 2 one. Apply in Round 1 only if your test score, essays, and recommenders are truly ready.',
+      },
+      { type: 'h2', text: 'Round 2: The Realistic Sweet Spot' },
+      {
+        type: 'p',
+        text: 'Round 2 is where most applicants land, and it remains fully competitive at every top school. It buys you the autumn to retake a test, deepen school research, and refine essays. The trade-off is a larger applicant pool and somewhat thinner scholarship funds, especially at schools that award aggressively in Round 1.',
+      },
+      { type: 'h2', text: 'Round 3: Handle With Care' },
+      {
+        type: 'p',
+        text: 'By Round 3, most seats are gone and committees are filling specific gaps in the class. Strong candidates do get in, particularly at schools with rolling elements or multiple intakes, but as a rule: if you can wait for the next cycle and apply in Round 1 instead, wait.',
+      },
+      { type: 'h2', text: 'A Month-by-Month Working Timeline' },
+      {
+        type: 'ul',
+        items: [
+          '9 to 12 months before your deadline: profile diagnostic, school list, and GMAT or GRE strategy.',
+          '6 to 9 months out: take the test, leaving room for one retake, and lock your school list.',
+          '4 to 6 months out: define career goals and your core narrative; approach recommenders.',
+          '2 to 4 months out: draft and iterate essays; brief recommenders with specifics.',
+          'Final 1 to 2 months: polish, complete data forms, and submit ahead of the deadline.',
+        ],
+      },
+      {
+        type: 'p',
+        text: 'Not sure which round your profile is ready for? A free evaluation will give you a straight answer, including whether waiting a cycle would materially improve your odds.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Is it better to apply in Round 1 or Round 2 for an MBA?',
+        a: 'Round 1 offers more seats and better scholarship access, but only if your application is genuinely ready. A polished Round 2 application beats a rushed Round 1 one. Round 2 remains fully competitive at every top school.',
+      },
+      {
+        q: 'Is Round 3 too late for an MBA application?',
+        a: 'Usually, yes, for top programs. Most seats and scholarships are gone, and committees are filling specific gaps. If you can wait and apply in Round 1 of the next cycle, that is almost always the stronger move.',
+      },
+      {
+        q: 'When should I start preparing my MBA application?',
+        a: 'Ideally 9 to 12 months before your target deadline: diagnostic and test strategy first, then school list, then narrative and essays, then recommenders and interview preparation.',
+      },
+    ],
+    related: [
+      { label: 'The Complete MBA Application Checklist', path: '/resources/mba-application-checklist' },
+      { label: 'How to Choose the Right MBA School', path: '/blog/how-to-choose-the-right-mba-school' },
+      { label: 'HEC Paris MBA Scholarships: How to Improve Your Odds', path: '/blog/hec-paris-mba-scholarships' },
+    ],
+  },
+  {
+    slug: 'how-to-choose-mba-recommenders',
+    title: 'How to Choose Your MBA Recommenders (and Brief Them Well)',
+    description:
+      'The recommender who knows you beats the one with the big title. How to pick MBA recommenders, when to ask, and how to brief them so their letters reinforce your story.',
+    date: '2026-07-12',
+    readingTime: '5 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'MBA recommenders, MBA recommendation letter, who should write MBA recommendation, MBA letter of recommendation strategy, MBA references',
+    body: [
+      {
+        type: 'p',
+        text: 'Recommendation letters are the only part of your application you do not write, which is exactly why committees trust them. And the most common mistake is predictable: choosing the most senior person you know instead of the person who knows you. Here is how to get this piece right.',
+      },
+      { type: 'h2', text: 'The Golden Rule: Depth Beats Title' },
+      {
+        type: 'p',
+        text: 'A specific, story-rich letter from your direct manager outweighs a generic one from a CEO who met you twice. Committees read thousands of letters; vague praise is invisible, while concrete stories with real observations stand out immediately. Choose people who have seen you lead, struggle, and grow up close.',
+      },
+      { type: 'h2', text: 'Who to Pick' },
+      {
+        type: 'ul',
+        items: [
+          'First choice: a current direct supervisor who knows your recent work in detail.',
+          'If that is impossible (a common and accepted case), a former manager or a senior client who supervised your work.',
+          'For the second letter, someone who has seen a different dimension: another project, a cross-functional lead, or a mentor with real exposure to your work.',
+          'Avoid family, friends, peers at your level, and anyone who cannot cite specific examples.',
+        ],
+      },
+      { type: 'h2', text: 'When and How to Ask' },
+      {
+        type: 'p',
+        text: 'Ask two to three months before your deadline, in a real conversation rather than a cold email. Explain why you are pursuing the MBA, why this school, and why you chose them specifically. A recommender who feels invested writes a visibly better letter than one discharging a favor.',
+      },
+      { type: 'h2', text: 'Brief Them Like a Professional' },
+      {
+        type: 'p',
+        text: 'Never write the letter for them, but never leave them unarmed either. Give each recommender a one-page brief: your narrative in three sentences, the two or three stories only they can tell, the specific qualities each school asks about, and the deadlines. Map different stories to different recommenders so the letters reinforce your application instead of repeating it.',
+      },
+      {
+        type: 'p',
+        text: 'Recommender strategy, including mapping recommenders to the gaps in your narrative, is part of every full engagement we run. If you are unsure who to pick, a free evaluation is a good place to pressure-test the choice.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Who should write my MBA recommendation letter?',
+        a: 'Ideally your current direct supervisor, plus a second person who has seen a different dimension of your work. Depth of knowledge about you beats seniority of title every time.',
+      },
+      {
+        q: 'Can I use a former manager for my MBA recommendation?',
+        a: 'Yes. If asking your current supervisor is impossible, for example because your employer does not know you are applying, a former manager or senior client who supervised your work is a common and accepted choice. Schools understand this situation.',
+      },
+      {
+        q: 'When should I ask my MBA recommenders?',
+        a: 'Two to three months before your deadline, in a real conversation. Then brief them with your narrative, the stories only they can tell, and the deadlines, so their letters reinforce your application.',
+      },
+    ],
+    related: [
+      { label: 'MBA Application Timeline: Round 1 vs Round 2', path: '/blog/mba-application-timeline-round-1-vs-round-2' },
+      { label: 'The Complete MBA Application Checklist', path: '/resources/mba-application-checklist' },
+      { label: 'How to Get Into the HEC Paris MBA', path: '/blog/how-to-get-into-hec-paris-mba' },
+    ],
+  },
+  {
+    slug: 'mba-reapplicant-strategy',
+    title: 'MBA Reapplicant Strategy: How to Get In the Second Time',
+    description:
+      'Rejected from your target MBA program? Reapplicants who show real evolution get admitted every year. Here is the honest playbook for the second attempt.',
+    date: '2026-07-11',
+    readingTime: '6 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'MBA reapplicant, MBA reapplication strategy, rejected from MBA reapply, MBA second time applicant, reapplying to business school',
+    body: [
+      {
+        type: 'p',
+        text: 'A rejection is not a verdict on your potential; it is feedback on an application. Schools admit reapplicants every year, and many committees openly say a strong reapplication signals exactly the resilience they want. But a reapplication only works when something real has changed. Here is the playbook.',
+      },
+      { type: 'h2', text: 'First: Diagnose Honestly' },
+      {
+        type: 'p',
+        text: 'Before touching a new application, understand why the last one failed. The usual suspects: a test score below the school\'s comfort zone, unclear or generic goals, essays that listed achievements instead of telling a story, weak school fit, applying too late in the cycle, or interview performance. If the school offers feedback, take it. If not, get a brutal third-party read on the old application. Guessing wrong here wastes the entire second attempt.',
+      },
+      { type: 'h2', text: 'What "Evolution" Actually Looks Like' },
+      {
+        type: 'ul',
+        items: [
+          'A materially better test score, if the old one was the weak link.',
+          'New impact at work: a promotion, a bigger mandate, or quantifiable results since you last applied.',
+          'Sharper goals: more specific, more believable, better connected to the school.',
+          'Deeper engagement with the school: events, current students, alumni conversations you can reference.',
+          'A rewritten narrative, not last year\'s essays with new dates.',
+        ],
+      },
+      { type: 'h2', text: 'Address the Elephant Directly' },
+      {
+        type: 'p',
+        text: 'Many schools ask reapplicants what has changed; answer that question even when they do not ask it. One confident paragraph is enough: what you learned from the last attempt, what you did about it, and why you are stronger now. No apology, no defensiveness. Committees read self-awareness as maturity.',
+      },
+      { type: 'h2', text: 'Should You Broaden Your List?' },
+      {
+        type: 'p',
+        text: 'Loyalty to a dream school is admirable, but pair it with realism. A strong reapplication to your top choice alongside two or three well-chosen additions usually beats an all-in bet, especially when the honest diagnosis says the school was always a stretch. The right list is part of the strategy, not a fallback.',
+      },
+      {
+        type: 'p',
+        text: 'We work with reapplicants often, and the pattern is consistent: the ones who get in the second time treated the rejection as data. If you want an honest diagnosis of what went wrong and a plan for the next cycle, start with a free evaluation.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Do MBA programs accept reapplicants?',
+        a: 'Yes, every year. Many committees view a strong reapplication favorably because it demonstrates resilience and genuine interest. The key is showing real evolution since the last attempt, not resubmitting the same application.',
+      },
+      {
+        q: 'What should I change when reapplying to an MBA program?',
+        a: 'Whatever actually caused the rejection: typically the test score, the clarity of your goals, the essays, or school fit. Diagnose honestly first, then show concrete evolution, including new impact at work and deeper engagement with the school.',
+      },
+      {
+        q: 'Should I mention my previous rejection in my reapplication?',
+        a: 'Yes, confidently. Briefly state what you learned, what you improved, and why you are stronger now. Committees read that self-awareness as maturity, and many schools explicitly ask reapplicants what has changed.',
+      },
+    ],
+    related: [
+      { label: 'MBA Application Timeline: Round 1 vs Round 2', path: '/blog/mba-application-timeline-round-1-vs-round-2' },
+      { label: "AI Can Write Your MBA Essay, But It Can't Choose Your Story", path: '/blog/ai-cant-choose-your-mba-essay-story' },
+      { label: 'HEC Paris MBA Acceptance Rate: How Selective Is It?', path: '/blog/hec-paris-mba-acceptance-rate' },
+    ],
+  },
+  {
+    slug: 'mba-interview-questions-how-to-prepare',
+    title: 'Common MBA Interview Questions and How to Actually Prepare',
+    description:
+      'The MBA interview questions that appear in almost every format, what committees are really testing, and a preparation method that beats memorized answers.',
+    date: '2026-07-10',
+    readingTime: '6 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'MBA interview questions, MBA interview preparation, business school interview, MBA admissions interview, how to prepare MBA interview',
+    body: [
+      {
+        type: 'p',
+        text: 'An MBA interview invitation means your application worked on paper. The interview tests whether the person matches the paper, and whether you can think, listen, and connect like someone the interviewer would want in their study group. Here is what to expect and how to prepare without sounding rehearsed.',
+      },
+      { type: 'h2', text: 'The Questions That Almost Always Appear' },
+      {
+        type: 'ul',
+        items: [
+          'Walk me through your resume, or tell me about yourself.',
+          'Why an MBA, and why now?',
+          'Why this school specifically?',
+          'What are your short-term and long-term goals?',
+          'Tell me about a time you led a team, faced a conflict, or failed.',
+          'What will you contribute to the class?',
+          'What questions do you have for me?',
+        ],
+      },
+      { type: 'h2', text: 'What They Are Really Testing' },
+      {
+        type: 'p',
+        text: 'Behind every question sit the same three checks: coherence, self-awareness, and fit. Does your story hold together with what you wrote? Do you understand your own strengths, failures, and motivations? And would you thrive in this specific cohort? Interviewers are rarely trying to trap you; they are testing whether the narrative survives a conversation.',
+      },
+      { type: 'h2', text: 'Prepare Stories, Not Scripts' },
+      {
+        type: 'p',
+        text: 'Memorized answers collapse under the first follow-up question. Instead, prepare six to eight real stories: a leadership moment, a conflict, a failure, a big impact, a cross-cultural experience, a moment that reveals your values. Know each story\'s situation, your actions, and the outcome, then let the wording be natural on the day. One strong story usually answers three different questions.',
+      },
+      { type: 'h2', text: 'Know the Format You Are Walking Into' },
+      {
+        type: 'p',
+        text: 'Formats differ meaningfully: some schools use blind interviews where the interviewer has only your resume, others assign alumni who know the full file, and some, like INSEAD, typically run more than one alumni conversation. A few schools add video essays or team exercises. Check the current format for each school and rehearse in that format, not a generic one.',
+      },
+      { type: 'h2', text: 'The Preparation That Actually Moves the Needle' },
+      {
+        type: 'p',
+        text: 'Mock interviews, with honest feedback, from someone who knows what committees listen for. Not because rehearsal makes you polished, but because hearing your own answers out loud exposes the weak ones while there is still time to fix them. It is the single highest-return hour of interview preparation we know.',
+      },
+      {
+        type: 'p',
+        text: 'Mock interviews in M7 and European formats are part of our Comprehensive engagement, run by alumni who sat on the other side of these conversations. If you have an interview coming up, book a free evaluation and we will tell you where you stand.',
+      },
+    ],
+    faq: [
+      {
+        q: 'What are the most common MBA interview questions?',
+        a: 'Walk me through your resume, why an MBA and why now, why this school, your short and long-term goals, behavioral questions about leadership, conflict, and failure, what you will contribute, and what questions you have for the interviewer.',
+      },
+      {
+        q: 'How do I prepare for an MBA interview?',
+        a: 'Prepare six to eight real stories rather than scripted answers, know your application cold, research the school\'s specific interview format, and do at least one honest mock interview. Coherence with your written application matters more than polish.',
+      },
+      {
+        q: 'Are MBA interviews blind or based on my full application?',
+        a: 'It varies by school. Some interviewers see only your resume, others know your full file, and some schools use multiple alumni interviews or add video components. Check the current format for each school and rehearse for that.',
+      },
+    ],
+    related: [
+      { label: 'How to Get Into INSEAD: A Strategic Guide', path: '/blog/how-to-get-into-insead' },
+      { label: 'M7 MBA Essays for Engineers: How to Stand Out', path: '/blog/m7-mba-essays-for-engineers' },
+      { label: 'The Complete MBA Application Checklist', path: '/resources/mba-application-checklist' },
+    ],
+  },
+  {
+    slug: 'ms-in-germany-for-engineers',
+    title: 'MS in Germany for Engineers: Why It Might Beat an MBA (or a US MS)',
+    description:
+      'Why Germany is one of the smartest MS destinations for engineers: tuition, TU9 universities like RWTH Aachen, admissions expectations, and how to position your application.',
+    date: '2026-07-09',
+    readingTime: '6 min read',
+    author: 'Elite Admissions Consulting',
+    keywords:
+      'MS in Germany for engineers, masters in Germany, RWTH Aachen admission, TU9 universities, study engineering in Germany, MS in Germany requirements',
+    body: [
+      {
+        type: 'p',
+        text: 'We have helped engineers win admits to German technical universities including RWTH Aachen and Ruhr Bochum, and the reaction after the cost conversation is always the same: why does anyone not consider Germany? Here is the honest case, and what German admissions actually expect.',
+      },
+      { type: 'h2', text: 'The Value Case Is Almost Unfair' },
+      {
+        type: 'p',
+        text: 'Public universities in Germany charge little to no tuition for most Master\'s programs, including for international students, with only modest semester fees. Compare that with the total cost of a US MS or an MBA and the math is not close. Add strong post-study work options and a large engineering job market, and Germany becomes one of the highest-ROI education moves an engineer can make. Verify current fees and visa rules officially, since details vary by state and change over time.',
+      },
+      { type: 'h2', text: 'Where to Aim: TU9 and Beyond' },
+      {
+        type: 'p',
+        text: 'Germany\'s TU9 group, which includes RWTH Aachen, TU Munich, and KIT, represents the country\'s leading technical universities, with world-class research in mechanical, electrical, computational, and materials engineering. Strong programs also exist well beyond the TU9, including universities like Ruhr Bochum, where program fit can matter more than the aggregate brand.',
+      },
+      { type: 'h2', text: 'What German Admissions Actually Weigh' },
+      {
+        type: 'ul',
+        items: [
+          'Academic fit above all: your transcript is checked course by course against the program\'s requirements.',
+          'Grades matter heavily, and German programs are transparent about thresholds.',
+          'A precise, technical statement of purpose: research interests and course alignment, not life story.',
+          'Language: many Master\'s programs run in English, but German helps daily life and dramatically widens the job market.',
+          'A German-format CV and correctly certified documents, submitted early via the program or uni-assist.',
+        ],
+      },
+      { type: 'h2', text: 'The Positioning Mistake Engineers Make' },
+      {
+        type: 'p',
+        text: 'Applicants often reuse a US-style personal essay for German programs. German committees want something closer to a technical cover letter: which specializations you are targeting, which courses and labs match your background, and what you intend to do with the degree. Concrete beats inspirational. This is the exact adjustment behind several of our German admits.',
+      },
+      { type: 'h2', text: 'MS in Germany vs MBA: Different Questions' },
+      {
+        type: 'p',
+        text: 'If you want to go deeper technically, the German MS is one of the best value plays in global education. If you want to move into management, that is the MBA conversation, and our MS vs MBA guide covers how to decide. Some engineers do both over a career: the low cost of a German MS keeps that door open.',
+      },
+      {
+        type: 'p',
+        text: 'Our clients have been admitted to RWTH Aachen and Ruhr Bochum among others, and we know exactly how German committees read a technical profile. Book a free evaluation to see where your transcript and goals fit.',
+      },
+    ],
+    faq: [
+      {
+        q: 'Is an MS in Germany free for international students?',
+        a: 'Most public universities charge little to no tuition for Master\'s programs, including for international students, with modest semester fees. Some states and non-consecutive programs are exceptions, so verify current fees for your specific program officially.',
+      },
+      {
+        q: 'What do German universities look for in MS applicants?',
+        a: 'Academic fit first: your transcript is matched course by course against program requirements, and grades matter heavily. Add a precise, technical statement of purpose, correctly certified documents, and an early application.',
+      },
+      {
+        q: 'Do I need to speak German for an MS in Germany?',
+        a: 'Many engineering Master\'s programs are taught fully in English, so admission often does not require German. But learning it dramatically improves daily life and your job prospects in the German market after graduation.',
+      },
+      {
+        q: 'Which are the best universities for engineering MS in Germany?',
+        a: 'The TU9 group, including RWTH Aachen, TU Munich, and KIT, leads most rankings, but strong programs exist beyond it. Program-level fit with your specialization often matters more than the aggregate university brand.',
+      },
+    ],
+    related: [
+      { label: 'MS vs MBA for Engineers: Which Degree Fits Your Goals?', path: '/blog/ms-vs-mba-for-engineers' },
+      { label: 'The European MBA for Indian Engineers: What Actually Changes', path: '/blog/european-mba-for-indian-engineers' },
+      { label: 'MBA Essay Brainstorming Worksheet', path: '/resources/mba-essay-brainstorming-worksheet' },
+    ],
+  },
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
