@@ -497,14 +497,14 @@ export const posts: Post[] = [
   },
   {
     slug: 'what-is-sda-bocconi',
-    title: 'What Is SDA Bocconi? A Guide to the School and Its MBA',
+    title: 'What Is SDA Bocconi? And How It Differs From Bocconi University',
     description:
-      'What is SDA Bocconi? A clear guide to the Milan business school, its reputation and strengths, its MBA program, and who it is a fit for.',
-    date: '2026-07-02',
+      'What is SDA Bocconi, and how is it different from Bocconi University? A clear guide to the Milan business school, its reputation, its MBA, and who it fits.',
+    date: '2026-08-04',
     readingTime: '5 min read',
     author: 'Elite Admissions Consulting',
     keywords:
-      'what is SDA Bocconi, how is SDA Bocconi, SDA Bocconi, SDA Bocconi MBA, Bocconi business school, SDA Bocconi reputation, SDA Bocconi Milan',
+      'what is SDA Bocconi, SDA Bocconi vs Bocconi University, SDA Bocconi vs Bocconi, how is SDA Bocconi, SDA Bocconi, SDA Bocconi MBA, Bocconi business school, SDA Bocconi Milan',
     body: [
       {
         type: 'p',
@@ -514,6 +514,11 @@ export const posts: Post[] = [
       {
         type: 'p',
         text: 'SDA Bocconi School of Management is the graduate business school of Bocconi University, based in Milan, Italy. It runs the university\'s MBA, Executive MBA, and specialized Master\'s programs, and is consistently ranked among the top business schools in Europe.',
+      },
+      { type: 'h2', text: 'SDA Bocconi vs Bocconi University: What Is the Difference?' },
+      {
+        type: 'p',
+        text: 'This confuses many applicants, so here it is plainly. Bocconi University is the parent institution: a private university in Milan offering bachelor\'s, master of science, and PhD programs in economics, management, finance, and related fields. SDA Bocconi (SDA stands for Scuola di Direzione Aziendale, the School of Management) is its graduate business school, which runs the MBA, Executive MBA, and executive education. If you are applying for an MBA, you apply to SDA Bocconi. If you are applying for a bachelor\'s or an MSc, you apply to Bocconi University. Same campus and brand family, different schools with different admissions processes.',
       },
       { type: 'h2', text: 'Its Reputation and Strengths' },
       {
@@ -544,6 +549,10 @@ export const posts: Post[] = [
       {
         q: 'What is SDA Bocconi?',
         a: 'SDA Bocconi School of Management is the graduate business school of Bocconi University in Milan, Italy. It runs the MBA, Executive MBA, and specialized Master\'s programs and ranks among Europe\'s top business schools.',
+      },
+      {
+        q: 'What is the difference between SDA Bocconi and Bocconi University?',
+        a: 'Bocconi University is the parent university, offering bachelor\'s, MSc, and PhD programs. SDA Bocconi is its graduate business school, running the MBA, Executive MBA, and executive education. MBA applicants apply to SDA Bocconi; bachelor\'s and MSc applicants apply to Bocconi University.',
       },
       {
         q: 'Is SDA Bocconi a good business school?',
