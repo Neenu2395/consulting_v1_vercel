@@ -1,10 +1,58 @@
 import { Head } from 'vite-react-ssg';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, ChevronRight, Quote } from 'lucide-react';
 import { Section } from '../components/Layout';
 import { Breadcrumbs, JsonLd, SITE_URL } from '../components/Seo';
 import { Comments } from '../components/Comments';
-import { getPost } from '../data/posts';
+import { getPost, Post } from '../data/posts';
+
+// Client quotes shown inside the post CTA, matched to the post's topics so the
+// proof fits the reader's intent. Selection is deterministic per slug so the
+// server-rendered HTML and client hydration always agree.
+interface Testimonial {
+  quote: string;
+  who: string;
+  topics: string[];
+}
+
+const testimonialPool: Testimonial[] = [
+  {
+    quote:
+      'I was struggling to find convincing stories. They were there all along, genuinely invested, and built my best essays out of moments from my own life I had dismissed.',
+    who: 'Current client, MBA applicant',
+    topics: ['Essays & Interviews', 'Application Strategy'],
+  },
+  {
+    quote:
+      'Most consultants just comment on whatever you write. They actually sat with me to understand me and my stories first, and then showed me how to write them.',
+    who: 'Current client, MBA applicant',
+    topics: ['Essays & Interviews', 'HEC Paris', 'SDA Bocconi', 'INSEAD'],
+  },
+  {
+    quote:
+      'Remarkably efficient. No endless back and forth, no drag; every session moved my application forward.',
+    who: 'Current client, MBA applicant',
+    topics: ['Application Strategy', 'HEC Paris', 'SDA Bocconi', 'INSEAD'],
+  },
+  {
+    quote:
+      'They helped me articulate my technical background in a way that resonated perfectly with the admissions committee.',
+    who: 'MS admit, RWTH Aachen',
+    topics: ['MS & Engineering'],
+  },
+  {
+    quote:
+      "They didn't just edit my essays; they architected a narrative that showcased my true leadership potential.",
+    who: 'MBA admit, SDA Bocconi',
+    topics: ['SDA Bocconi', 'HEC Paris', 'INSEAD', 'Application Strategy'],
+  },
+];
+
+function pickTestimonial(post: Post): Testimonial {
+  const matching = testimonialPool.filter((t) => t.topics.some((topic) => post.topics.includes(topic)));
+  const pool = matching.length > 0 ? matching : testimonialPool;
+  return pool[post.slug.length % pool.length];
+}
 
 export function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
@@ -200,6 +248,20 @@ export function BlogPost() {
             <p className="text-gray-300 mb-6">
               Get a free, no-pressure profile evaluation from HEC Paris and SDA Bocconi alumni.
             </p>
+            {(() => {
+              const t = pickTestimonial(post);
+              return (
+                <figure className="mb-6 border-l-2 border-brand-gold pl-4">
+                  <Quote size={16} className="text-brand-gold mb-2 opacity-70" />
+                  <blockquote className="text-gray-200 italic text-sm leading-relaxed mb-2">
+                    "{t.quote}"
+                  </blockquote>
+                  <figcaption className="text-brand-gold text-[10px] font-bold uppercase tracking-widest">
+                    {t.who}
+                  </figcaption>
+                </figure>
+              );
+            })()}
             <Link to="/evaluate" className="btn-primary bg-brand-gold text-brand-navy hover:bg-white inline-block">
               Book a Free Evaluation
             </Link>
