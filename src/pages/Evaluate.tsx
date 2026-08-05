@@ -3,6 +3,7 @@ import { Section } from '../components/Layout';
 import { EvaluationForm } from '../components/EvaluationForm';
 import { motion } from 'motion/react';
 import { AlertCircle, ShieldAlert, TrendingUp, Users } from 'lucide-react';
+import { currentClientTestimonials } from '../data/testimonials';
 
 export function Evaluate() {
   return (
@@ -77,9 +78,21 @@ export function Evaluate() {
             </div>
             
             <div className="p-8 bg-brand-navy text-white shadow-lg">
-              <p className="text-sm italic font-serif text-gray-300">
-                "We architect the narrative that ambitious global applicants need to stand out in the most competitive pools."
-              </p>
+              <h3 className="text-brand-gold text-[10px] font-bold uppercase tracking-[0.3em] mb-6">
+                What current clients say
+              </h3>
+              <div className="space-y-6">
+                {currentClientTestimonials.slice(0, 2).map((t, i) => (
+                  <figure key={i} className="border-l-2 border-brand-gold pl-4">
+                    <blockquote className="text-sm italic font-serif text-gray-300 leading-relaxed mb-2">
+                      "{t.quote}"
+                    </blockquote>
+                    <figcaption className="text-brand-gold text-[10px] font-bold uppercase tracking-widest">
+                      {t.who}
+                    </figcaption>
+                  </figure>
+                ))}
+              </div>
             </div>
           </div>
           

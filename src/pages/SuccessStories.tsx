@@ -3,6 +3,7 @@ import { Section, Container } from '../components/Layout';
 import { motion } from 'motion/react';
 import { Quote, GraduationCap, CheckCircle2 } from 'lucide-react';
 import { Breadcrumbs } from '../components/Seo';
+import { currentClientTestimonials } from '../data/testimonials';
 
 export function SuccessStories() {
   const stories = [
@@ -125,6 +126,28 @@ export function SuccessStories() {
               </div>
             </motion.div>
           ))}
+        </div>
+      </Section>
+
+      <Section className="bg-white border-t border-gray-100">
+        <div className="max-w-4xl mx-auto">
+          <p className="text-brand-gold text-xs font-bold uppercase tracking-[0.3em] mb-4 text-center">
+            From the Current Cycle
+          </p>
+          <h2 className="text-3xl md:text-4xl mb-12 text-center">What Clients Applying Right Now Say</h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            {currentClientTestimonials.map((t, i) => (
+              <figure key={i} className="bg-brand-cream p-8 border-t-2 border-brand-gold flex flex-col">
+                <Quote size={20} className="text-brand-gold mb-4 opacity-60" />
+                <blockquote className="text-brand-slate text-sm leading-relaxed italic mb-4 flex-grow">
+                  "{t.quote}"
+                </blockquote>
+                <figcaption className="text-brand-navy text-[10px] font-bold uppercase tracking-widest">
+                  {t.who}
+                </figcaption>
+              </figure>
+            ))}
+          </div>
         </div>
       </Section>
 

@@ -5,49 +5,10 @@ import { Section } from '../components/Layout';
 import { Breadcrumbs, JsonLd, SITE_URL } from '../components/Seo';
 import { Comments } from '../components/Comments';
 import { getPost, Post } from '../data/posts';
+import { testimonialPool, Testimonial } from '../data/testimonials';
 
-// Client quotes shown inside the post CTA, matched to the post's topics so the
-// proof fits the reader's intent. Selection is deterministic per slug so the
-// server-rendered HTML and client hydration always agree.
-interface Testimonial {
-  quote: string;
-  who: string;
-  topics: string[];
-}
-
-const testimonialPool: Testimonial[] = [
-  {
-    quote:
-      'I was struggling to find convincing stories. They were there all along, genuinely invested, and built my best essays out of moments from my own life I had dismissed.',
-    who: 'Current client, MBA applicant',
-    topics: ['Essays & Interviews', 'Application Strategy'],
-  },
-  {
-    quote:
-      'Most consultants just comment on whatever you write. They actually sat with me to understand me and my stories first, and then showed me how to write them.',
-    who: 'Current client, MBA applicant',
-    topics: ['Essays & Interviews', 'HEC Paris', 'SDA Bocconi', 'INSEAD'],
-  },
-  {
-    quote:
-      'Remarkably efficient. No endless back and forth, no drag; every session moved my application forward.',
-    who: 'Current client, MBA applicant',
-    topics: ['Application Strategy', 'HEC Paris', 'SDA Bocconi', 'INSEAD'],
-  },
-  {
-    quote:
-      'They helped me articulate my technical background in a way that resonated perfectly with the admissions committee.',
-    who: 'MS admit, RWTH Aachen',
-    topics: ['MS & Engineering'],
-  },
-  {
-    quote:
-      "They didn't just edit my essays; they architected a narrative that showcased my true leadership potential.",
-    who: 'MBA admit, SDA Bocconi',
-    topics: ['SDA Bocconi', 'HEC Paris', 'INSEAD', 'Application Strategy'],
-  },
-];
-
+// Testimonial selection is deterministic per slug so the server-rendered HTML
+// and client hydration always agree.
 function pickTestimonial(post: Post): Testimonial {
   const matching = testimonialPool.filter((t) => t.topics.some((topic) => post.topics.includes(topic)));
   const pool = matching.length > 0 ? matching : testimonialPool;
