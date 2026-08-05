@@ -27,6 +27,8 @@ export interface RelatedLink {
 
 export interface Post {
   slug: string;
+  /** Topic tags used for filtering on the blog index. */
+  topics: string[];
   title: string;
   description: string;
   /** ISO date, e.g. 2026-06-28 */
@@ -51,6 +53,7 @@ export interface Post {
 export const posts: Post[] = [
   {
     slug: 'how-to-get-into-hec-paris-mba',
+    topics: ['HEC Paris'],
     title: 'How to Get Into the HEC Paris MBA: A Strategic Guide',
     description:
       'A step-by-step guide to the HEC Paris MBA application: what the admissions committee actually rewards, how to position an engineering or technical profile, and the timeline to follow.',
@@ -125,6 +128,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'sda-bocconi-mba-worth-it-roi-guide',
+    topics: ['SDA Bocconi'],
     title: 'Is the SDA Bocconi MBA Worth It? Cost, ROI & Admissions Guide',
     description:
       'A clear-eyed look at the SDA Bocconi MBA: what it costs, scholarships, career outcomes, who it suits, and how to position your application to get in.',
@@ -211,6 +215,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'm7-mba-essays-for-engineers',
+    topics: ['Essays & Interviews'],
     title: 'M7 MBA Essays for Engineers: How to Stand Out',
     description:
       'Engineers have strong profiles but often write weak essays. Here is how to translate technical work into the leadership narrative M7 admissions committees reward.',
@@ -252,6 +257,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'hec-paris-vs-insead-which-mba',
+    topics: ['HEC Paris', 'INSEAD'],
     title: 'HEC Paris vs INSEAD: Which MBA Is Right for You?',
     description:
       'A practical comparison of HEC Paris and INSEAD: format, culture, career outcomes, cost, and the kind of candidate each program rewards.',
@@ -307,6 +313,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'gmat-vs-gre-for-mba',
+    topics: ['Application Strategy'],
     title: 'GMAT vs GRE for MBA: Which Should You Take? (2026 Guide)',
     description:
       'GMAT or GRE for your MBA? A clear comparison of the two tests, whether business schools prefer one, how they differ, and how to decide which gives you the best shot.',
@@ -402,6 +409,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'ai-cant-choose-your-mba-essay-story',
+    topics: ['Essays & Interviews'],
     title: "AI Can Write Your MBA Essay, But It Can't Choose Your Story",
     description:
       'AI can draft your MBA or MS essay, but it cannot tell you which moment from your life is worth writing about. Here is how to choose the story that actually lands.',
@@ -448,6 +456,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-to-choose-the-right-mba-school',
+    topics: ['Application Strategy'],
     title: "How to Choose the Right MBA School: The Questions Rankings Can't Answer",
     description:
       'A GMAT calculator and a ranking are not a school selection strategy. Here are the questions that actually decide whether an MBA program is right for you.',
@@ -497,6 +506,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'what-is-sda-bocconi',
+    topics: ['SDA Bocconi'],
     title: 'What Is SDA Bocconi? And How It Differs From Bocconi University',
     description:
       'What is SDA Bocconi, and how is it different from Bocconi University? A clear guide to the Milan business school, its reputation, its MBA, and who it fits.',
@@ -571,6 +581,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'sda-bocconi-mba-acceptance-rate',
+    topics: ['SDA Bocconi'],
     title: 'SDA Bocconi MBA Acceptance Rate: How Selective Is It Really?',
     description:
       'SDA Bocconi does not publish an official MBA acceptance rate. Here is what selectivity actually means at Bocconi and how to maximize your odds of admission.',
@@ -641,6 +652,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'sda-bocconi-mba-requirements',
+    topics: ['SDA Bocconi'],
     title: 'SDA Bocconi MBA Requirements: What You Need to Apply',
     description:
       'The SDA Bocconi MBA application requirements explained: work experience, GMAT or GRE, essays, references, English proficiency, and the interview.',
@@ -714,6 +726,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'sda-bocconi-mba-scholarships',
+    topics: ['SDA Bocconi'],
     title: 'SDA Bocconi MBA Scholarships: How to Improve Your Odds',
     description:
       'How SDA Bocconi MBA scholarships work and how to improve your chances: types of funding, why applying early matters, and how to strengthen your case.',
@@ -780,6 +793,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'is-the-hec-paris-mba-worth-it',
+    topics: ['HEC Paris'],
     title: 'Is the HEC Paris MBA Worth It? An ROI & Admissions Guide',
     description:
       'A clear-eyed look at the HEC Paris MBA: cost, scholarships, career outcomes, who it suits, and how to position your application to get in.',
@@ -844,6 +858,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'hec-paris-mba-acceptance-rate',
+    topics: ['HEC Paris'],
     title: 'HEC Paris MBA Acceptance Rate: How Selective Is It Really?',
     description:
       'HEC Paris does not publish an official MBA acceptance rate. Here is what selectivity actually means at HEC and how to maximize your odds of admission.',
@@ -914,6 +929,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'hec-paris-mba-requirements',
+    topics: ['HEC Paris'],
     title: 'HEC Paris MBA Requirements: What You Need to Apply',
     description:
       'The HEC Paris MBA application requirements explained: work experience, GMAT or GRE, essays, references, English proficiency, and the interview.',
@@ -987,6 +1003,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'hec-paris-mba-scholarships',
+    topics: ['HEC Paris'],
     title: 'HEC Paris MBA Scholarships: How to Improve Your Odds',
     description:
       'How HEC Paris MBA scholarships work and how to improve your chances: types of funding, why applying early matters, and how to strengthen your case.',
@@ -1053,6 +1070,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-to-get-into-insead',
+    topics: ['INSEAD'],
     title: 'How to Get Into INSEAD: A Strategic Guide',
     description:
       'How to get into the INSEAD MBA: what the admissions committee rewards, how to position an international profile, and the timeline to follow.',
@@ -1127,6 +1145,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'is-the-insead-mba-worth-it',
+    topics: ['INSEAD'],
     title: 'Is the INSEAD MBA Worth It? An ROI & Admissions Guide',
     description:
       'A clear-eyed look at the INSEAD MBA: cost, scholarships, career outcomes, who it suits, and how to position your application to get in.',
@@ -1191,6 +1210,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'insead-mba-acceptance-rate',
+    topics: ['INSEAD'],
     title: 'INSEAD MBA Acceptance Rate: How Selective Is It Really?',
     description:
       'INSEAD does not publish an official MBA acceptance rate. Here is what selectivity actually means at INSEAD and how to maximize your odds of admission.',
@@ -1261,6 +1281,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'insead-mba-requirements',
+    topics: ['INSEAD'],
     title: 'INSEAD MBA Requirements: What You Need to Apply',
     description:
       'The INSEAD MBA application requirements explained: work experience, GMAT or GRE, essays, references, the language requirement, and the interview.',
@@ -1333,6 +1354,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'insead-mba-scholarships',
+    topics: ['INSEAD'],
     title: 'INSEAD MBA Scholarships: How to Improve Your Odds',
     description:
       'How INSEAD MBA scholarships work and how to improve your chances: types of funding, why applying early matters, and how to strengthen your case.',
@@ -1399,6 +1421,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'hec-paris-vs-sda-bocconi-mba',
+    topics: ['HEC Paris', 'SDA Bocconi'],
     title: 'HEC Paris vs SDA Bocconi: An Honest MBA Comparison From Alumni of Both',
     description:
       'HEC Paris or SDA Bocconi for your MBA? A comparison of format, culture, career outcomes, and cost, written by a founding team with an alumnus of each school.',
@@ -1475,6 +1498,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'ms-vs-mba-for-engineers',
+    topics: ['MS & Engineering'],
     title: 'MS vs MBA for Engineers: Which Degree Actually Fits Your Goals?',
     description:
       'MS or MBA after engineering? How to decide between a technical Master\'s and an MBA based on the career you want, not the degree that sounds more impressive.',
@@ -1545,6 +1569,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'one-year-vs-two-year-mba',
+    topics: ['Application Strategy'],
     title: 'One-Year vs Two-Year MBA: Which Format Wins for You?',
     description:
       'One-year European MBA or two-year US MBA? The real trade-offs: cost, internships, career pivots, and ROI, explained without the marketing gloss.',
@@ -1620,6 +1645,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'european-mba-for-indian-engineers',
+    topics: ['MS & Engineering'],
     title: 'The European MBA for Indian Engineers: What Actually Changes',
     description:
       'Why Indian engineers increasingly choose European MBAs over US programs: cost, visas, timelines, and how to position a technical Indian profile for HEC, INSEAD, or Bocconi.',
@@ -1685,6 +1711,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'sda-bocconi-mba-luxury-careers',
+    topics: ['SDA Bocconi'],
     title: 'The SDA Bocconi MBA for Luxury Careers: Why Milan Matters',
     description:
       'Why SDA Bocconi is a standout MBA for luxury and fashion careers: the Milan advantage, how recruiting works, and how to position your application for the industry.',
@@ -1750,6 +1777,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'mba-application-timeline-round-1-vs-round-2',
+    topics: ['Application Strategy'],
     title: 'MBA Application Timeline: Round 1 vs Round 2 (and Why It Matters)',
     description:
       'When should you apply for your MBA? How Round 1, Round 2, and Round 3 actually differ, who should target each, and a month-by-month timeline that works.',
@@ -1831,6 +1859,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'how-to-choose-mba-recommenders',
+    topics: ['Application Strategy'],
     title: 'How to Choose Your MBA Recommenders (and Brief Them Well)',
     description:
       'The recommender who knows you beats the one with the big title. How to pick MBA recommenders, when to ask, and how to brief them so their letters reinforce your story.',
@@ -1896,6 +1925,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'mba-reapplicant-strategy',
+    topics: ['Application Strategy'],
     title: 'MBA Reapplicant Strategy: How to Get In the Second Time',
     description:
       'Rejected from your target MBA program? Reapplicants who show real evolution get admitted every year. Here is the honest playbook for the second attempt.',
@@ -1962,6 +1992,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'mba-interview-questions-how-to-prepare',
+    topics: ['Essays & Interviews'],
     title: 'Common MBA Interview Questions and How to Actually Prepare',
     description:
       'The MBA interview questions that appear in almost every format, what committees are really testing, and a preparation method that beats memorized answers.',
@@ -2035,6 +2066,7 @@ export const posts: Post[] = [
   },
   {
     slug: 'ms-in-germany-for-engineers',
+    topics: ['MS & Engineering'],
     title: 'MS in Germany for Engineers: Why It Might Beat an MBA (or a US MS)',
     description:
       'Why Germany is one of the smartest MS destinations for engineers: tuition, TU9 universities like RWTH Aachen, admissions expectations, and how to position your application.',
@@ -2111,3 +2143,13 @@ export const posts: Post[] = [
 ];
 
 export const getPost = (slug: string) => posts.find((p) => p.slug === slug);
+
+/** Ordered topic list for the blog index filter chips. */
+export const allTopics = [
+  'HEC Paris',
+  'SDA Bocconi',
+  'INSEAD',
+  'MS & Engineering',
+  'Application Strategy',
+  'Essays & Interviews',
+];
